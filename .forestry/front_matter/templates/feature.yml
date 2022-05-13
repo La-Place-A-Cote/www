@@ -1,0 +1,147 @@
+---
+label: Feature
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: file
+  name: bg_image
+  label: bg_image
+- type: boolean
+  name: bg_norepeat
+  label: bg_norepeat
+  description: 'Activer : affiche l''image en background centrer et a la taille du
+    cadre donné<br>Désactiver ; affiche l''image de background par rapport à la largeur
+    de l''écran d''affichage'
+- name: bg_color
+  type: color
+  label: bg_color
+  config:
+    required: false
+    color_format: Hex
+  default: "#FFFFFF"
+  showOnly:
+    field: bg_norepeat
+    value: true
+- type: text
+  name: layout
+  label: layout
+- type: field_group
+  name: about
+  label: about
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+    showOnly:
+      field: enable
+      value: true
+  - type: textarea
+    name: content
+    label: content
+    showOnly:
+      field: enable
+      value: true
+  - type: boolean
+    name: image_enable
+    label: image_enable
+    showOnly:
+      field: enable
+      value: true
+  - type: file
+    name: image
+    label: image
+    showOnly:
+      field: enable
+      value: true
+- type: field_group
+  name: featured_service
+  label: featured_service
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: field_group_list
+    name: service_item
+    label: service_item
+    fields:
+    - type: boolean
+      name: picture
+      label: picture
+      hidden: true
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: icon
+      label: icon
+    - type: text
+      name: color
+      label: color
+    - type: textarea
+      name: content
+      label: content
+    showOnly:
+      field: enable
+      value: true
+- type: field_group
+  name: service
+  label: Emmaus
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+    showOnly:
+      field: enable
+      value: true
+  - type: textarea
+    name: description
+    label: description
+    showOnly:
+      field: enable
+      value: true
+  - type: boolean
+    name: item
+    label: item
+    hidden: true
+    showOnly:
+      field: enable
+      value: true
+  - type: boolean
+    name: image
+    label: image
+    default: true
+    hidden: true
+    showOnly:
+      field: enable
+      value: true
+  - type: file
+    name: imageurl
+    label: imageurl
+    showOnly:
+      field: enable
+      value: true
+  - type: text
+    name: name
+    label: name
+    showOnly:
+      field: enable
+      value: true
+  - type: text
+    name: lien
+    label: lien
+    showOnly:
+      field: enable
+      value: true
+pages:
+- content/french/service.md

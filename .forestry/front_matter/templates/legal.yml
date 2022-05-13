@@ -1,0 +1,40 @@
+---
+label: Legal
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: text
+  name: subtitle
+  label: subtitle
+- type: datetime
+  name: lastmod
+  label: lastmod
+- type: file
+  name: bg_image
+  label: bg_image
+- type: boolean
+  name: bg_norepeat
+  label: bg_norepeat
+  description: 'Activer : affiche l''image en background centrer et a la taille du
+    cadre donné<br>Désactiver ; affiche l''image de background par rapport à la largeur
+    de l''écran d''affichage'
+- name: bg_color
+  type: color
+  label: bg_color
+  config:
+    required: false
+    color_format: Hex
+  default: "#FFFFFF"
+  showOnly:
+    field: bg_norepeat
+    value: true
+- type: text
+  name: layout
+  label: layout
+pages:
+- content/french/legales.md

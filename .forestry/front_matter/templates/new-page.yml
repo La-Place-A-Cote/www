@@ -1,0 +1,73 @@
+---
+label: Projets
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: file
+  name: bg_image
+  label: bg_image
+- name: bg_norepeat
+  type: boolean
+  label: bg_norepeat
+  default: false
+  description: 'Activer : affiche l''image en background centrer et a la taille du
+    cadre donné<br>Désactiver ; affiche l''image de background par rapport à la largeur
+    de l''écran d''affichage'
+- name: bg_color
+  type: color
+  label: bg_color
+  config:
+    required: false
+    color_format: Hex
+  default: "#FFFFFF"
+  showOnly:
+    field: bg_norepeat
+    value: true
+- name: projets
+  type: field_group
+  config: {}
+  fields:
+  - name: enable
+    type: boolean
+    label: enable
+  - name: projet_item
+    type: field_group_list
+    fields:
+    - name: name
+      type: text
+      config:
+        required: false
+      label: name
+    - name: date
+      type: datetime
+      label: date
+      description: ''
+      config:
+        required: false
+        date_format: DD/MM/YYYY
+        time_format: 
+        display_utc: false
+        export_format: YYYY-MM-DD
+    - name: content
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: content
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: projet_item
+    showOnly:
+      field: enable
+      value: true
+  label: projets

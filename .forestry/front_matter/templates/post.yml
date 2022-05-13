@@ -1,0 +1,43 @@
+---
+label: Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: bg_image
+  label: bg image
+  description: Background image
+- type: file
+  name: image
+  label: image
+- type: text
+  name: author
+  label: author
+- type: text
+  name: description
+  label: description
+  description: this is meta description
+- type: list
+  name: categories
+  label: categories
+- type: list
+  name: tags
+  label: tags
+- type: text
+  name: type
+  label: type
+  default: post
+pages:
+- content/french/blog/atelier-zero-dechet.md
+- content/french/blog/fete-de-la-permaculture-le-30-avril-2022-organise-par-ecovirage.md
+- content/french/blog/les-evenements-a-venir-a-la-courtoise-ressourcerie.md
+- content/french/blog/les-rendez-vous-du-samedi-la-ferme-de-chevre-feuille.md
+- content/french/blog/les-rendez-vous-du-samedi-les-creations-de-l-atelier-venus-la-marque-de-sacs-messages-secrets.md
+- content/french/blog/repair-cafe-a-la-courtoise-ressourcerie-de-brignoles-vendredi-20-mai-de-13h30-a-16h30.md
+- content/french/blog/visites-de-nos-ateliers-a-brignoles-par-des-associations-locales.md
+- content/french/blog/votre-2eme-ateliers-zero-dechet-menage-au-naturel.md

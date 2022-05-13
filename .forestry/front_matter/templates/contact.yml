@@ -1,0 +1,96 @@
+---
+label: Contact
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: file
+  name: bg_image
+  label: bg_image
+- type: boolean
+  name: bg_norepeat
+  label: bg_norepeat
+  description: 'Activer : affiche l''image en background centrer et a la taille du
+    cadre donné<br>Désactiver ; affiche l''image de background par rapport à la largeur
+    de l''écran d''affichage'
+- name: bg_color
+  type: color
+  label: bg_color
+  config:
+    required: false
+    color_format: Hex
+  default: "#FFFFFF"
+  showOnly:
+    field: bg_norepeat
+    value: true
+- type: text
+  name: layout
+  label: layout
+- type: field_group
+  name: adresse
+  label: adresse
+  fields:
+  - type: field_group_list
+    name: list
+    label: list
+    fields:
+    - type: text
+      name: titre
+      label: titre
+    - type: text
+      name: location
+      label: location
+    - type: text
+      name: email
+      label: email
+    - type: text
+      name: telephone
+      label: telephone
+- type: field_group
+  name: horaire
+  label: horaire
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+    showOnly:
+      field: enable
+      value: true
+  - type: field_group_list
+    name: horaire_list
+    label: horaire_list
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: title
+      label: title
+      showOnly:
+        field: enable
+        value: true
+    - type: field_group_list
+      name: info_list
+      label: info_list
+      fields:
+      - type: text
+        name: name
+        label: name
+      - type: datetime
+        name: content
+        label: content
+      showOnly:
+        field: enable
+        value: true
+    showOnly:
+      field: enable
+      value: true
+pages:
+- content/french/contact.md
