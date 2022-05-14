@@ -123,3 +123,5 @@ fields:
     showOnly:
       field: enable
       value: true
+pages:
+- content/french/_index.md
