@@ -1,0 +1,156 @@
+---
+label: Config site
+hide_body: true
+fields:
+- type: text
+  name: baseURL
+  label: baseURL
+- type: text
+  name: title
+  label: title
+- type: text
+  name: timeZone
+  label: timeZone
+- type: text
+  name: paginate
+  label: paginate
+- type: text
+  name: summaryLength
+  label: summaryLength
+- type: text
+  name: googleAnalytics
+  label: googleAnalytics
+- type: text
+  name: disqusShortname
+  label: disqusShortname
+- type: text
+  name: defaultContentLanguage
+  label: defaultContentLanguage
+- type: list
+  name: disableLanguages
+  label: disableLanguages
+- type: boolean
+  name: hasCJKLanguage
+  label: hasCJKLanguage
+- type: field_group
+  name: module
+  label: module
+  fields:
+  - type: field_group
+    name: hugoVersion
+    label: hugoVersion
+    fields:
+    - type: boolean
+      name: extended
+      label: extended
+    - type: text
+      name: min
+      label: min
+- type: field_group
+  name: outputs
+  label: outputs
+  fields:
+  - type: list
+    name: home
+    label: home
+- type: field_group
+  name: imaging
+  label: imaging
+  fields:
+  - type: number
+    name: quality
+    label: quality
+- type: field_group
+  name: caches
+  label: caches
+  fields:
+  - type: field_group
+    name: images
+    label: images
+    fields:
+    - type: text
+      name: dir
+      label: dir
+    - type: text
+      name: maxAge
+      label: maxAge
+  - type: field_group
+    name: assets
+    label: assets
+    fields:
+    - type: text
+      name: dir
+      label: dir
+    - type: text
+      name: maxAge
+      label: maxAge
+- type: field_group
+  name: markup
+  label: markup
+  fields:
+  - type: field_group
+    name: goldmark
+    label: goldmark
+    fields:
+    - type: field_group
+      name: renderer
+      label: renderer
+      fields:
+      - type: boolean
+        name: unsafe
+        label: unsafe
+  - type: field_group
+    name: tableOfContents
+    label: tableOfContents
+    fields:
+    - type: number
+      name: startLevel
+      label: startLevel
+    - type: number
+      name: endLevel
+      label: endLevel
+    - type: boolean
+      name: ordered
+      label: ordered
+  - type: field_group
+    name: highlight
+    label: highlight
+    fields:
+    - type: text
+      name: style
+      label: style
+- type: field_group
+  name: mediaTypes
+  label: mediaTypes
+  fields:
+  - type: field_group
+    name: application/manifest+json
+    label: application/manifest+json
+    fields:
+    - type: list
+      name: suffixes
+      label: suffixes
+  - type: field_group
+    name: text/netlify
+    label: text/netlify
+    fields:
+    - type: text
+      name: delimiter
+      label: delimiter
+    - type: list
+      name: suffixes
+      label: suffixes
+- type: field_group
+  name: outputFormats
+  label: outputFormats
+  fields:
+  - type: field_group
+    name: WebAppManifest
+    label: WebAppManifest
+    fields:
+    - type: text
+      name: mediaType
+      label: mediaType
+    - type: text
+      name: rel
+      label: rel
