@@ -128,3 +128,5 @@ fields:
       name: white
       label: white
   hidden: true
+pages:
+- config.toml
