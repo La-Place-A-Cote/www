@@ -1,6 +1,6 @@
-baseURL = "https://www.courtoiseressourcerie.com"
+baseURL = "https://www.laplaceacote.fr"
 languageCode = "fr-fr"
-title = "Courtoise Ressourcerie - Le réemploi, plus écolo que le recyclage"
+title = "La Place ... À Côté : Un restaurent et une pizzeria"
 [[module.imports]]
 disable = false
 path = "github.com/themefisher/airspace-hugo"
