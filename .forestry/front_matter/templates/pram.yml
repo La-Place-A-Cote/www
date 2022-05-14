@@ -1,0 +1,191 @@
+---
+label: Pram
+hide_body: true
+fields:
+- type: boolean
+  name: address_descriptors
+  label: address_descriptors
+- type: text
+  name: author
+  label: author
+- type: text
+  name: copyright
+  label: copyright
+- type: text
+  name: custom_script
+  label: custom_script
+- type: file
+  name: favicon
+  label: favicon
+- type: text
+  name: google_tag_manager
+  label: google_tag_manager
+- type: text
+  name: keywords
+  label: keywords
+- type: text
+  name: location
+  label: location
+- type: text
+  name: email
+  label: email
+- type: text
+  name: description
+  label: description
+- type: boolean
+  name: navbar_fixed
+  label: navbar_fixed
+- type: text
+  name: phone
+  label: phone
+- type: field_group
+  name: baidu
+  label: baidu
+  fields:
+  - type: text
+    name: analytics_id
+    label: analytics_id
+  - type: boolean
+    name: enable
+    label: enable
+- type: field_group
+  name: contact
+  label: contact
+  fields:
+  - type: field_group
+    name: form
+    label: form
+    fields:
+    - type: text
+      name: action
+      label: action
+    - type: boolean
+      name: enable
+      label: enable
+    - type: file
+      name: success_image
+      label: success_image
+    - type: boolean
+      name: use_netlify
+      label: use_netlify
+- type: field_group
+  name: cookies
+  label: cookies
+  fields:
+  - type: text
+    name: button
+    label: button
+  - type: text
+    name: content
+    label: content
+  - type: boolean
+    name: enable
+    label: enable
+  - type: number
+    name: expire_days
+    label: expire_days
+- type: field_group
+  name: counter
+  label: counter
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: username
+    label: username
+- type: field_group
+  name: gmap
+  label: gmap
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: gmap_api
+    label: gmap_api
+  - type: text
+    name: map_latitude
+    label: map_latitude
+  - type: text
+    name: map_longitude
+    label: map_longitude
+  - type: file
+    name: map_marker
+    label: map_marker
+- type: field_group
+  name: matomo
+  label: matomo
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: id
+    label: id
+  - type: text
+    name: url
+    label: url
+- type: field_group
+  name: navigation_button
+  label: navigation_button
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: label
+    label: label
+  - type: text
+    name: link
+    label: link
+- type: field_group
+  name: osm
+  label: osm
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: map
+    label: map
+- type: field_group
+  name: plausible
+  label: plausible
+  fields:
+  - type: text
+    name: domain
+    label: domain
+  - type: boolean
+    name: enable
+    label: enable
+- type: field_group
+  name: preloader
+  label: preloader
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: preloader
+    label: preloader
+- type: field_group
+  name: site_verification
+  label: site_verification
+  fields:
+  - type: text
+    name: baidu
+    label: baidu
+  - type: text
+    name: bing
+    label: bing
+  - type: text
+    name: google
+    label: google
+- type: field_group
+  name: widgets
+  label: widgets
+  fields:
+  - type: list
+    name: sidebar
+    label: sidebar
