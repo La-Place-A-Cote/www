@@ -1,0 +1,40 @@
+---
+label: Autheur
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: email
+  label: email
+- type: file
+  name: bg_image
+  label: bg_image
+- type: field_group_list
+  name: social
+  label: social
+  fields:
+  - type: text
+    name: icon
+    label: icon
+  - type: text
+    name: link
+    label: link
+- type: field_group
+  name: divers
+  label: divers
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: titre
+    label: titre
+  - type: field_group_list
+    name: videos
+    label: videos
+    fields:
+    - type: text
+      name: id
+      label: id
