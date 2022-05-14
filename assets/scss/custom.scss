@@ -302,10 +302,6 @@ main {
   text-align: center;
 }
 
-#price .block .pricing-list {
-  padding-top: 85px;
-}
-
 #price .block .pricing-list ul {
   padding: 0 0 30px;
   margin: 0;
@@ -319,7 +315,7 @@ main {
   position: relative;
 }
 
-#price .block .pricing-list ul li .item .item-title h2 {
+#price .block .pricing-list ul li .item .item-title h3 {
   display: inline-block;
   position: relative;
   z-index: 99;
@@ -334,7 +330,10 @@ main {
   border: 1px dotted #C9C9C9;
   margin-top: 20px;
 }
-
+#price .block h2{
+  width: 20%;
+  min-width: 100px;
+}
 #price .block .pricing-list ul li .item .item-title span {
   float: right;
   color: #938463;
@@ -397,7 +396,15 @@ main {
   }
 }
 
-
+.accordion-button:not(.collapsed) {
+  color: #6d071a;
+  background-color: #00000014;
+}
+.accordion-collapse {
+  &:not(.show) {
+    display: none;
+  }
+}
 
 
 

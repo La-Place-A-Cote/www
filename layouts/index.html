@@ -39,6 +39,7 @@
 {{ with .Params.event }}
 {{ if .enable }}
 <section>
+  <h1 style="text-align: center; margin-bottom: 4rem;margin-top: 4rem;">{{ .titre | markdownify }}</h1>
   <div class="wrapper">  
     <div class="news-slider">
       <div class="news-slider__wrp swiper-wrapper">
@@ -114,32 +115,45 @@
 {{ if .enable }}
 <section id="price" class="price section">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="block">
-					<h1 class="heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
-						{{ .title | markdownify }}</h1>
-					<p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
-						{{ .description | markdownify }}</p>
-					<div class="pricing-list">
-						<div class="title">
-							<h3>{{ .subtitle | markdownify }}</h3>
-						</div>
-						<ul>
-							{{ range .pricing_item }}
-							<li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
-								<div class="item">
-									<div class="item-title">
-										<h2>{{.title}}</h2>
-										<div class="border-bottom"></div>
-										<span>{{.price}}</span>
-									</div>
-									<p>{{.description}}</p>
-								</div>
-							</li>
-							{{ end }}
-						</ul>
-					</div>
+		<div class="row" >
+			<div class="col-md-12 " >
+				<div class="block accordion" id="accordion">
+          <h1 style="text-align: center; margin-bottom: 4rem;">{{ .titre | markdownify }}</h1>
+          {{ range $index, $val := .menus }}
+            <div class="accordion-item">
+              <div class="accordion-header" id="heading{{ $index }}"> 
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ $index }}" aria-expanded="false" aria-controls="collapse{{ $index }}">                
+                  <h2 >{{ .titre | markdownify }}</h2>
+                  <p>{{ .description | markdownify }}</p>
+                </button>
+              </div>
+              <div id="collapse{{ $index }}" class="accordion-collapse collapse" aria-labelledby="heading{{ $index }}" data-bs-parent="#accordion">
+                <div class="accordion-body">
+                  {{ range .sous_menus }}
+                  <div class="pricing-list">
+                    <div class="title">
+                      <h3>{{ .nom | markdownify }}</h3>
+                    </div>
+                    <ul>
+                      {{ range .pricing_item }}
+                      <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+                        <div class="item">
+                          <div class="item-title">
+                            <h3>{{.titre}}</h3>
+                            <div class="border-bottom"></div>
+                            <span>{{.prix}}</span>
+                          </div>
+                          <p>{{.description}}</p>
+                        </div>
+                      </li>
+                      {{ end }}
+                    </ul>
+                  </div>
+                  {{ end }}
+                </div>
+              </div>
+            </div>
+          {{ end }}
 				</div>
 			</div><!-- .col-md-12 close -->
 		</div><!-- .row close -->
@@ -148,115 +162,19 @@
 {{ end }}
 {{ end }}
 <!-- /Food Menu  -->
+  {{/*  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapse{{ $index }}" aria-expanded="true" aria-controls="collapse{{ $index }}">
+          Collapsible Group Item #1
+        </button>
+      </h5>
+    </div>
 
-{{/*  <!-- about -->
-{{ with .Params.event }}
-{{ if .enable }}
-<section class="about section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-7 col-sm-12">
-        <div class="block">
-          <div class="section-title">
-            {{ with .title }}<h2>{{ . | markdownify }}</h2>{{ end }}
-            {{ with .description }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
-          </div>
-          {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
-        </div>
-      </div>
-      <div class="col-md-5 col-sm-12">
-        <div class="block">
-          <img src="{{ .image | relURL }}" class="img-responsive" alt="Img">
-        </div>
+    <div id="collapse{{ $index }}" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
       </div>
     </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /about -->
-
-<!-- portfolio -->
-{{ with .Params.portfolio }}
-{{ if .enable }}
-<section class="feature bg-2" style="background-image: url('{{ .bg_image | relURL }}')">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-md-offset-6">
-        {{ with .title }}<h2 class="section-subtitle">{{ . | markdownify }}</h2>{{ end }}
-        {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
-        {{ with .button }}
-        {{ if .enable }}
-        <a href="{{ .link | relLangURL }}" class="btn btn-view-works">{{ .label }}</a>
-        {{ end }}
-        {{ end }}
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /portfolio -->
-
-<!-- service -->
-{{ if .Params.service.enable }}
-{{ partial "service.html" . }}
-{{ end }}
-<!-- /service -->
-
-<!-- call to action -->
-{{ if .Params.cta.enable }}
-{{ partial "cta.html" . }}
-{{ end }}
-<!-- /call to action -->
-
-<!-- funfacts -->
-{{ with .Params.funfacts }}
-{{ if .enable }}
-<section class="testimonial">
-  <div class="container">
-    <div class="row">
-      <div class="section-title text-center">
-        {{ with .title }}<h2>{{ . | markdownify }}</h2>{{ end }}
-        {{ with .description }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="block">
-          <ul class="counter-box clearfix">
-            {{ range .funfact_item }}
-            <li class="counter-item">
-              <i class="{{ .icon }}"></i>
-              <h4 class="count" data-count="{{ .count }}">0</h4>
-              <span>{{ .name | markdownify }}</span>
-            </li>
-            {{ end }}
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-5 col-md-offset-1">
-        <div class="testimonial-carousel text-center">
-          <div class="testimonial-slider owl-carousel">
-            {{ range .testimonial_slider }}
-            <div>
-              <i class="fas fa-quote-left"></i>
-              {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
-              <div class="user">
-                <img src="{{ .image | relURL }}" alt="client">
-                <p><span>{{ .name | markdownify }}</span> {{ .designation | markdownify }}</p>
-              </div>
-            </div>
-            {{ end }}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /funfacts -->  */}}
-
-
+  </div>  */}}
 {{ end }}
