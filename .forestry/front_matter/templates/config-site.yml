@@ -165,3 +165,5 @@ fields:
     - type: text
       name: rel
       label: rel
+pages:
+- config/_default/config.toml
