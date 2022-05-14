@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<!-- CArroussel  -->
+<!-- Slider  -->
 {{ with .Params.banner }}
 {{ if .enable }}
 <section>
@@ -39,27 +39,10 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  
-  
-  {{/*  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-          {{ with .title }}<h1>{{ . | markdownify }}</h1>{{ end }}
-          {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
-          {{ with .button }}
-          {{ if .enable }}
-          <a href="{{ .link | relLangURL }}" class="btn btn-main animated fadeInUp">{{ .label }}</a>
-          {{ end }}
-          {{ end }}
-        </div>
-      </div>
-    </div>
-  </div>  */}}
 </section>
 {{ end }}
 {{ end }}
-<!-- /banner -->
+<!-- /Slider -->
 
 <!-- about -->
 {{ with .Params.about }}
