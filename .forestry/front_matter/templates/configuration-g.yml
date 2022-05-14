@@ -25,6 +25,7 @@ fields:
     - type: text
       name: path
       label: path
+  hidden: true
 - type: field_group
   name: params
   label: params
@@ -126,3 +127,4 @@ fields:
     - type: text
       name: white
       label: white
+  hidden: true
