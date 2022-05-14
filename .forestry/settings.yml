@@ -5,11 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: content\french\_index.md
+  path: content/french/_index.md
   label: Page d'accueil
-  match: "**/*"
 - type: directory
-  path: content\french\author
+  path: content/french/author
   label: Groupe de Musique
   create: documents
   match: "**/*"
