@@ -48,6 +48,7 @@ fields:
   - type: boolean
     name: enable
     label: enable
+  hidden: true
 - type: field_group
   name: contact
   label: contact
@@ -68,6 +69,7 @@ fields:
     - type: boolean
       name: use_netlify
       label: use_netlify
+  hidden: true
 - type: field_group
   name: cookies
   label: cookies
@@ -84,6 +86,7 @@ fields:
   - type: number
     name: expire_days
     label: expire_days
+  hidden: true
 - type: field_group
   name: counter
   label: counter
@@ -94,6 +97,7 @@ fields:
   - type: text
     name: username
     label: username
+  hidden: true
 - type: field_group
   name: gmap
   label: gmap
@@ -113,6 +117,7 @@ fields:
   - type: file
     name: map_marker
     label: map_marker
+  hidden: true
 - type: field_group
   name: matomo
   label: matomo
@@ -126,6 +131,7 @@ fields:
   - type: text
     name: url
     label: url
+  hidden: true
 - type: field_group
   name: navigation_button
   label: navigation_button
@@ -139,6 +145,7 @@ fields:
   - type: text
     name: link
     label: link
+  hidden: true
 - type: field_group
   name: osm
   label: osm
@@ -149,6 +156,7 @@ fields:
   - type: text
     name: map
     label: map
+  hidden: true
 - type: field_group
   name: plausible
   label: plausible
@@ -159,6 +167,7 @@ fields:
   - type: boolean
     name: enable
     label: enable
+  hidden: true
 - type: field_group
   name: preloader
   label: preloader
@@ -166,9 +175,11 @@ fields:
   - type: boolean
     name: enable
     label: enable
+    hidden: true
   - type: text
     name: preloader
     label: preloader
+  hidden: true
 - type: field_group
   name: site_verification
   label: site_verification
@@ -182,6 +193,7 @@ fields:
   - type: text
     name: google
     label: google
+  hidden: true
 - type: field_group
   name: widgets
   label: widgets
@@ -189,3 +201,4 @@ fields:
   - type: list
     name: sidebar
     label: sidebar
+  hidden: true
