@@ -4,15 +4,14 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: content\french\_index.md
+  label: Page d'accueil
+  match: "**/*"
 - type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
-- type: directory
-  path: content/french
-  label: French
-  create: all
+  path: content\french\author
+  label: Groupe de Musique
+  create: documents
   match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
