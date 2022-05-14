@@ -202,3 +202,5 @@ fields:
     name: sidebar
     label: sidebar
   hidden: true
+pages:
+- config/_default/params.toml
