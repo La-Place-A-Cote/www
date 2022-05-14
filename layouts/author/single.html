@@ -7,25 +7,12 @@
     <div class="row">
       <div class=" col-md-offset-2">
         <div class="text-center">
-          <figure>
-            {{ if .Params.photo -}}
-            <img style="border-radius: 50%;" class="img-fluid" src="{{ .Params.photo }}">
-            {{ else if .Params.email -}}
-            <img style="border-radius: 50%;" class="img-fluid"
-              src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon">
-            {{- end }}
-            <figcaption>
-              <h5 class="font-weight-bold">
-                {{ .Params.name }}
-              </h5>
-            </figcaption>
-          </figure>
           <hr>
           {{ .Content }}
           <hr>
           <ul class="list-inline">
             {{ range .Params.social -}}
-            <li class="list-inline-item"><a class="share-icon bg-secondary" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+            <li class="list-inline-item"><a class="share-icon" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
             {{- end }}
           </ul>
         </div>
@@ -34,47 +21,30 @@
   </div>
 </section>
 
-<section class="section">
+{{ with .Params.divers }}
+{{ if .enable }}
+<!-- Modal gallery -->
+<section class="video">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
         <div class="section-title text-center">
-          <h2>{{ i18n "posted_by" }} {{ .Title }}</h2>
+          <h2>{{ .titre }}</h2>
         </div>
+        <div class="d-flex justify-content-center">
+        {{ range .videos }}
+        <iframe width="560" height="315" 
+        src="https://www.youtube-nocookie.com/embed/{{ .id }}" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        style="margin: 10px;" allowfullscreen></iframe>
+        {{ end }}
       </div>
-      {{ range (union (where site.RegularPages "Params.author" "intersect" (slice .Title)) (where site.RegularPages "Params.author" .Title)) -}}
-      <div class="col-md-6">
-        <div class="post">
-          <div class="post-thumb">
-            {{ if isset .Params "image" -}}
-            <a href="{{ .RelPermalink }}">
-              <img class="img-responsive" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
-            </a>
-            {{- end }}
-          </div>
-          <h3 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-          <div class="post-meta">
-            <ul>
-              <li><i class="fas fa-calendar-week"></i> {{ time.Format ":date_long" .PublishDate }}</li>
-              <li><i class="fas fa-user"></i>
-                {{ i18n "posted_by" }}
-                {{ $authors := slice }}{{ if reflect.IsSlice .Params.author }}{{ $authors = .Params.author }}{{ else }}{{ $authors = (slice .Params.author) }}{{ end -}}
-                {{ range $index, $elements := $authors }}{{ if ne $index 0 }}, {{ end }}<a class="text-primary" href="{{ `author/` | relLangURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}
-              </li>
-              <li><i class="fas fa-tags"></i>
-                {{ range $index, $elements:= .Params.tags }}{{ if ne $index 0 }}, {{ end }}<a href="{{ `tags/` | relLangURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}
-              </li>
-            </ul>
-          </div>
-          <div class="post-content">
-            <p>{{ .Summary }}</p>
-            <a href="{{ .RelPermalink }}" class="btn btn-main">{{ i18n "read_more" }}</a>
-          </div>
-        </div>
       </div>
-      {{- end }}
     </div>
   </div>
 </section>
+<!-- Modal gallery -->
+{{ end }}
+{{ end }}
 
 {{ end }}

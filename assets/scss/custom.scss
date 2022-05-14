@@ -406,12 +406,10 @@ main {
   }
 }
 
+.bg-secondary {
+  --bs-bg-opacity:0;
+}
 
-
-
-
-
-
-
-
-
+.page-title:before{
+  background: none;
+}
