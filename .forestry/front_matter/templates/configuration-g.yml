@@ -48,6 +48,7 @@ fields:
       - type: text
         name: link
         label: link
+    hidden: true
   - type: field_group
     name: variables
     label: variables
@@ -127,6 +128,6 @@ fields:
     - type: text
       name: white
       label: white
-  hidden: true
+  hidden: false
 pages:
 - config.toml
