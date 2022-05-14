@@ -1,0 +1,128 @@
+---
+label: Configuration G
+hide_body: true
+fields:
+- type: text
+  name: baseURL
+  label: baseURL
+- type: text
+  name: languageCode
+  label: languageCode
+- type: text
+  name: title
+  label: title
+- type: field_group
+  name: module
+  label: module
+  fields:
+  - type: field_group_list
+    name: imports
+    label: imports
+    fields:
+    - type: boolean
+      name: disable
+      label: disable
+    - type: text
+      name: path
+      label: path
+- type: field_group
+  name: params
+  label: params
+  fields:
+  - type: field_group
+    name: plugins
+    label: plugins
+    fields:
+    - type: field_group_list
+      name: css
+      label: css
+      fields:
+      - type: text
+        name: link
+        label: link
+    - type: field_group_list
+      name: js
+      label: js
+      fields:
+      - type: text
+        name: link
+        label: link
+  - type: field_group
+    name: variables
+    label: variables
+    fields:
+    - type: text
+      name: attelierWidth_size
+      label: attelierWidth_size
+    - type: text
+      name: black
+      label: black
+    - type: text
+      name: body_color
+      label: body_color
+    - type: text
+      name: border_color
+      label: border_color
+    - type: text
+      name: color_overlay
+      label: color_overlay
+    - type: text
+      name: color_primary
+      label: color_primary
+    - type: text
+      name: color_secondary
+      label: color_secondary
+    - type: text
+      name: color_third
+      label: color_third
+    - type: text
+      name: font_icon
+      label: font_icon
+    - type: text
+      name: font_primary
+      label: font_primary
+    - type: text
+      name: font_primary_type
+      label: font_primary_type
+    - type: text
+      name: font_scale
+      label: font_scale
+    - type: text
+      name: font_secondary
+      label: font_secondary
+    - type: text
+      name: font_secondary_type
+      label: font_secondary_type
+    - type: text
+      name: font_size
+      label: font_size
+    - type: text
+      name: footer
+      label: footer
+    - type: text
+      name: footer_menu
+      label: footer_menu
+    - type: text
+      name: green
+      label: green
+    - type: text
+      name: light
+      label: light
+    - type: text
+      name: navbar_color
+      label: navbar_color
+    - type: text
+      name: navbar_text_color
+      label: navbar_text_color
+    - type: text
+      name: text_color
+      label: text_color
+    - type: text
+      name: text_dark
+      label: text_dark
+    - type: text
+      name: text_light
+      label: text_light
+    - type: text
+      name: white
+      label: white
