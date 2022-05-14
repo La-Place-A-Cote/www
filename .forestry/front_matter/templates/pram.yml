@@ -14,6 +14,7 @@ fields:
 - type: text
   name: custom_script
   label: custom_script
+  hidden: true
 - type: file
   name: favicon
   label: favicon
@@ -35,6 +36,7 @@ fields:
 - type: boolean
   name: navbar_fixed
   label: navbar_fixed
+  hidden: true
 - type: text
   name: phone
   label: phone
