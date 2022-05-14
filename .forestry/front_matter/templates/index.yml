@@ -8,86 +8,118 @@ fields:
   fields:
   - type: boolean
     name: enable
-    label: enable
+    label: Affichage
   - type: field_group_list
     name: images
-    label: images
+    label: Carrousel images
     fields:
-    - type: text
-      name: image
-      label: image
+    - name: image
+      type: file
+      config:
+        maxSize: 64
+      label: Image
     - type: text
       name: titre
-      label: titre
+      label: Titre
     - type: text
       name: texte
       label: texte
+    showOnly:
+      field: enable
+      value: true
 - type: field_group
   name: event
   label: event
   fields:
   - type: boolean
     name: enable
-    label: enable
+    label: Affichage
+    default: true
   - type: text
     name: titre
-    label: titre
+    label: Titre
+    showOnly:
+      field: enable
+      value: true
   - type: field_group_list
     name: evenements
     label: evenements
     fields:
     - type: datetime
       name: date
-      label: date
+      label: Date
+      config:
+        required: true
     - type: text
       name: nom
-      label: nom
+      label: Nom du groupe
+      config:
+        required: true
     - type: text
       name: titre
-      label: titre
+      label: Titre de l'événement
+      config:
+        required: true
     - type: textarea
       name: texte
-      label: texte
+      label: Description de l'événement
+      config:
+        wysiwyg: true
+        schema:
+          format: markdown
+        required: true
     - type: file
       name: image
-      label: image
+      label: Image
+    showOnly:
+      field: enable
+      value: true
 - type: field_group
   name: food
-  label: food
+  label: Les Menus
   fields:
   - type: boolean
     name: enable
-    label: enable
+    label: Affichage
   - type: text
     name: titre
-    label: titre
+    label: Titre de section
+    showOnly:
+      field: enable
+      value: true
   - type: field_group_list
     name: menus
-    label: menus
+    label: Un Menu
     fields:
     - type: text
       name: titre
-      label: titre
+      label: Titre du menu
+      description: Nom du restaurant
     - type: textarea
       name: description
-      label: description
+      label: Description
     - type: field_group_list
       name: sous_menus
-      label: sous_menus
+      label: Sous menu
       fields:
       - type: text
         name: nom
-        label: nom
+        label: Nom
+        description: Entrée, Plat, Dessert
       - type: field_group_list
         name: pricing_item
-        label: pricing_item
         fields:
         - type: text
           name: titre
-          label: titre
+          label: Nom du plat
         - type: textarea
           name: description
-          label: description
+          label: Les ingredients
         - type: text
           name: prix
-          label: prix
+          label: Le prix
+        label: Item sur le menu
+      description: Entrée, Plats, Dessert
+    showOnly:
+      field: enable
+      value: true
