@@ -17,21 +17,26 @@ fields:
 - type: text
   name: summaryLength
   label: summaryLength
+  hidden: true
 - type: text
   name: googleAnalytics
   label: googleAnalytics
+  hidden: true
 - type: text
   name: disqusShortname
   label: disqusShortname
+  hidden: true
 - type: text
   name: defaultContentLanguage
   label: defaultContentLanguage
 - type: list
   name: disableLanguages
   label: disableLanguages
+  hidden: true
 - type: boolean
   name: hasCJKLanguage
   label: hasCJKLanguage
+  hidden: true
 - type: field_group
   name: module
   label: module
@@ -46,6 +51,7 @@ fields:
     - type: text
       name: min
       label: min
+  hidden: true
 - type: field_group
   name: outputs
   label: outputs
@@ -53,6 +59,7 @@ fields:
   - type: list
     name: home
     label: home
+  hidden: true
 - type: field_group
   name: imaging
   label: imaging
@@ -60,6 +67,7 @@ fields:
   - type: number
     name: quality
     label: quality
+  hidden: true
 - type: field_group
   name: caches
   label: caches
@@ -112,6 +120,7 @@ fields:
     - type: boolean
       name: ordered
       label: ordered
+    hidden: true
   - type: field_group
     name: highlight
     label: highlight
@@ -119,6 +128,8 @@ fields:
     - type: text
       name: style
       label: style
+    hidden: true
+  hidden: true
 - type: field_group
   name: mediaTypes
   label: mediaTypes
