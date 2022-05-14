@@ -4,7 +4,7 @@ hide_body: true
 fields:
 - type: field_group
   name: slider
-  label: slider
+  label: Section Carrousel
   fields:
   - type: boolean
     name: enable
@@ -29,7 +29,6 @@ fields:
       value: true
 - type: field_group
   name: event
-  label: event
   fields:
   - type: boolean
     name: enable
@@ -74,9 +73,10 @@ fields:
     showOnly:
       field: enable
       value: true
+  label: Section Evénements
 - type: field_group
   name: food
-  label: Les Menus
+  label: Section Menus
   fields:
   - type: boolean
     name: enable
