@@ -4,37 +4,46 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Nom du groupe
 - type: text
   name: email
-  label: email
+  label: Email
 - type: file
   name: bg_image
-  label: bg_image
+  label: Image de Background
 - type: field_group_list
   name: social
-  label: social
+  label: Reseaux Sociaux
   fields:
   - type: text
     name: icon
-    label: icon
+    label: Icon
+    description: pour trouver le code id a rentrer <a href="https://fontawesome.com/v5.15/icons"
+      title="https://fontawesome.com/v5.15/icons" target="_blank">https://fontawesome.com/v5.15/icons</a>
   - type: text
     name: link
-    label: link
+    label: Lien
 - type: field_group
   name: divers
-  label: divers
+  label: Galerie de videos
   fields:
   - type: boolean
     name: enable
-    label: enable
+    label: Affichage
   - type: text
     name: titre
-    label: titre
+    label: Titre
+    hidden: true
+    default: Videos
   - type: field_group_list
     name: videos
-    label: videos
+    label: Videos
     fields:
     - type: text
       name: id
-      label: id
+      label: Id de la video
+      description: 'Exemple : <a href="https://www.youtube.com/watch?v=uLBenQ5orkI"
+        title="https://www.youtube.com/watch?v=uLBenQ5orkI" target="_blank">https://www.youtube.com/watch?v=uLBenQ5orkI</a><br>L''id
+        n''est que la fin du lien apres ?v= donc ''<a href="https://www.youtube.com/watch?v=uLBenQ5orkI"
+        title="https://www.youtube.com/watch?v=uLBenQ5orkI" target="_blank">uLBenQ5orkI</a>
+        '''
