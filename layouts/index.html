@@ -1,34 +1,24 @@
 {{ define "main" }}
 
 <!-- Slider  -->
-{{ with .Params.banner }}
+{{ with .Params.slider }}
 {{ if .enable }}
 <section>
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"> 
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      {{ range $index, $val := .images }}
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="{{ $index }}" {{ if (eq $index 0) }} class="active" aria-current="true" {{ end }} aria-label="Slide {{ $index }}"></button>
+      {{ end }}
     </div>
     <div class="carousel-inner">
-      <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/LAaSoL0LrYs/1920x1080')">
+      {{ range $index, $val := .images }}
+      {{ with .image }}<div class="carousel-item {{ if (eq $index 0) }} active {{ end }}" style="background-image: url('{{ . | relURL }}')">{{ end }}
         <div class="carousel-caption">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
+          {{ with .titre  }}<h5>{{ . }}</h5>{{ end }}
+          {{ with .texte  }}<p>{{ . }}</p>{{ end }}
         </div>
       </div>
-      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')">
-        <div class="carousel-caption">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
-        <div class="carousel-caption">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
-        </div>
-      </div>
+      {{ end }}
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>

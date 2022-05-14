@@ -1,15 +1,20 @@
 ---
 ############################### Banner ##############################
-banner:
+slider:
   enable: true
-  bg_image: "images/slider-bg.jpg"
-  bg_overlay: true
-  title: "A Digital Marketing <br/> & Design Agency"
-  content: "We love the Web and the work we do.We work closely with our clients to deliver  the best possible solutions for their needs"
-  button:
-    enable: true
-    label: "Discover Our Project"
-    link: "project/"
+  images: 
+  - image : "https://source.unsplash.com/LAaSoL0LrYs/1920x1080" 
+    titre : "First slide label"
+    texte : "Some representative placeholder content for the first slide."
+
+  - image : "https://source.unsplash.com/bF2vsubyHcQ/1920x1080" 
+    titre : "Second slide label"
+    texte : "Some representative placeholder content for the second slide."
+
+  - image : "https://source.unsplash.com/bF2vsubyHcQ/1920x1080" 
+    titre : "third  slide label"
+    texte : "Some representative placeholder content for the second slide."
+  
 
 ############################# About #################################
 about:
