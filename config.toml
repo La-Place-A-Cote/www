@@ -26,6 +26,8 @@ link = "plugins/shuffle/shuffle.min.js"
 link = "plugins/google-map/gmap.js"
 [[params.plugins.js]]
 link = "plugins/webfont-loader/webfont-loader-2.min.js"
+[[params.plugins.js]]
+link = "plugins/swiper/swiper.min.js"
 [params.variables]
 attelierWidth_size = "50%"
 black = "#000000"

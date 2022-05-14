@@ -14,7 +14,7 @@
       {{ range $index, $val := .images }}
       {{ with .image }}<div class="carousel-item {{ if (eq $index 0) }} active {{ end }}" style="background-image: url('{{ . | relURL }}')">{{ end }}
         <div class="carousel-caption">
-          {{ with .titre  }}<h5>{{ . }}</h5>{{ end }}
+          {{ with .titre  }}<h1>{{ . }}</h1>{{ end }}
           {{ with .texte  }}<p>{{ . }}</p>{{ end }}
         </div>
       </div>
@@ -34,8 +34,82 @@
 {{ end }}
 <!-- /Slider -->
 
-<!-- about -->
-{{ with .Params.about }}
+
+<!-- Event  -->
+{{ with .Params.event }}
+{{ if .enable }}
+<section>
+  <div class="wrapper">  
+    <div class="news-slider">
+      <div class="news-slider__wrp swiper-wrapper">
+        {{ range sort .evenements ".date" }}
+        {{ $t := (time .date) }}
+        {{ if $t.After now }}
+        <div class="news-slider__item swiper-slide">
+          {{ with .nom }}<a  href="{{ `author/` | relLangURL }}{{ . | urlize }}" class="news__item">{{ end }}
+            <div class="news-date">
+              {{ with .date }} <span class="news-date__title">{{ time.Format ":date_long" . }}</span>{{ end }}
+            </div>
+            <div class="news__title">
+              {{ .titre }}
+            </div>
+            <div class="news__nom">
+              {{ .nom }}
+            </div>
+            <p class="news__txt">
+              {{ .texte }}
+            </p>
+  
+            <div class="news__img">
+              <img src="{{ .image | relURL }}" alt="news">
+            </div>
+          </a>
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+  
+      <div class="news-slider__ctr">
+  
+        <div class="news-slider__arrows">
+          <button class="news-slider__arrow news-slider-prev">
+            <span class="icon-font">
+              <svg class="icon icon-arrow-left"><use xlink:href="#icon-arrow-left"></use></svg>
+            </span>
+          </button>
+          <button class="news-slider__arrow news-slider-next">
+            <span class="icon-font">
+              <svg class="icon icon-arrow-right"><use xlink:href="#icon-arrow-right"></use></svg>
+            </span>
+          </button>
+        </div>
+  
+        <div class="news-slider__pagination"></div>
+  
+      </div>
+  
+    </div>
+  
+  </div>
+  
+  <svg hidden="hidden">
+    <defs>
+      <symbol id="icon-arrow-left" viewBox="0 0 32 32">
+        <title>arrow-left</title>
+        <path d="M0.704 17.696l9.856 9.856c0.896 0.896 2.432 0.896 3.328 0s0.896-2.432 0-3.328l-5.792-5.856h21.568c1.312 0 2.368-1.056 2.368-2.368s-1.056-2.368-2.368-2.368h-21.568l5.824-5.824c0.896-0.896 0.896-2.432 0-3.328-0.48-0.48-1.088-0.704-1.696-0.704s-1.216 0.224-1.696 0.704l-9.824 9.824c-0.448 0.448-0.704 1.056-0.704 1.696s0.224 1.248 0.704 1.696z"></path>
+      </symbol>
+      <symbol id="icon-arrow-right" viewBox="0 0 32 32">
+        <title>arrow-right</title>
+        <path d="M31.296 14.336l-9.888-9.888c-0.896-0.896-2.432-0.896-3.328 0s-0.896 2.432 0 3.328l5.824 5.856h-21.536c-1.312 0-2.368 1.056-2.368 2.368s1.056 2.368 2.368 2.368h21.568l-5.856 5.824c-0.896 0.896-0.896 2.432 0 3.328 0.48 0.48 1.088 0.704 1.696 0.704s1.216-0.224 1.696-0.704l9.824-9.824c0.448-0.448 0.704-1.056 0.704-1.696s-0.224-1.248-0.704-1.664z"></path>
+      </symbol>
+    </defs>
+  </svg>
+</section>
+{{ end }}
+{{ end }}
+<!-- /Event  -->
+{{/*  <!-- about -->
+{{ with .Params.event }}
 {{ if .enable }}
 <section class="about section">
   <div class="container">
@@ -141,18 +215,6 @@
 </section>
 {{ end }}
 {{ end }}
-<!-- /funfacts -->
-
-<style>
-  .carousel-item {
-    height: 100vh;
-    min-height: 350px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-</style>
+<!-- /funfacts -->  */}}
 
 {{ end }}
