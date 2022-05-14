@@ -1,0 +1,93 @@
+---
+label: Index
+hide_body: true
+fields:
+- type: field_group
+  name: slider
+  label: slider
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: field_group_list
+    name: images
+    label: images
+    fields:
+    - type: text
+      name: image
+      label: image
+    - type: text
+      name: titre
+      label: titre
+    - type: text
+      name: texte
+      label: texte
+- type: field_group
+  name: event
+  label: event
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: titre
+    label: titre
+  - type: field_group_list
+    name: evenements
+    label: evenements
+    fields:
+    - type: datetime
+      name: date
+      label: date
+    - type: text
+      name: nom
+      label: nom
+    - type: text
+      name: titre
+      label: titre
+    - type: textarea
+      name: texte
+      label: texte
+    - type: file
+      name: image
+      label: image
+- type: field_group
+  name: food
+  label: food
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: titre
+    label: titre
+  - type: field_group_list
+    name: menus
+    label: menus
+    fields:
+    - type: text
+      name: titre
+      label: titre
+    - type: textarea
+      name: description
+      label: description
+    - type: field_group_list
+      name: sous_menus
+      label: sous_menus
+      fields:
+      - type: text
+        name: nom
+        label: nom
+      - type: field_group_list
+        name: pricing_item
+        label: pricing_item
+        fields:
+        - type: text
+          name: titre
+          label: titre
+        - type: textarea
+          name: description
+          label: description
+        - type: text
+          name: prix
+          label: prix
