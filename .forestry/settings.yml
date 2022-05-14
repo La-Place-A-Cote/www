@@ -14,6 +14,18 @@ sections:
   match: "**/*"
 - type: heading
   label: Configuration
+- type: document
+  path: config.toml
+  label: Configuration General
+  match: "**/*"
+- type: document
+  path: config/_default/params.toml
+  label: Parametre
+  match: "**/*"
+- type: document
+  path: config/_default/config.toml
+  label: Configuration Hugo
+  match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
