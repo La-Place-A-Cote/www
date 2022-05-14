@@ -54,9 +54,6 @@ fields:
     label: variables
     fields:
     - type: text
-      name: attelierWidth_size
-      label: attelierWidth_size
-    - type: text
       name: black
       label: black
     - type: text
@@ -102,20 +99,11 @@ fields:
       name: footer
       label: footer
     - type: text
-      name: footer_menu
-      label: footer_menu
-    - type: text
       name: green
       label: green
     - type: text
       name: light
       label: light
-    - type: text
-      name: navbar_color
-      label: navbar_color
-    - type: text
-      name: navbar_text_color
-      label: navbar_text_color
     - type: text
       name: text_color
       label: text_color
