@@ -2,13 +2,22 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <div class="footer-menu">
-          <ul>
-            {{ range site.Menus.footer }}
-            <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
-            {{ end }}
-          </ul>
-        </div>
+        <div class="info">
+						<ul>
+							<li>
+								<h4>Telephone</h4>
+								<p>{{ site.Params.phone | markdownify }}</p>
+							</li>
+              <li>
+								<h4>Email</h4>
+								<p>{{ site.Params.email | markdownify }}</p>
+							</li>
+              <li>
+								<h4>Addresse</h4>
+								<p>{{ site.Params.location | markdownify }}</p>
+							</li>
+						</ul>
+					</div>
         <p class="copyright">{{ site.Params.copyright | markdownify }}</p>
       </div>
     </div>
