@@ -47,3 +47,5 @@ fields:
         n''est que la fin du lien apres ?v= donc ''<a href="https://www.youtube.com/watch?v=uLBenQ5orkI"
         title="https://www.youtube.com/watch?v=uLBenQ5orkI" target="_blank">uLBenQ5orkI</a>
         '''
+pages:
+- content/french/author/john-doe.md
