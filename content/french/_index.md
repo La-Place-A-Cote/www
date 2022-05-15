@@ -11,6 +11,9 @@ slider:
   - image: https://source.unsplash.com/bF2vsubyHcQ/1920x1080
     titre: third  slide label
     texte: Some representative placeholder content for the second slide.
+fork:
+  enable: true
+  uid: "498349-fc91c"
 event:
   enable: true
   titre: Nos Événement
