@@ -28,6 +28,19 @@ fields:
       field: enable
       value: true
 - type: field_group
+  name: fork
+  fields:
+  - type: boolean
+    name: enable
+    label: Affichage
+    default: true
+  - type: text
+    name: uid
+    label: UID
+    showOnly:
+      field: enable
+      value: true
+- type: field_group
   name: event
   fields:
   - type: boolean
@@ -112,6 +125,9 @@ fields:
         - type: text
           name: titre
           label: Nom du plat
+        - type: boolean
+          name: enable
+          label: Afficher
         - type: textarea
           name: description
           label: Les ingredients
@@ -123,5 +139,22 @@ fields:
     showOnly:
       field: enable
       value: true
+- type: field_group
+  name: insta
+  label: Instagram
+  fields:
+  - type: boolean
+    name: enable
+    label: Affichage
+  - type: text
+    name: titre
+    label: Titre de section
+    showOnly:
+      field: enable
+      value: true
+  - type: text
+    name: id
+    label: Identifiant Behold
+    description : a recuperer sur https://app.behold.so 
 pages:
 - content/french/_index.md
