@@ -36,7 +36,7 @@ event:
     texte: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
     image: https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1537132205/news-slider/item-2.webp
-  - date: 2022-05-26T09:52:00Z
+  - date: 2022-05-22T09:52:00Z
     nom: Mark Dinn
     titre: 'Events 4 '
     texte: Lorem Ipsum is simply dummy text of the printing and typesetting industry.

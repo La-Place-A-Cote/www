@@ -59,6 +59,16 @@ main {
       flex-shrink: 0;
       //padding: 15px;
 
+      &.bignews{
+        width: 1000px;
+        @media screen and (max-width: 992px) {
+          width: 700px;
+        }
+        @media screen and (max-width: 540px) {
+          width: 340px;
+        }
+      }
+
       @media screen and (max-width: 992px) {
         width: 340px;
       }
@@ -154,6 +164,7 @@ main {
     }
 
   }
+  
 
   &__item {
     padding: 40px;
@@ -161,6 +172,19 @@ main {
     border-radius: 10px;
     display: block;
     transition: all .3s;
+
+    &.big-flex{
+      display: flex;
+      @media screen and (max-width: 540px) {
+        display: block;
+      }
+      .textcontainer{
+        margin-right: 1rem;
+        @media screen and (max-width: 540px) {
+          margin-right: 0;
+        }
+      }
+    }
 
     @media screen and (min-width: 800px) {
       &:hover {
@@ -561,3 +585,26 @@ main {
     transform: rotate(0deg);
   }
 }
+
+
+.thefork{
+  width: 100%;
+  border:none;
+  overflow: scroll;
+  }
+  /* Media queries widget */ 
+  @media only screen and (max-width : 320px) { 
+      .thefork{
+      min-height: 840px;
+      }
+  }
+  @media only screen and (min-width : 321px) and (max-width : 516px){
+      .thefork{
+      min-height: 650px; 
+      }
+  }
+  @media only screen and (min-width : 517px) { 
+      .thefork{
+      min-height: 550px; 
+      }
+  }

@@ -41,8 +41,9 @@
   <div class="container">
 		<div class="row" >
 			<div class="col-md-12 " >
-        <div class="tf-floating-button"><a class="tf-widget-link" href=" https://module.lafourchette.com/fr_FR/module/498349-fc91c " target="_blank" rel="noopener">Réserver une table</a><img class="tf-button-icon" src="https://static.myfourchette.com/uploads/email_campaign/56567_IsotypeTheForkGreenSm.png"></div>
-        <style>.tf-floating-button{margin: 40px auto auto auto;opacity:1;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border:1px solid;z-index:9999999;background-color:#fff;border-radius:4px;display:-webkit-box;display:-ms-flexbox;display:flex;height:46px;width:50%;border-color:rgba(90,149,66,1);color:rgba(90,149,66,1);}.tf-widget-link{padding:0 0 0 15px;text-decoration:none;color:rgba(90,149,66,1);font-family:Raleway,sans-serif;font-size:1.1em;width:85%;text-align:center}.tf-widget-link:hover{font-weight:700;background:none!important}.tf-button-icon{padding:0 0 0 25px;border-left:1px solid rgba(90,149,66,1)}</style>
+        <iframe class="thefork" src="https://module.lafourchette.com/fr_FR/module/498349-fc91c " style="width: 100%; min-height:800px; border:none; overflow:scroll;"></iframe>
+        {{/*  <div class="tf-floating-button"><a class="tf-widget-link" href=" https://module.lafourchette.com/fr_FR/module/498349-fc91c " target="_blank" rel="noopener">Réserver une table</a><img class="tf-button-icon" src="https://static.myfourchette.com/uploads/email_campaign/56567_IsotypeTheForkGreenSm.png"></div>
+        <style>.tf-floating-button{margin: 40px auto auto auto;opacity:1;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border:1px solid;z-index:9999999;background-color:#fff;border-radius:4px;display:-webkit-box;display:-ms-flexbox;display:flex;height:46px;width:50%;border-color:rgba(90,149,66,1);color:rgba(90,149,66,1);}.tf-widget-link{padding:0 0 0 15px;text-decoration:none;color:rgba(90,149,66,1);font-family:Raleway,sans-serif;font-size:1.1em;width:85%;text-align:center}.tf-widget-link:hover{font-weight:700;background:none!important}.tf-button-icon{padding:0 0 0 25px;border-left:1px solid rgba(90,149,66,1)}</style>  */}}
       </div>
     </div>
   </div>
@@ -59,24 +60,33 @@
   <div class="wrapper">  
     <div class="news-slider">
       <div class="news-slider__wrp swiper-wrapper">
+        {{ $.Scratch.Set "counter" 0 }}
+        {{ range sort .evenements }}
+        {{ $t := (time .date) }}
+        {{ if $t.After now }}
+        {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+        {{ end }}
+        {{ end }}
+        {{ $count := $.Scratch.Get "counter"}}
         {{ range sort .evenements ".date" }}
         {{ $t := (time .date) }}
         {{ if $t.After now }}
-        <div class="news-slider__item swiper-slide">
-          {{ with .nom }}<a  href="{{ `author/` | relLangURL }}{{ . | urlize }}" class="news__item">{{ end }}
-            <div class="news-date">
-              {{ with .date }} <span class="news-date__title">{{ time.Format ":date_long" . }}</span>{{ end }}
+        <div class=" news-slider__item {{if le $count 2}} bignews {{ end }} swiper-slide ">
+          {{ with .nom }}<a  href="{{ `author/` | relLangURL }}{{ . | urlize }}" class="news__item {{if le $count 2}} big-flex {{ end }}">{{ end }}
+            <div class="textcontainer">
+              <div class="news-date">
+                {{ with .date }} <span class="news-date__title">{{ time.Format ":date_long" . }}</span>{{ end }}
+              </div>
+              <div class="news__title">
+                {{ .titre }}
+              </div>
+              <div class="news__nom">
+                {{ .nom }}
+              </div>
+              <p class="news__txt">
+                {{ .texte }}
+              </p>
             </div>
-            <div class="news__title">
-              {{ .titre }}
-            </div>
-            <div class="news__nom">
-              {{ .nom }}
-            </div>
-            <p class="news__txt">
-              {{ .texte }}
-            </p>
-  
             <div class="news__img">
               <img src="{{ .image | relURL }}" alt="news">
             </div>
@@ -85,7 +95,10 @@
         {{ end }}
         {{ end }}
       </div>
-  
+      
+      {{if le $count 2}} 
+        <div onload="onlytwo()"></div>
+      {{ end }}
       <div class="news-slider__ctr">
   
         <div class="news-slider__arrows">
@@ -186,5 +199,10 @@
 {{ end }}
 {{ end }}
 <!-- /Insta  -->
-
+<script>
+  function onlytwo() {
+    alert("Page is loaded");
+  };
+</script>
 {{ end }}
+
