@@ -13,7 +13,6 @@ slider:
     texte: Some representative placeholder content for the second slide.
 fork:
   enable: true
-  uid: "498349-fc91c"
 event:
   enable: true
   titre: Nos Événement
@@ -146,4 +145,5 @@ insta:
   enable: true
   titre: " Instagram"
   id: "ljSLT7SuyAwK9phkZZ4i"
+  //B8E4nucf8QU15kvnm8fN
 ---
