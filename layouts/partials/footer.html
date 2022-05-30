@@ -2,22 +2,33 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <div class="info">
-						<ul>
-							<li>
-								<h4>Telephone</h4>
-								<p>{{ site.Params.phone | markdownify }}</p>
-							</li>
-              <li>
-								<h4>Email</h4>
-								<p>{{ site.Params.email | markdownify }}</p>
-							</li>
-              <li>
-								<h4>Addresse</h4>
-								<p>{{ site.Params.location | markdownify }}</p>
-							</li>
-						</ul>
-					</div>
+		<div class="info">
+			<ul class="d-flex justify-content-around flex-wrap">
+				<li class="m-3">
+					<h4>Telephone</h4>
+					<p>{{ site.Params.phone | markdownify }}</p>
+				</li>
+				<li class="m-3">
+					<h4>Email</h4>
+					<p>{{ site.Params.email | markdownify }}</p>
+				</li>
+				<li class="m-3">
+					<h4>Addresse</h4>
+					<p>{{ site.Params.location | markdownify }}</p>
+				</li>
+				<li class="phoneResa m-3">
+					<h4>Réserver</h4>
+					<div class="tf-widget-button"><a class="tf-button-link" href=" https://module.lafourchette.com/fr_FR/module/498349-fc91c " target="_blank" rel="noopener">Réserver une table</a></div><style>.tf-widget-button{margin: auto;opacity:1;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border:1px solid;z-index:9999999;background-color:#fff;border-radius:4px;display:-webkit-box;display:-ms-flexbox;display:flex;height:42px;width:220px;border-color:rgba(90,149,66,1);color:rgba(90,149,66,1)}.tf-button-link{text-decoration:none;color:rgba(90,149,66,1);font-family:Raleway,sans-serif;font-size:1.1em;width:100%;text-align:center}.tf-button-link:hover{font-weight:700;background:none!important}</style>
+				</li>
+			</ul>
+		</div>
+		<div class="social d-flex justify-content-center">
+			<a class="fs-3 m-3" href="https://www.instagram.com/laplaceacote/"><i class="fab fa-instagram"></i></a>
+			<a class="fs-3 m-3" href="https://www.facebook.com/lucolinh/"><i class="fab fa-facebook"></i></a>
+			<a class="fs-3 m-3" href="https://www.tripadvisor.fr/Restaurant_Review-g970348-d3170310-Reviews-La_Place-Villecroze_Var_Provence_Alpes_Cote_d_Azur.html"><i class="fab fa-tripadvisor"></i></a>
+		</div>
+
+
         <p class="copyright">{{ site.Params.copyright | markdownify }}</p>
       </div>
     </div>
