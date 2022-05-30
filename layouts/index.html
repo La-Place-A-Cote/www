@@ -47,19 +47,22 @@
 <!-- Event  -->
 {{ with .Params.event }}
 {{ if .enable }}
+{{ $.Scratch.Set "counter" 0 }}
+{{ range sort .evenements }}
+{{ $t := (time .date) }}
+{{ if $t.After now }}
+{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+{{ end }}
+{{ end }}
+{{ $count := $.Scratch.Get "counter"}}
+{{ if gt $count 0}}
 <section>
   <h1 style="text-align: center; margin-bottom: 4rem;margin-top: 4rem;">{{ .titre | markdownify }}</h1>
   <div class="wrapper">  
     <div class="news-slider">
       <div class="news-slider__wrp swiper-wrapper">
-        {{ $.Scratch.Set "counter" 0 }}
-        {{ range sort .evenements }}
-        {{ $t := (time .date) }}
-        {{ if $t.After now }}
-        {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
-        {{ end }}
-        {{ end }}
-        {{ $count := $.Scratch.Get "counter"}}
+       
+        
         {{ range sort .evenements ".date" }}
         {{ $t := (time .date) }}
         {{ if $t.After now }}
@@ -115,6 +118,7 @@
   </div>
   
 </section>
+{{ end }}
 {{ end }}
 {{ end }}
 <!-- /Event  -->
