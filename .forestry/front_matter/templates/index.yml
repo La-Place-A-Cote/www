@@ -155,6 +155,6 @@ fields:
   - type: text
     name: id
     label: Identifiant Behold
-    description : a recuperer sur https://app.behold.so 
+    description: a recuperer sur https://app.behold.so
 pages:
 - content/french/_index.md
