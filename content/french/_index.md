@@ -5,12 +5,6 @@ slider:
   - image: "/uploads/img_0087.JPG"
     titre: La Place Villecroze
     texte: ''
-  - image: https://source.unsplash.com/bF2vsubyHcQ/1920x1080
-    titre: Second slide label
-    texte: Some representative placeholder content for the second slide.
-  - image: https://source.unsplash.com/bF2vsubyHcQ/1920x1080
-    titre: third  slide label
-    texte: Some representative placeholder content for the second slide.
 fork:
   enable: true
   uid: ''
