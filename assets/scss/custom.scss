@@ -175,6 +175,7 @@ main {
 
     &.big-flex{
       display: flex;
+      justify-content: space-around;
       @media screen and (max-width: 540px) {
         display: block;
       }
@@ -290,9 +291,7 @@ main {
   &__img {
     border-radius: 10px;
     box-shadow: 0 6px 26px 6px rgba(0,0,0,0.25);
-    height: 200px;
-    margin-top: 30px;
-    width: 100%;
+    height: 250px;
     transition: all .3s;
     transform-origin: 0% 0%;
 
