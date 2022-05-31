@@ -2,7 +2,7 @@
 slider:
   enable: true
   images:
-  - image: "/uploads/auzf2811.JPG"
+  - image: "/uploads/img_0087.JPG"
     titre: La Place Villecroze
     texte: ''
   - image: https://source.unsplash.com/bF2vsubyHcQ/1920x1080
