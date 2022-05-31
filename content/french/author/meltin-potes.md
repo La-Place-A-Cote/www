@@ -1,6 +1,5 @@
 +++
 bg_image = "/uploads/img_0069.JPG"
-draft = true
 email = ""
 social = []
 title = "Meltin potes"
