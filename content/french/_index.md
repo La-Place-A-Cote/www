@@ -64,12 +64,10 @@ food:
         enable: true
         description: ''
         prix: 23 €
-      - titre: Caesar Salad
+      - titre: 'Gambas flambées au pastis '
         enable: true
-        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim&&
-        prix: "$ 100.00"
+        description: ''
+        prix: 25 €
       - titre: Steak with a Garlic and Parsley Risotto
         enable: true
         description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
