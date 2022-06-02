@@ -32,16 +32,6 @@ food:
       eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco"
     sous_menus:
-    - nom: Plats Coté Terre
-      pricing_item:
-      - titre: Burger maison salade frites
-        enable: true
-        description: ''
-        prix: 17 €
-      - titre: Burger foie gras salade frites
-        enable: true
-        description: ''
-        prix: 20 €
     - nom: Entrée
       pricing_item:
       - titre: Salade Gourmande
@@ -86,6 +76,16 @@ food:
         enable: true
         description: ''
         prix: 23 €
+    - nom: Plats Coté Terre
+      pricing_item:
+      - titre: Burger maison salade frites
+        enable: true
+        description: ''
+        prix: 17 €
+      - titre: Burger foie gras salade frites
+        enable: true
+        description: ''
+        prix: 20 €
   - titre: "... À Côté "
     description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
       eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
