@@ -123,6 +123,42 @@ food:
         enable: true
         description: Sauce Tomate, Mozzarella, Feuilles de Basilic
         prix: 12 €
+      - titre: Reine
+        enable: true
+        description: Sauce Tomate, Mozzarella, Jambon Blanc, Champignons
+        prix: 13 €
+      - titre: ''
+        enable: false
+        description: ''
+        prix: ''
+      - titre: ''
+        enable: false
+        description: ''
+        prix: ''
+      - titre: ''
+        enable: false
+        description: ''
+        prix: ''
+      - titre: ''
+        enable: false
+        description: ''
+        prix: ''
+      - titre: ''
+        enable: false
+        description: ''
+        prix: ''
+      - titre: ''
+        enable: false
+        description: ''
+        prix: ''
+      - titre: ''
+        enable: false
+        description: ''
+        prix: ''
+      - titre: ''
+        enable: false
+        description: ''
+        prix: ''
     - nom: Entrée
       pricing_item: []
     - nom: Plat
