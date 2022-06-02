@@ -140,10 +140,11 @@ food:
         enable: true
         description: Sauce Tomate, Mozzarella, Gorgonzola, Chèvre, Parmesan
         prix: 14 €
-      - titre: ''
-        enable: false
-        description: ''
-        prix: ''
+      - titre: Végétarienne
+        enable: true
+        description: Sauce Tomate, Mozzarella, Artichauts, Champignons, Oignons confits,
+          Poivrons Confits, Aubergine
+        prix: 14 €
       - titre: ''
         enable: false
         description: ''
