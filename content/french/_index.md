@@ -86,6 +86,30 @@ food:
         enable: true
         description: ''
         prix: 20 €
+      - titre: ''
+        enable: false
+        description: ''
+        prix: ''
+      - titre: ''
+        enable: false
+        description: ''
+        prix: ''
+      - titre: ''
+        enable: false
+        description: ''
+        prix: ''
+      - titre: ''
+        enable: false
+        description: ''
+        prix: ''
+      - titre: ''
+        enable: false
+        description: ''
+        prix: ''
+      - titre: ''
+        enable: false
+        description: ''
+        prix: ''
   - titre: "... À Côté "
     description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
       eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
