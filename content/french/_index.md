@@ -32,6 +32,8 @@ food:
       eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco"
     sous_menus:
+    - nom: PLATS DU JOUR MIDI ET SOIR
+      pricing_item: []
     - nom: Entrée
       pricing_item:
       - titre: Salade Gourmande
