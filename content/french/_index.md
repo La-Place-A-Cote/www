@@ -34,15 +34,11 @@ food:
     sous_menus:
     - nom: Entrée
       pricing_item:
-      - titre: Tiramisù à la chair de crabe et son coulis
+      - titre: Salade Gourmande
         enable: true
         description: ''
-        prix: 15 €
-      - titre: Soupe au pistou
-        enable: true
-        description: ''
-        prix: 15 €
-      - titre: Chartreuse de sole et mousse de betterave
+        prix: 17 €
+      - titre: Salade de chèvre chaud et son jambon cru
         enable: true
         description: ''
         prix: 15 €
@@ -50,14 +46,18 @@ food:
         enable: true
         description: ''
         prix: 13 €
-      - titre: Salade de chèvre chaud et son jambon cru
+      - titre: Chartreuse de sole et mousse de betterave
         enable: true
         description: ''
         prix: 15 €
-      - titre: Salade Gourmande
+      - titre: Soupe au pistou
         enable: true
         description: ''
-        prix: 17 €
+        prix: 15 €
+      - titre: Tiramisù à la chair de crabe et son coulis
+        enable: true
+        description: ''
+        prix: 15 €
     - nom: Plat
       pricing_item:
       - titre: Pancakes n' Such Titas
