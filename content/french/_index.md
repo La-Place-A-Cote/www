@@ -164,6 +164,10 @@ food:
         description: Sauce Tomate, Mozzarella, Jambon cru, Roquette, Tomates cerises,
           Copeaux de Parmesan
         prix: 14 €
+      - titre: Corsica
+        enable: true
+        description: Sauce Tomate, Mozzarella, Figatelli, Tomates cerises, Figues
+        prix: 14 €
     - nom: Entrée
       pricing_item: []
     - nom: Plat
