@@ -34,6 +34,10 @@ food:
     sous_menus:
     - nom: Entrée
       pricing_item:
+      - titre: Salade de chèvre chaud et son jambon cru
+        enable: true
+        description: ''
+        prix: 15 €
       - titre: Salade Gourmande
         enable: true
         description: ''
