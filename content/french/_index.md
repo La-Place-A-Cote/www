@@ -136,10 +136,10 @@ food:
         description: Sauce Tomate, Mozzarella, Jambon Blanc, Champignons, Jaune D'œuf,
           Persillade
         prix: 15 €
-      - titre: ''
-        enable: false
-        description: ''
-        prix: ''
+      - titre: 4 Fromages
+        enable: true
+        description: Sauce Tomate, Mozzarella, Gorgonzola, Chèvre, Parmesan
+        prix: 14 €
       - titre: ''
         enable: false
         description: ''
