@@ -12,7 +12,7 @@ event:
   enable: true
   titre: Nos Événement
   evenements:
-  - date: 2022-07-13T11:52:00+02:00
+  - date: 2022-07-13T11:52:00.000+02:00
     nom: Da Boogie pop
     titre: Concert
     texte: Rock Blues Pop
@@ -34,12 +34,12 @@ food:
     sous_menus:
     - nom: Entrée
       pricing_item:
-      - titre: Pancakes n' Such Titas
+      - titre: Salade Gourmande
         enable: true
         description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
           do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim&&
-        prix: "$ 125.00"
+        prix: 17 €
     - nom: Plat
       pricing_item:
       - titre: Pancakes n' Such Titas
