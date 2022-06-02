@@ -98,14 +98,14 @@ food:
         enable: true
         description: ''
         prix: 25 €
-      - titre: ''
-        enable: false
+      - titre: Filet de canard, miel, myrtilles
+        enable: true
         description: ''
-        prix: ''
-      - titre: ''
-        enable: false
-        description: ''
-        prix: ''
+        prix: 25 €
+      - titre: Entrecôte maître hôtel
+        enable: true
+        description: Supplément sauce poivre cèpes (2 €) morilles (3 €)
+        prix: 25 €
       - titre: ''
         enable: false
         description: ''
