@@ -159,10 +159,11 @@ food:
         description: Sauce Tomate, Mozzarella, Viande Hachée, Champignons, Oignons
           Rouge, Persillade
         prix: 15 €
-      - titre: ''
-        enable: false
-        description: ''
-        prix: ''
+      - titre: Italienne
+        enable: true
+        description: Sauce Tomate, Mozzarella, Jambon cru, Roquette, Tomates cerises,
+          Copeaux de Parmesan
+        prix: 14 €
     - nom: Entrée
       pricing_item: []
     - nom: Plat
