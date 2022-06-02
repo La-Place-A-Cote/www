@@ -117,6 +117,8 @@ food:
       eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco"
     sous_menus:
+    - nom: Nos Pizzas
+      pricing_item: []
     - nom: Entrée
       pricing_item: []
     - nom: Plat
