@@ -34,6 +34,10 @@ food:
     sous_menus:
     - nom: Entrée
       pricing_item:
+      - titre: Chartreuse de sole et mousse de betterave
+        enable: true
+        description: ''
+        prix: 15 €
       - titre: 'Gâteau aux  légumes et sa tapenade                 '
         enable: true
         description: ''
