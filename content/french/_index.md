@@ -68,12 +68,10 @@ food:
         enable: true
         description: ''
         prix: 25 €
-      - titre: Steak with a Garlic and Parsley Risotto
+      - titre: Filets de sole à la mousse de saumon
         enable: true
-        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim&&
-        prix: "$ 20.00"
+        description: ''
+        prix: 23 €
       - titre: Meat of Skewers
         enable: true
         description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
