@@ -32,8 +32,6 @@ food:
       eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco"
     sous_menus:
-    - nom: PLATS DU JOUR MIDI ET SOIR
-      pricing_item: []
     - nom: Entrée
       pricing_item:
       - titre: Salade Gourmande
@@ -112,6 +110,8 @@ food:
         enable: true
         description: Supplément sauce poivre cèpes (2 €) morilles (3 €)
         prix: 27 €
+    - nom: PLATS DU JOUR MIDI ET SOIR
+      pricing_item: []
   - titre: "... À Côté "
     description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
       eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
