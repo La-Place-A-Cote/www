@@ -120,37 +120,7 @@ food:
     - nom: Entrée
       pricing_item: []
     - nom: Plat
-      pricing_item:
-      - titre: Pancakes n' Such Titas
-        enable: true
-        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim&&
-        prix: "$ 125.00"
-      - titre: Caesar Salad
-        enable: true
-        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim&&
-        prix: "$ 100.00"
-      - titre: Steak with a Garlic and Parsley Risotto
-        enable: true
-        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim&&
-        prix: "$ 20.00"
-      - titre: Meat of Skewers
-        enable: true
-        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim&&
-        prix: "$ 45.00"
-      - titre: Pancakes n' Such
-        enable: true
-        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim&&
-        prix: "$ 25.00"
+      pricing_item: []
 insta:
   enable: true
   titre: " Instagram"
