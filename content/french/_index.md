@@ -34,6 +34,10 @@ food:
     sous_menus:
     - nom: Entrée
       pricing_item:
+      - titre: Soupe au pistou
+        enable: true
+        description: ''
+        prix: 15 €
       - titre: Chartreuse de sole et mousse de betterave
         enable: true
         description: ''
