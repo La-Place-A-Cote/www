@@ -60,12 +60,10 @@ food:
         prix: 15 €
     - nom: Plat Coté Mer
       pricing_item:
-      - titre: Pancakes n' Such Titas
+      - titre: Filets de rouget au thym
         enable: true
-        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim&&
-        prix: "$ 125.00"
+        description: ''
+        prix: 23 €
       - titre: Caesar Salad
         enable: true
         description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -84,12 +82,6 @@ food:
           do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim&&
         prix: "$ 45.00"
-      - titre: Pancakes n' Such
-        enable: true
-        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim&&
-        prix: "$ 25.00"
   - titre: "... À Côté "
     description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
       eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
