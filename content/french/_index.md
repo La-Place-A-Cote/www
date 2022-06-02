@@ -72,12 +72,10 @@ food:
         enable: true
         description: ''
         prix: 23 €
-      - titre: Meat of Skewers
+      - titre: Pavé de cabillaud piqué aux anchois
         enable: true
-        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim&&
-        prix: "$ 45.00"
+        description: ''
+        prix: 23 €
   - titre: "... À Côté "
     description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
       eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
