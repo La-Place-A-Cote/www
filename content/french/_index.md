@@ -127,10 +127,10 @@ food:
         enable: true
         description: Sauce Tomate, Mozzarella, Jambon Blanc, Champignons
         prix: 13 €
-      - titre: ''
-        enable: false
-        description: ''
-        prix: ''
+      - titre: Napolitaine
+        enable: true
+        description: 'Sauce Tomate, Mozzarella, Anchois, Câpres '
+        prix: 13 €
       - titre: ''
         enable: false
         description: ''
