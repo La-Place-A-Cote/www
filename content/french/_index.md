@@ -38,6 +38,10 @@ food:
         enable: true
         description: ''
         prix: 17 €
+      - titre: Burger foie gras salade frites
+        enable: true
+        description: ''
+        prix: 20 €
     - nom: Entrée
       pricing_item:
       - titre: Salade Gourmande
