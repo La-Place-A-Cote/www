@@ -118,7 +118,11 @@ food:
       veniam, quis nostrud exercitation ullamco"
     sous_menus:
     - nom: Nos Pizzas
-      pricing_item: []
+      pricing_item:
+      - titre: Margarita
+        enable: true
+        description: Sauce Tomate, Mozzarella, Feuilles de Basilic
+        prix: 12 €
     - nom: Entrée
       pricing_item: []
     - nom: Plat
