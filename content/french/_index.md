@@ -90,10 +90,10 @@ food:
         enable: true
         description: ''
         prix: 25 €
-      - titre: ''
-        enable: false
+      - titre: Souris d’agneau et son ail en chemise
+        enable: true
         description: ''
-        prix: ''
+        prix: 25 €
       - titre: ''
         enable: false
         description: ''
