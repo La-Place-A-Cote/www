@@ -154,10 +154,11 @@ food:
         enable: true
         description: Crème Fraiche, Mozzarella, Chèvre, Miel, Noix
         prix: 14 €
-      - titre: ''
-        enable: false
-        description: ''
-        prix: ''
+      - titre: Carnivore
+        enable: true
+        description: Sauce Tomate, Mozzarella, Viande Hachée, Champignons, Oignons
+          Rouge, Persillade
+        prix: 15 €
       - titre: ''
         enable: false
         description: ''
