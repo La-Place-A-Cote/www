@@ -145,10 +145,11 @@ food:
         description: Sauce Tomate, Mozzarella, Artichauts, Champignons, Oignons confits,
           Poivrons Confits, Aubergine
         prix: 14 €
-      - titre: ''
-        enable: false
-        description: ''
-        prix: ''
+      - titre: Espagnole
+        enable: true
+        description: Sauce Tomate, Mozzarella, Chorizo, Poivrons confits, oignons
+          confits
+        prix: 14 €
       - titre: ''
         enable: false
         description: ''
