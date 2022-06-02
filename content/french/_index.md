@@ -94,10 +94,10 @@ food:
         enable: true
         description: ''
         prix: 25 €
-      - titre: ''
-        enable: false
+      - titre: Pluma de porc marchand de vin
+        enable: true
         description: ''
-        prix: ''
+        prix: 25 €
       - titre: ''
         enable: false
         description: ''
