@@ -58,7 +58,7 @@ food:
         enable: true
         description: ''
         prix: 15 €
-    - nom: Plat
+    - nom: Plat Coté Mer
       pricing_item:
       - titre: Pancakes n' Such Titas
         enable: true
