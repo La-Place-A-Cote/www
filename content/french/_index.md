@@ -32,6 +32,12 @@ food:
       eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco"
     sous_menus:
+    - nom: Plats Coté Terre
+      pricing_item:
+      - titre: ''
+        enable: false
+        description: ''
+        prix: ''
     - nom: Entrée
       pricing_item:
       - titre: Salade Gourmande
