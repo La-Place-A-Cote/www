@@ -36,9 +36,7 @@ food:
       pricing_item:
       - titre: Salade Gourmande
         enable: true
-        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim&&
+        description: ''
         prix: 17 €
     - nom: Plat
       pricing_item:
