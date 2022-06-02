@@ -150,10 +150,10 @@ food:
         description: Sauce Tomate, Mozzarella, Chorizo, Poivrons confits, oignons
           confits
         prix: 14 €
-      - titre: ''
-        enable: false
-        description: ''
-        prix: ''
+      - titre: Ruche
+        enable: true
+        description: Crème Fraiche, Mozzarella, Chèvre, Miel, Noix
+        prix: 14 €
       - titre: ''
         enable: false
         description: ''
