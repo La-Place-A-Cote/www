@@ -86,10 +86,10 @@ food:
         enable: true
         description: ''
         prix: 20 €
-      - titre: ''
-        enable: false
+      - titre: Rognons de veau aux 3 moutardes
+        enable: true
         description: ''
-        prix: ''
+        prix: 25 €
       - titre: ''
         enable: false
         description: ''
