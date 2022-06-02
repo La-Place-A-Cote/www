@@ -34,6 +34,10 @@ food:
     sous_menus:
     - nom: Entrée
       pricing_item:
+      - titre: 'Gâteau aux  légumes et sa tapenade                 '
+        enable: true
+        description: ''
+        prix: 13 €
       - titre: Salade de chèvre chaud et son jambon cru
         enable: true
         description: ''
