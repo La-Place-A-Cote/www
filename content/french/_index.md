@@ -34,10 +34,10 @@ food:
     sous_menus:
     - nom: Plats Coté Terre
       pricing_item:
-      - titre: ''
-        enable: false
+      - titre: Burger maison salade frites
+        enable: true
         description: ''
-        prix: ''
+        prix: 17 €
     - nom: Entrée
       pricing_item:
       - titre: Salade Gourmande
