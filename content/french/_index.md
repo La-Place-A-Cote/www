@@ -34,6 +34,10 @@ food:
     sous_menus:
     - nom: Entrée
       pricing_item:
+      - titre: Tiramisù à la chair de crabe et son coulis
+        enable: true
+        description: ''
+        prix: 15 €
       - titre: Soupe au pistou
         enable: true
         description: ''
