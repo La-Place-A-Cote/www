@@ -131,10 +131,11 @@ food:
         enable: true
         description: 'Sauce Tomate, Mozzarella, Anchois, Câpres '
         prix: 13 €
-      - titre: ''
-        enable: false
-        description: ''
-        prix: ''
+      - titre: Calzone
+        enable: true
+        description: Sauce Tomate, Mozzarella, Jambon Blanc, Champignons, Jaune D'œuf,
+          Persillade
+        prix: 15 €
       - titre: ''
         enable: false
         description: ''
