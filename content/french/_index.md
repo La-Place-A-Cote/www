@@ -106,10 +106,10 @@ food:
         enable: true
         description: Supplément sauce poivre cèpes (2 €) morilles (3 €)
         prix: 25 €
-      - titre: ''
-        enable: false
-        description: ''
-        prix: ''
+      - titre: Filet de bœuf maître hôtel
+        enable: true
+        description: Supplément sauce poivre cèpes (2 €) morilles (3 €)
+        prix: 27 €
   - titre: "... À Côté "
     description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
       eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
