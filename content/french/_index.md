@@ -10,7 +10,7 @@ fork:
   uid: ''
 event:
   enable: true
-  titre: Nos Événement
+  titre: Nos Événements
   evenements:
   - date: 2022-07-13T11:52:00.000+02:00
     nom: Da Boogie pop
