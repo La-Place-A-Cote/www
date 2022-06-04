@@ -2,7 +2,37 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400,500,600);
 @import url(https://fonts.googleapis.com/css?family=Volkhov:400italic);
-
+/*  Lucida Handwriting */
+@font-face {
+  font-family: "Lucida Handwriting Thin";
+  src: url('/Font/LucidaHandwritingStdThin.TTF') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lucida Handwriting Light";
+  src: url('/Font/LucidaHandwritingStdLight.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lucida Handwriting";
+  src: url('/Font/LucidaHandwritingStdRg.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lucida Handwriting Bold";
+  src: url('/Font/LucidaHandwritingStdBold.TTF') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lucida Handwriting Bolder";
+  src: url('/Font/LucidaHandwritingStdBlack.TTF') format('truetype');
+  font-weight: bolder;
+  font-style: normal;
+}
 // @font-face {
 //   font-family: 'Bree';
 //   src: url("/Font/Bree\ Regular.otf") format('opentype');
