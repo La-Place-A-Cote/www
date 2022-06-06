@@ -188,10 +188,11 @@ food:
           Courgette
         description_en: ''
         prix: ''
-      - titre_fr: ''
+      - titre_fr: Assiette Caprèse
         titre_en: ''
         enable: false
-        description_fr: ''
+        description_fr: Tomate de saison, Ricotta, Huile d'olive, Basilic, Coppa,
+          Jambon cru
         description_en: ''
         prix: ''
     - nom_fr: Nos Pizzas
