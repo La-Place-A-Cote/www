@@ -103,21 +103,36 @@ fields:
       label: Sous menu
       fields:
       - type: text
-        name: nom
-        label: Nom
+        name: nom_fr
+        label: Nom FR
         description: Entrée, Plat, Dessert
+      - name: nom_en
+        type: text
+        config:
+          required: false
+        label: 'Nom EN '
       - type: field_group_list
         name: pricing_item
         fields:
         - type: text
-          name: titre
-          label: Nom du plat
+          name: titre_fr
+          label: Nom du plat FR
+        - name: titre_en
+          type: text
+          config:
+            required: false
+          label: Nom du plat EN
         - type: boolean
           name: enable
           label: Afficher
         - type: textarea
           name: description
-          label: Les ingredients
+          label: Les ingredients FR
+        - name: description_en
+          type: text
+          config:
+            required: false
+          label: Les ingredients En
         - type: text
           name: prix
           label: Le prix
