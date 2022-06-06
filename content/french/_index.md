@@ -57,7 +57,7 @@ food:
         prix: 13 €
         description: ''
       - titre_fr: Chartreuse de sole et mousse de betterave
-        titre_en: ''
+        titre_en: Chartreuse of sole and beetroot mousse
         enable: true
         description_fr: ''
         description_en: ''
