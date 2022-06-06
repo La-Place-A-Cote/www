@@ -102,7 +102,7 @@ food:
         prix: 23 €
         description: ''
       - titre_fr: Pavé de cabillaud piqué aux anchois
-        titre_en: ''
+        titre_en: Cod steak with anchovies
         enable: true
         description_fr: ''
         description_en: ''
