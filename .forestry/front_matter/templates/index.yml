@@ -126,7 +126,7 @@ fields:
           name: enable
           label: Afficher
         - type: textarea
-          name: description
+          name: description_fr
           label: Les ingredients FR
         - name: description_en
           type: text
