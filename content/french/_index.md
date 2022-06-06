@@ -50,7 +50,7 @@ food:
         prix: 15 €
         description: ''
       - titre_fr: 'Gâteau aux  légumes et sa tapenade                 '
-        titre_en: ''
+        titre_en: 'Vegetable cake with tapenade   '
         enable: true
         description_fr: ''
         description_en: ''
