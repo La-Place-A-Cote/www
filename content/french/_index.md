@@ -32,146 +32,205 @@ food:
       eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco"
     sous_menus:
-    - nom: Entrée
+    - nom_fr: Entrée
+      nom_en: Entrée
       pricing_item:
-      - titre: Salade Gourmande
+      - titre_fr: Salade Gourmande
+        titre_en: Salade Gourmande
         enable: true
-        description: ''
+        description_fr: ''
+        description_en: ''
         prix: 17 €
-      - titre: Salade de chèvre chaud et son jambon cru
+      - titre_fr: Salade de chèvre chaud et son jambon cru
+        titre_en:
         enable: true
-        description: ''
+        description_fr: ''
+        description_en: ''
         prix: 15 €
-      - titre: 'Gâteau aux  légumes et sa tapenade                 '
+      - titre_fr: 'Gâteau aux  légumes et sa tapenade                 '
+        titre_en:
         enable: true
-        description: ''
+        description_fr: ''
+        description_en: ''
         prix: 13 €
-      - titre: Chartreuse de sole et mousse de betterave
+      - titre_fr: Chartreuse de sole et mousse de betterave
+        titre_en:
         enable: true
-        description: ''
+        description_fr: ''
+        description_en: ''
         prix: 15 €
-      - titre: Soupe au pistou
+      - titre_fr: Soupe au pistou
+        titre_en:
         enable: true
-        description: ''
+        description_fr: ''
+        description_en: ''
         prix: 15 €
-      - titre: Tiramisù à la chair de crabe et son coulis
+      - titre_fr: Tiramisù à la chair de crabe et son coulis
+        titre_en:
         enable: true
-        description: ''
+        description_fr: ''
+        description_en: ''
         prix: 15 €
-    - nom: Plat Coté Mer
+    - nom_fr: Plat Coté Mer
+      nom_en:
       pricing_item:
-      - titre: Filets de rouget au thym
+      - titre_fr: Filets de rouget au thym
+        titre_en:
         enable: true
-        description: ''
+        description_fr: ''
+        description_en: ''
         prix: 23 €
-      - titre: 'Gambas flambées au pastis '
+      - titre_fr: 'Gambas flambées au pastis '
+        titre_en:
         enable: true
-        description: ''
+        description_fr: ''
+        description_en: ''
         prix: 25 €
-      - titre: Filets de sole à la mousse de saumon
+      - titre_fr: Filets de sole à la mousse de saumon
+        titre_en:
         enable: true
-        description: ''
+        description_fr: ''
+        description_en: ''
         prix: 23 €
-      - titre: Pavé de cabillaud piqué aux anchois
+      - titre_fr: Pavé de cabillaud piqué aux anchois
+        titre_en:
         enable: true
-        description: ''
+        description_fr: ''
+        description_en: ''
         prix: 23 €
-    - nom: Plats Coté Terre
+    - nom_fr: Plats Coté Terre
+      nom_en:
       pricing_item:
-      - titre: Burger maison salade frites
+      - titre_fr: Burger maison salade frites
+        titre_en:
         enable: true
-        description: ''
+        description_fr: ''
+        description_en: ''
         prix: 17 €
-      - titre: Burger foie gras salade frites
+      - titre_fr: Burger foie gras salade frites
+        titre_en:
         enable: true
-        description: ''
+        description_fr: ''
+        description_en: ''
         prix: 20 €
-      - titre: Rognons de veau aux 3 moutardes
+      - titre_fr: Rognons de veau aux 3 moutardes
+        titre_en:
         enable: true
-        description: ''
+        description_fr: ''
+        description_en: ''
         prix: 25 €
-      - titre: Souris d’agneau et son ail en chemise
+      - titre_fr: Souris d’agneau et son ail en chemise
+        titre_en:
         enable: true
-        description: ''
+        description_fr: ''
+        description_en: ''
         prix: 25 €
-      - titre: Pluma de porc marchand de vin
+      - titre_fr: Pluma de porc marchand de vin
+        titre_en:
         enable: true
-        description: ''
+        description_fr: ''
+        description_en: ''
         prix: 25 €
-      - titre: Filet de canard, miel, myrtilles
+      - titre_fr: Filet de canard, miel, myrtilles
+        titre_en:
         enable: true
-        description: ''
+        description_fr: ''
+        description_en: ''
         prix: 25 €
-      - titre: Entrecôte maître hôtel
+      - titre_fr: Entrecôte maître hôtel
+        titre_en:
         enable: true
-        description: Supplément sauce poivre cèpes (2 €) morilles (3 €)
+        description_fr: Supplément sauce poivre cèpes (2 €) morilles (3 €)
+        description_en: Supplément sauce poivre cèpes (2 €) morilles (3 €)
         prix: 25 €
-      - titre: Filet de bœuf maître hôtel
+      - titre_fr: Filet de bœuf maître hôtel
+        titre_en:
         enable: true
-        description: Supplément sauce poivre cèpes (2 €) morilles (3 €)
+        description_fr: Supplément sauce poivre cèpes (2 €) morilles (3 €)
+        description_en: Supplément sauce poivre cèpes (2 €) morilles (3 €)
         prix: 27 €
-    - nom: PLATS DU JOUR MIDI ET SOIR
+    - nom_fr: PLATS DU JOUR MIDI ET SOIR
+      nom_en:
       pricing_item: []
   - titre: "... À Côté "
     description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
       eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco"
     sous_menus:
-    - nom: Nos Pizzas
+    - nom_fr: Nos Pizzas
+      nom_en: Nos Pizzas
       pricing_item:
-      - titre: Margarita
+      - titre_fr: Margarita
+        titre_en:
         enable: true
-        description: Sauce Tomate, Mozzarella, Feuilles de Basilic
+        description_fr: Sauce Tomate, Mozzarella, Feuilles de Basilic
+        description_en:
         prix: 12 €
-      - titre: Reine
+      - titre_fr: Reine
+        titre_en:
         enable: true
-        description: Sauce Tomate, Mozzarella, Jambon Blanc, Champignons
+        description_fr: Sauce Tomate, Mozzarella, Jambon Blanc, Champignons
+        description_en:
         prix: 13 €
-      - titre: Napolitaine
+      - titre_fr: Napolitaine
+        titre_en:
         enable: true
-        description: 'Sauce Tomate, Mozzarella, Anchois, Câpres '
+        description_fr: 'Sauce Tomate, Mozzarella, Anchois, Câpres '
+        description_en:
         prix: 13 €
-      - titre: Calzone
+      - titre_fr: Calzone
+        titre_en:
         enable: true
-        description: Sauce Tomate, Mozzarella, Jambon Blanc, Champignons, Jaune D'œuf,
+        description_fr: Sauce Tomate, Mozzarella, Jambon Blanc, Champignons, Jaune D'œuf,
           Persillade
+        description_en:
         prix: 15 €
-      - titre: 4 Fromages
+      - titre_fr: 4 Fromages
+        titre_en:
         enable: true
-        description: Sauce Tomate, Mozzarella, Gorgonzola, Chèvre, Parmesan
+        description_fr: Sauce Tomate, Mozzarella, Gorgonzola, Chèvre, Parmesan
+        description_en:
         prix: 14 €
-      - titre: Végétarienne
+      - titre_fr: Végétarienne
+        titre_en:
         enable: true
-        description: Sauce Tomate, Mozzarella, Artichauts, Champignons, Oignons confits,
+        description_fr: Sauce Tomate, Mozzarella, Artichauts, Champignons, Oignons confits,
           Poivrons Confits, Aubergine
+        description_en:
         prix: 14 €
-      - titre: Espagnole
+      - titre_fr: Espagnole
+        titre_en:
         enable: true
-        description: Sauce Tomate, Mozzarella, Chorizo, Poivrons confits, oignons
+        description_fr: Sauce Tomate, Mozzarella, Chorizo, Poivrons confits, oignons
           confits
+        description_en:
         prix: 14 €
-      - titre: Ruche
+      - titre_fr: Ruche
+        titre_en:
         enable: true
-        description: Crème Fraiche, Mozzarella, Chèvre, Miel, Noix
+        description_fr: Crème Fraiche, Mozzarella, Chèvre, Miel, Noix
+        description_en:
         prix: 14 €
-      - titre: Carnivore
+      - titre_fr: Carnivore
+        titre_en:
         enable: true
-        description: Sauce Tomate, Mozzarella, Viande Hachée, Champignons, Oignons
+        description_fr: Sauce Tomate, Mozzarella, Viande Hachée, Champignons, Oignons
           Rouge, Persillade
+        description_en:
         prix: 15 €
-      - titre: Italienne
+      - titre_fr: Italienne
+        titre_en:
         enable: true
-        description: Sauce Tomate, Mozzarella, Jambon cru, Roquette, Tomates cerises,
+        description_fr: Sauce Tomate, Mozzarella, Jambon cru, Roquette, Tomates cerises,
           Copeaux de Parmesan
+        description_en:
         prix: 14 €
-      - titre: Corsica
+      - titre_fr: Corsica
+        titre_en:
         enable: true
-        description: Sauce Tomate, Mozzarella, Figatelli, Tomates cerises, Figues
+        description_fr: Sauce Tomate, Mozzarella, Figatelli, Tomates cerises, Figues
+        description_en:
         prix: 14 €
-    - nom: Entrée
-      pricing_item: []
-    - nom: Plat
-      pricing_item: []
 insta:
   enable: true
   titre: " Instagram"

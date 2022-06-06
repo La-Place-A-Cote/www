@@ -320,6 +320,20 @@ main {
   h2,h3,h4,span{
     font-family: "Lucida Handwriting Bold";
   }
+  .lang{
+    width: 3rem;
+  }
+  .btn{
+    background-color: transparent;
+    border: transparent;
+  }
+
+  .fr {
+    display: inline-block;
+  }
+  .en {
+    display: none;
+  }
 }
 
 .itemfood{
@@ -351,7 +365,6 @@ main {
 }
 
 #price .block .pricing-list ul li .item .item-title h3 {
-  display: inline-block;
   position: relative;
   z-index: 99;
   background: #fff;

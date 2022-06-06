@@ -108,6 +108,15 @@ $(document).ready(function () {
     emailSpan.parentElement.removeChild(emailSpan)
   }
 
+  $("#BtnEN").click(function(){
+    $(".fr").css("display", "none")
+    $(".en").css("display", "inline-block")
+  });
+  $("#BtnFR").click(function(){
+    $(".en").css("display", "none")
+    $(".fr").css("display", "inline-block")
+  });
+
 	// map initialize
 	$(map);
 });
