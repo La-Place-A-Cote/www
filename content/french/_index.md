@@ -175,10 +175,10 @@ food:
         description_fr: Tomate de saison, Boule de Buffala, Huile d'olive, Basilic
         description_en: ''
         prix: ''
-      - titre_fr: ''
+      - titre_fr: Assiette de Charcuterie Italienne
         titre_en: ''
         enable: false
-        description_fr: ''
+        description_fr: Coppa, Jambon Cru, Mortadelle, Pancetta
         description_en: ''
         prix: ''
       - titre_fr: ''
