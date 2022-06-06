@@ -453,7 +453,9 @@ main {
     display: none;
   }
 }
-
+.foodmenu0{
+  border: var(--bs-accordion-border-width)solid var(--bs-accordion-border-color)!important;
+}
 .bg-secondary {
   --bs-bg-opacity:0;
 }
