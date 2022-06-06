@@ -153,51 +153,6 @@ food:
   - titre: 'À COTE '
     description: pizza a volonté
     sous_menus:
-    - nom_fr: Nos entrées
-      nom_en: ''
-      pricing_item:
-      - titre_fr: Salade verte
-        titre_en: ''
-        enable: false
-        description_fr: Salade verte
-        description_en: ''
-        prix: ''
-      - titre_fr: Carpaccio de Bœuf
-        titre_en: ''
-        enable: false
-        description_fr: Fines Tranches de Bœuf, Citron, Basilic, Huile d'olive, Copeaux
-          de Parmesan
-        description_en: ''
-        prix: ''
-      - titre_fr: Tomate Mozzarella
-        titre_en: ''
-        enable: false
-        description_fr: Tomate de saison, Boule de Buffala, Huile d'olive, Basilic
-        description_en: ''
-        prix: ''
-      - titre_fr: Assiette de Charcuterie Italienne
-        titre_en: ''
-        enable: false
-        description_fr: Coppa, Jambon Cru, Mortadelle, Pancetta
-        description_en: ''
-        prix: ''
-      - titre_fr: Salade Italienne
-        titre_en: ''
-        enable: false
-        description_fr: Roquette, Tomate Cerise, Mozzarella, Olives, Poivron, Pignons,
-          Courgette
-        description_en: ''
-        prix: ''
-      - titre_fr: Assiette Caprèse
-        titre_en: ''
-        enable: false
-        description_fr: Tomate de saison, Ricotta, Huile d'olive, Basilic, Coppa,
-          Jambon cru
-        description_en: ''
-        prix: ''
-    - nom_fr: Nos plats et Pates
-      nom_en: ''
-      pricing_item: []
     - nom_fr: Nos Pizzas
       nom_en: Our Pizzas
       pricing_item:
@@ -308,6 +263,51 @@ food:
           D'œuf, Persillade
         description_en: Tomato Sauce, Mozzarella, Ham, Mushrooms, Egg Yolk, Persillade
         prix: 15 €
+    - nom_fr: Nos entrées
+      nom_en: ''
+      pricing_item:
+      - titre_fr: Salade verte
+        titre_en: ''
+        enable: false
+        description_fr: Salade verte
+        description_en: ''
+        prix: ''
+      - titre_fr: Carpaccio de Bœuf
+        titre_en: ''
+        enable: false
+        description_fr: Fines Tranches de Bœuf, Citron, Basilic, Huile d'olive, Copeaux
+          de Parmesan
+        description_en: ''
+        prix: ''
+      - titre_fr: Tomate Mozzarella
+        titre_en: ''
+        enable: false
+        description_fr: Tomate de saison, Boule de Buffala, Huile d'olive, Basilic
+        description_en: ''
+        prix: ''
+      - titre_fr: Assiette de Charcuterie Italienne
+        titre_en: ''
+        enable: false
+        description_fr: Coppa, Jambon Cru, Mortadelle, Pancetta
+        description_en: ''
+        prix: ''
+      - titre_fr: Salade Italienne
+        titre_en: ''
+        enable: false
+        description_fr: Roquette, Tomate Cerise, Mozzarella, Olives, Poivron, Pignons,
+          Courgette
+        description_en: ''
+        prix: ''
+      - titre_fr: Assiette Caprèse
+        titre_en: ''
+        enable: false
+        description_fr: Tomate de saison, Ricotta, Huile d'olive, Basilic, Coppa,
+          Jambon cru
+        description_en: ''
+        prix: ''
+    - nom_fr: Nos plats et Pates
+      nom_en: ''
+      pricing_item: []
     - nom_fr: Nos Desserts
       nom_en: ''
       pricing_item: []
