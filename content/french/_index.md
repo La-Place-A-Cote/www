@@ -112,28 +112,28 @@ food:
       nom_en: Earth side dishes
       pricing_item:
       - titre_fr: Burger maison salade frites
-        titre_en: ''
+        titre_en: House burger with salad and fries
         enable: true
         description_fr: ''
         description_en: ''
         prix: 17 €
         description: ''
       - titre_fr: Burger foie gras salade frites
-        titre_en: ''
+        titre_en: Burger foie gras salad and fries
         enable: true
         description_fr: ''
         description_en: ''
         prix: 20 €
         description: ''
       - titre_fr: Rognons de veau aux 3 moutardes
-        titre_en: ''
+        titre_en: Veal kidneys with 3 mustards
         enable: true
         description_fr: ''
         description_en: ''
         prix: 25 €
         description: ''
       - titre_fr: Souris d’agneau et son ail en chemise
-        titre_en: ''
+        titre_en: Mouse of lamb with garlic well-roasted
         enable: true
         description_fr: ''
         description_en: ''
