@@ -181,10 +181,11 @@ food:
         description_fr: Coppa, Jambon Cru, Mortadelle, Pancetta
         description_en: ''
         prix: ''
-      - titre_fr: ''
+      - titre_fr: Salade Italienne
         titre_en: ''
         enable: false
-        description_fr: ''
+        description_fr: Roquette, Tomate Cerise, Mozzarella, Olives, Poivron, Pignons,
+          Courgette
         description_en: ''
         prix: ''
       - titre_fr: ''
