@@ -140,28 +140,28 @@ food:
         prix: 25 €
         description: ''
       - titre_fr: Pluma de porc marchand de vin
-        titre_en: ''
+        titre_en: Pluma de porc marchand de vin
         enable: true
         description_fr: ''
         description_en: ''
         prix: 25 €
         description: ''
       - titre_fr: Filet de canard, miel, myrtilles
-        titre_en: ''
+        titre_en: Duck fillet, honey, blueberries
         enable: true
         description_fr: ''
         description_en: ''
         prix: 25 €
         description: ''
       - titre_fr: Entrecôte maître hôtel
-        titre_en: ''
+        titre_en: Entrecote
         enable: true
         description_fr: Supplément sauce poivre cèpes (2 €) morilles (3 €)
         description_en: Supplément sauce poivre cèpes (2 €) morilles (3 €)
         prix: 25 €
         description: ''
       - titre_fr: Filet de bœuf maître hôtel
-        titre_en: ''
+        titre_en: 'Fillet of beef '
         enable: true
         description_fr: Supplément sauce poivre cèpes (2 €) morilles (3 €)
         description_en: Supplément sauce poivre cèpes (2 €) morilles (3 €)
