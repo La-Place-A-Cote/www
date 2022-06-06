@@ -28,7 +28,7 @@ food:
   titre: Nos Menus
   menus:
   - titre: 'La PLACE ... '
-    description: restaurant semi gastro
+    description: restaurant semi gastro reservation via telephone au 06 30 21 70 26
     sous_menus:
     - nom_fr: Entrée
       nom_en: Starters
