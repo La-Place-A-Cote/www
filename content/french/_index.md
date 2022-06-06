@@ -168,12 +168,12 @@ food:
         description_fr: ''
         description_en: ''
         prix: ''
-      - titre_fr: ''
+      - titre_fr: Atlantide
         titre_en: ''
-        enable: false
-        description_fr: ''
+        enable: true
+        description_fr: Sauce Tomate, Mozzarella, Thon, Tomate Cerise, Persillade
         description_en: ''
-        prix: ''
+        prix: 14 €
       - titre_fr: Américaine
         titre_en: ''
         enable: true
