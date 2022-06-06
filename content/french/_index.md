@@ -168,7 +168,7 @@ food:
         prix: 27 €
         description: ''
     - nom_fr: PLATS DU JOUR MIDI ET SOIR
-      nom_en: ''
+      nom_en: DAILY SPECIALS FOR LUNCH AND DINNER
       pricing_item: []
   - titre: "... À Côté "
     description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
