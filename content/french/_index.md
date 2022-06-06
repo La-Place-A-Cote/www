@@ -156,12 +156,12 @@ food:
     - nom_fr: Nos Pizzas
       nom_en: Our Pizzas
       pricing_item:
-      - titre_fr: ''
+      - titre_fr: Pizzaladière
         titre_en: ''
-        enable: false
-        description_fr: ''
+        enable: true
+        description_fr: Oignons confits, Olives, Anchois
         description_en: ''
-        prix: ''
+        prix: 13 €
       - titre_fr: Normande
         titre_en: ''
         enable: true
