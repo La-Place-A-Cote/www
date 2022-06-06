@@ -88,7 +88,7 @@ food:
         prix: 23 €
         description: ''
       - titre_fr: 'Gambas flambées au pastis '
-        titre_en: ''
+        titre_en: 'Gambas flambéed with pastis '
         enable: true
         description_fr: ''
         description_en: ''
