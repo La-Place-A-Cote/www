@@ -156,6 +156,37 @@ food:
     - nom_fr: Nos Pizzas
       nom_en: Our Pizzas
       pricing_item:
+      - titre_fr: ''
+        titre_en: ''
+        enable: false
+        description_fr: ''
+        description_en: ''
+        prix: ''
+      - titre_fr: ''
+        titre_en: ''
+        enable: false
+        description_fr: ''
+        description_en: ''
+        prix: ''
+      - titre_fr: ''
+        titre_en: ''
+        enable: false
+        description_fr: ''
+        description_en: ''
+        prix: ''
+      - titre_fr: ''
+        titre_en: ''
+        enable: false
+        description_fr: ''
+        description_en: ''
+        prix: ''
+      - titre_fr: Indienne
+        titre_en: ''
+        enable: true
+        description_fr: Crème fraiche, Mozzarella, Poulet cuisiné, Curry, Oignons
+          confits, Tomate Cerise
+        description_en: ''
+        prix: 14 €
       - titre_fr: Margarita
         titre_en: Margherita
         enable: true
