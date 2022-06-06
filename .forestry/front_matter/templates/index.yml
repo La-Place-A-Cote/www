@@ -28,19 +28,6 @@ fields:
       field: enable
       value: true
 - type: field_group
-  name: fork
-  fields:
-  - type: boolean
-    name: enable
-    label: Affichage
-    default: true
-  - type: text
-    name: uid
-    label: UID
-    showOnly:
-      field: enable
-      value: true
-- type: field_group
   name: event
   fields:
   - type: boolean
