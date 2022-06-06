@@ -174,12 +174,13 @@ food:
         description_fr: ''
         description_en: ''
         prix: ''
-      - titre_fr: ''
+      - titre_fr: Américaine
         titre_en: ''
-        enable: false
-        description_fr: ''
+        enable: true
+        description_fr: Sauce Tomate, Mozzarella, Viande de Bœuf Haché, Oignons Rouge,
+          Cheddar, Cornichon, Salade
         description_en: ''
-        prix: ''
+        prix: 15 €
       - titre_fr: Indienne
         titre_en: ''
         enable: true
