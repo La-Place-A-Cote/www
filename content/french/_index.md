@@ -162,10 +162,11 @@ food:
         description_fr: Salade verte
         description_en: ''
         prix: ''
-      - titre_fr: ''
+      - titre_fr: Carpaccio de Bœuf
         titre_en: ''
         enable: false
-        description_fr: ''
+        description_fr: Fines Tranches de Bœuf, Citron, Basilic, Huile d'olive, Copeaux
+          de Parmesan
         description_en: ''
         prix: ''
       - titre_fr: ''
