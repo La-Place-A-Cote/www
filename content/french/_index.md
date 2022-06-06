@@ -2,8 +2,8 @@
 slider:
   enable: true
   images:
-  - image: ''
-    titre: ''
+  - image: "/uploads/img_0069.JPG"
+    titre: groupe
     texte: ''
   - image: "/uploads/img_0087.JPG"
     titre: La Place Villecroze
