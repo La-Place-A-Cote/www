@@ -27,7 +27,7 @@ food:
   enable: true
   titre: Nos Menus
   menus:
-  - titre: La Place
+  - titre: La Place ... (Restaurant)
     description: ''
     sous_menus:
     - nom_fr: Entrée
@@ -153,9 +153,6 @@ food:
   - titre: "... À Côté "
     description: ''
     sous_menus:
-    - nom_fr: Nos Desserts
-      nom_en: ''
-      pricing_item: []
     - nom_fr: Nos entrées
       nom_en: ''
       pricing_item:
@@ -311,6 +308,9 @@ food:
           D'œuf, Persillade
         description_en: Tomato Sauce, Mozzarella, Ham, Mushrooms, Egg Yolk, Persillade
         prix: 15 €
+    - nom_fr: Nos Desserts
+      nom_en: ''
+      pricing_item: []
 insta:
   enable: true
   titre: " Instagram"
