@@ -71,7 +71,7 @@ food:
         prix: 15 €
         description: ''
       - titre_fr: Tiramisù à la chair de crabe et son coulis
-        titre_en: ''
+        titre_en: Tiramisù with crab meat and coulis
         enable: true
         description_fr: ''
         description_en: ''
