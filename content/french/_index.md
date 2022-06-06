@@ -28,7 +28,7 @@ food:
   titre: Nos Menus
   menus:
   - titre: La PLACE ... Restaurant
-    description: ''
+    description: restaurant semi gastro
     sous_menus:
     - nom_fr: Entrée
       nom_en: Starters
