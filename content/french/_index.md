@@ -81,7 +81,7 @@ food:
       nom_en: Sea side dish
       pricing_item:
       - titre_fr: Filets de rouget au thym
-        titre_en: ''
+        titre_en: Red mullet fillets with thyme
         enable: true
         description_fr: ''
         description_en: ''
