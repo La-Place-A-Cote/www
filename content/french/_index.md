@@ -208,14 +208,14 @@ food:
         prix: 15 €
         description: ''
       - titre_fr: 4 Fromages
-        titre_en: ''
+        titre_en: 4 Cheeses
         enable: true
         description_fr: Sauce Tomate, Mozzarella, Gorgonzola, Chèvre, Parmesan
         description_en: ''
         prix: 14 €
         description: ''
       - titre_fr: Végétarienne
-        titre_en: ''
+        titre_en: Vegetarian
         enable: true
         description_fr: Sauce Tomate, Mozzarella, Artichauts, Champignons, Oignons
           confits, Poivrons Confits, Aubergine
