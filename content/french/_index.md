@@ -157,14 +157,14 @@ food:
         titre_en: Entrecote
         enable: true
         description_fr: Supplément sauce poivre cèpes (2 €) morilles (3 €)
-        description_en: Supplément sauce poivre cèpes (2 €) morilles (3 €)
+        description_en: Extra charge for cep pepper sauce (2 €) morels (3 €)
         prix: 25 €
         description: ''
       - titre_fr: Filet de bœuf maître hôtel
         titre_en: 'Fillet of beef '
         enable: true
         description_fr: Supplément sauce poivre cèpes (2 €) morilles (3 €)
-        description_en: Supplément sauce poivre cèpes (2 €) morilles (3 €)
+        description_en: Extra charge for cep pepper sauce (2 €) morels (3 €)
         prix: 27 €
         description: ''
     - nom_fr: PLATS DU JOUR MIDI ET SOIR
