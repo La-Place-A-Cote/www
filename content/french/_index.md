@@ -182,7 +182,7 @@ food:
         titre_en: Margherita
         enable: true
         description_fr: Sauce Tomate, Mozzarella, Feuilles de Basilic
-        description_en: ''
+        description_en: Tomato Sauce, Mozzarella, Basil Leaves
         prix: 12 €
         description: ''
       - titre_fr: Reine
