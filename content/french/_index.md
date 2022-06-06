@@ -78,7 +78,7 @@ food:
         prix: 15 €
         description: ''
     - nom_fr: Plat Coté Mer
-      nom_en: ''
+      nom_en: Sea side dish
       pricing_item:
       - titre_fr: Filets de rouget au thym
         titre_en: ''
