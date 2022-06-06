@@ -162,12 +162,12 @@ food:
         description_fr: ''
         description_en: ''
         prix: ''
-      - titre_fr: ''
+      - titre_fr: Normande
         titre_en: ''
-        enable: false
-        description_fr: ''
+        enable: true
+        description_fr: Crème fraiche, Mozzarella, Poulet cuisiné, Champignons, Persillade
         description_en: ''
-        prix: ''
+        prix: 14 €
       - titre_fr: Atlantide
         titre_en: ''
         enable: true
