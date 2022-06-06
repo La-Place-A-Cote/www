@@ -153,6 +153,9 @@ food:
   - titre: "... À Côté "
     description: ''
     sous_menus:
+    - nom_fr: Nos entrées
+      nom_en: ''
+      pricing_item: []
     - nom_fr: Nos Pizzas
       nom_en: Our Pizzas
       pricing_item:
