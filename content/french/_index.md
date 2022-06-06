@@ -176,17 +176,17 @@ food:
       veniam, quis nostrud exercitation ullamco"
     sous_menus:
     - nom_fr: Nos Pizzas
-      nom_en: Nos Pizzas
+      nom_en: Our Pizzas
       pricing_item:
       - titre_fr: Margarita
-        titre_en: ''
+        titre_en: Margherita
         enable: true
         description_fr: Sauce Tomate, Mozzarella, Feuilles de Basilic
         description_en: ''
         prix: 12 €
         description: ''
       - titre_fr: Reine
-        titre_en: ''
+        titre_en: Reine
         enable: true
         description_fr: Sauce Tomate, Mozzarella, Jambon Blanc, Champignons
         description_en: ''
