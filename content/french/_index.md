@@ -95,7 +95,7 @@ food:
         prix: 25 €
         description: ''
       - titre_fr: Filets de sole à la mousse de saumon
-        titre_en: ''
+        titre_en: Sole fillets with salmon mousse
         enable: true
         description_fr: ''
         description_en: ''
