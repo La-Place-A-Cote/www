@@ -155,7 +155,43 @@ food:
     sous_menus:
     - nom_fr: Nos entrées
       nom_en: ''
-      pricing_item: []
+      pricing_item:
+      - titre_fr: Salade verte
+        titre_en: ''
+        enable: false
+        description_fr: Salade verte
+        description_en: ''
+        prix: ''
+      - titre_fr: ''
+        titre_en: ''
+        enable: false
+        description_fr: ''
+        description_en: ''
+        prix: ''
+      - titre_fr: ''
+        titre_en: ''
+        enable: false
+        description_fr: ''
+        description_en: ''
+        prix: ''
+      - titre_fr: ''
+        titre_en: ''
+        enable: false
+        description_fr: ''
+        description_en: ''
+        prix: ''
+      - titre_fr: ''
+        titre_en: ''
+        enable: false
+        description_fr: ''
+        description_en: ''
+        prix: ''
+      - titre_fr: ''
+        titre_en: ''
+        enable: false
+        description_fr: ''
+        description_en: ''
+        prix: ''
     - nom_fr: Nos Pizzas
       nom_en: Our Pizzas
       pricing_item:
