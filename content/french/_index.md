@@ -189,14 +189,14 @@ food:
         titre_en: Reine
         enable: true
         description_fr: Sauce Tomate, Mozzarella, Jambon Blanc, Champignons
-        description_en: ''
+        description_en: Tomato sauce, Mozzarella, Ham, Mushrooms
         prix: 13 €
         description: ''
       - titre_fr: Napolitaine
         titre_en: Napolitana
         enable: true
         description_fr: 'Sauce Tomate, Mozzarella, Anchois, Câpres '
-        description_en: ''
+        description_en: Tomato, Mozzarella, Anchovy, Caper
         prix: 13 €
         description: ''
       - titre_fr: Calzone
@@ -204,14 +204,14 @@ food:
         enable: true
         description_fr: Sauce Tomate, Mozzarella, Jambon Blanc, Champignons, Jaune
           D'œuf, Persillade
-        description_en: ''
+        description_en: Tomato Sauce, Mozzarella, Ham, Mushrooms, Egg Yolk, Persillade
         prix: 15 €
         description: ''
       - titre_fr: 4 Fromages
         titre_en: 4 Cheeses
         enable: true
         description_fr: Sauce Tomate, Mozzarella, Gorgonzola, Chèvre, Parmesan
-        description_en: ''
+        description_en: Sauce Tomate, Mozzarella, Gorgonzola, Chèvre, Parmesan
         prix: 14 €
         description: ''
       - titre_fr: Végétarienne
@@ -227,37 +227,40 @@ food:
         enable: true
         description_fr: Sauce Tomate, Mozzarella, Chorizo, Poivrons confits, oignons
           confits
-        description_en: ''
+        description_en: Tomato sauce, Mozzarella, Chorizo, candied peppers, candied
+          onions
         prix: 14 €
         description: ''
       - titre_fr: Ruche
-        titre_en: ''
+        titre_en: Ruche
         enable: true
         description_fr: Crème Fraiche, Mozzarella, Chèvre, Miel, Noix
-        description_en: ''
+        description_en: Crème Fraiche, Mozzarella, Goat, Honey, Nuts
         prix: 14 €
         description: ''
       - titre_fr: Carnivore
-        titre_en: ''
+        titre_en: Carnivore
         enable: true
         description_fr: Sauce Tomate, Mozzarella, Viande Hachée, Champignons, Oignons
           Rouge, Persillade
-        description_en: ''
+        description_en: Tomato Sauce, Mozzarella, Minced Meat, Mushrooms, Red Onions,
+          Persillade
         prix: 15 €
         description: ''
       - titre_fr: Italienne
-        titre_en: ''
+        titre_en: Italian
         enable: true
         description_fr: Sauce Tomate, Mozzarella, Jambon cru, Roquette, Tomates cerises,
           Copeaux de Parmesan
-        description_en: ''
+        description_en: Tomato sauce, Mozzarella, Cured ham, Arugula, Cherry tomatoes,
+          Parmesan shavings
         prix: 14 €
         description: ''
       - titre_fr: Corsica
-        titre_en: ''
+        titre_en: Corsica
         enable: true
         description_fr: Sauce Tomate, Mozzarella, Figatelli, Tomates cerises, Figues
-        description_en: ''
+        description_en: Tomato sauce, Mozzarella, Figatelli, Cherry tomatoes, Figs
         prix: 14 €
         description: ''
 insta:
