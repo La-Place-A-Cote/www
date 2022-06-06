@@ -200,7 +200,7 @@ food:
         prix: 13 €
         description: ''
       - titre_fr: Calzone
-        titre_en: ''
+        titre_en: Calzone
         enable: true
         description_fr: Sauce Tomate, Mozzarella, Jambon Blanc, Champignons, Jaune
           D'œuf, Persillade
