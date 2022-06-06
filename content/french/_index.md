@@ -27,7 +27,7 @@ food:
   enable: true
   titre: Nos Menus
   menus:
-  - titre: La Place ... (Restaurant)
+  - titre: La PLACE ... (Restaurant)
     description: ''
     sous_menus:
     - nom_fr: Entrée
