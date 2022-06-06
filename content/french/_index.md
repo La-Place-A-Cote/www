@@ -36,7 +36,7 @@ food:
       nom_en: Starters
       pricing_item:
       - titre_fr: Salade Gourmande
-        titre_en: Salade Gourmande
+        titre_en: Salad Gourmande
         enable: true
         description_fr: ''
         description_en: ''
