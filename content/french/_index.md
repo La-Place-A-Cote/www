@@ -169,10 +169,10 @@ food:
           de Parmesan
         description_en: ''
         prix: ''
-      - titre_fr: ''
+      - titre_fr: Tomate Mozzarella
         titre_en: ''
         enable: false
-        description_fr: ''
+        description_fr: Tomate de saison, Boule de Buffala, Huile d'olive, Basilic
         description_en: ''
         prix: ''
       - titre_fr: ''
