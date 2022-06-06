@@ -193,7 +193,7 @@ food:
         prix: 13 €
         description: ''
       - titre_fr: Napolitaine
-        titre_en: ''
+        titre_en: Napolitana
         enable: true
         description_fr: 'Sauce Tomate, Mozzarella, Anchois, Câpres '
         description_en: ''
