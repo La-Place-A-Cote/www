@@ -109,7 +109,7 @@ food:
         prix: 23 €
         description: ''
     - nom_fr: Plats Coté Terre
-      nom_en: ''
+      nom_en: Earth side dishes
       pricing_item:
       - titre_fr: Burger maison salade frites
         titre_en: ''
