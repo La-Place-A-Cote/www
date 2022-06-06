@@ -158,5 +158,14 @@ fields:
     name: id
     label: Identifiant Behold
     description: a recuperer sur https://app.behold.so
+- name: fork
+  type: field_group
+  config: {}
+  fields:
+  - name: enable
+    type: boolean
+    label: Afficher
+    default: true
+  label: The Forks
 pages:
 - content/french/_index.md
