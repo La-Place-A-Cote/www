@@ -150,8 +150,8 @@ food:
     - nom_fr: PLATS DU JOUR MIDI ET SOIR
       nom_en: DAILY SPECIALS FOR LUNCH AND DINNER
       pricing_item: []
-  - titre: À COTE Pizzéria
-    description: ''
+  - titre: 'À COTE '
+    description: pizza a volonté
     sous_menus:
     - nom_fr: Nos entrées
       nom_en: ''
