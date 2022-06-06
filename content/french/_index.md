@@ -64,7 +64,7 @@ food:
         prix: 15 €
         description: ''
       - titre_fr: Soupe au pistou
-        titre_en: ''
+        titre_en: Pistou Soup
         enable: true
         description_fr: ''
         description_en: ''
