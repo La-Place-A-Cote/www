@@ -195,6 +195,9 @@ food:
           Jambon cru
         description_en: ''
         prix: ''
+    - nom_fr: Nos plats et Pates
+      nom_en: ''
+      pricing_item: []
     - nom_fr: Nos Pizzas
       nom_en: Our Pizzas
       pricing_item:
