@@ -43,7 +43,7 @@ food:
         prix: 17 €
         description: ''
       - titre_fr: Salade de chèvre chaud et son jambon cru
-        titre_en: ''
+        titre_en: Warm goat cheese salad with cured ham
         enable: true
         description_fr: ''
         description_en: ''
