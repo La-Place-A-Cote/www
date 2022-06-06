@@ -223,7 +223,7 @@ food:
         prix: 14 €
         description: ''
       - titre_fr: Espagnole
-        titre_en: ''
+        titre_en: Spanish
         enable: true
         description_fr: Sauce Tomate, Mozzarella, Chorizo, Poivrons confits, oignons
           confits
