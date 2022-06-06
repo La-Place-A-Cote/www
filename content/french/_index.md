@@ -150,7 +150,7 @@ food:
     - nom_fr: PLATS DU JOUR MIDI ET SOIR
       nom_en: DAILY SPECIALS FOR LUNCH AND DINNER
       pricing_item: []
-  - titre: "... À Côté (Pizzéria)"
+  - titre: "... À Côté Pizzéria"
     description: ''
     sous_menus:
     - nom_fr: Nos entrées
