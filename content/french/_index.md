@@ -18,18 +18,7 @@ fork:
 event:
   enable: true
   titre: Nos Événements
-  evenements:
-  - date: 2022-07-13T11:52:00.000+02:00
-    nom: Da Boogie pop
-    titre: Concert
-    texte: Rock Blues Pop
-    image: "/uploads/img_0060.JPG"
-  - date: 2022-05-29T09:52:00.000+00:00
-    nom: John Doe
-    titre: 'Events 5 '
-    texte: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-    image: https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1537132205/news-slider/item-1.webp
+  evenements: []
 food:
   enable: true
   titre: Nos Menus
