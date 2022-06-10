@@ -21,6 +21,8 @@ fields:
     - type: text
       name: titre
       label: Titre
+      description: "<strong>** texte en Gras **<br></strong><em>* Texte en italique
+        *</em>"
     - name: titreColor
       type: color
       label: Couleur Titre
