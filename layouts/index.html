@@ -165,8 +165,8 @@
                             <div class="border-bottom"></div>
                             <span>{{.prix}}</span>
                           </div>
-                          <p class="fr">{{.description_fr}}</p>
-                          <p class="en">{{.description_en}}</p>
+                          {{ if .description_fr }}<p class="fr">{{ .description_fr }}</p>{{ end }}
+                          {{ if .description_en }}<p class="en">{{ .description_en }}</p>{{ end }}
                         </div>
                       </li>
                       {{ end }}
