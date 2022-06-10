@@ -443,7 +443,12 @@ main {
     padding: 28px 100px;
   }
 }
-
+.share-icon{
+  color: #000000;
+  :hover{
+    color: #6d071a;
+  }
+}
 .accordion-button:not(.collapsed) {
   color: #6d071a;
   background-color: #00000014;

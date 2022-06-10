@@ -1,7 +1,18 @@
 {{ define "main" }}
 
-{{ partial "page-title.html" . }}
-
+<section class="page-title bg-2" style="background-image: url('{{ .Params.bg_image | relURL }}');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          {{ $colortitre:= .Params.titleColor | default "#fff"}}
+          <h1 style="color: {{ $colortitre }};">{{ .Title }}</h1>
+          <p>{{ .Params.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <section class="section" style="background: #f5f5f5;">
   <div class="container">
     <div class="row">
