@@ -2,11 +2,6 @@
 slider:
   enable: true
   images:
-  - image: "/uploads/img_0069.JPG"
-    titre: Groupe
-    titreColor: "#2C0202"
-    texte: ''
-    texteColor: ''
   - image: "/uploads/img_0087.JPG"
     titre: La Place Villecroze
     titreColor: ''
