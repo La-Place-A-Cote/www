@@ -4,12 +4,13 @@ copyright = "Copyright © 2022 laplaceacote.fr - La Place ...A Cote"
 custom_script = ""
 description = "Un enmplacement deux restaurant"
 email = "restaurentlaplace@gmail.com"
-favicon = "images/favicon.png"
+favicon = "images/favicon64.png"
 google_tag_manager = ""
 keywords = "restaurant, pizzeria, terrasse, villecroze, var, viande, vente à emporter, La Place, A Coté , Restaurant La Place, Pizzeria A Coté"
 location = "9 Pl. Général de Gaulle, 83690 Villecroze"
 navbar_fixed = false
-phone = "04 94 70 27 24"
+phoneRestaurant = "04 94 70 27 24"
+phonePizza= "04 94 70 27 24"
 [baidu]
 analytics_id = ""
 enable = false
@@ -35,7 +36,7 @@ map_marker = "images/marker.png"
 [matomo]
 enable = false
 id = "1"
-url = "https://yunohost.courtoiseressourcerie.com/matomo/"
+url = ""
 [navigation_button]
 enable = false
 label = "get a quote"
