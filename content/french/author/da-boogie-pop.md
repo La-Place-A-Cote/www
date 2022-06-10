@@ -1,23 +1,33 @@
 ---
 title: Da Boogie Pop
-email: email2@example.org
-bg_image: images/feature-bg.jpg
+titleColor: 
+email: rocamusic@yahoo.co.uk
+bg_image: images/Da-Boogie-Pop.jpg
 social:
 - icon: fab fa-facebook
-  link: "#"
-- icon: fab fa-twitter
-  link: "#"
-- icon: fab fa-pinterest
-  link: "#"
+  link: "https://www.facebook.com/daboogiepop"
 divers:
   titre: Videos
   enable: true
   videos:
   - id: QpfeEu5JnVM
+  - id: WoGgUAdBz-k
+  - id: H9P4vdwObZs
+  - id: qitrLHpH8U&t=2s
 picture:
   enable: false
   titre: ''
   images: []
 
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet. Donec nisi dolor, consequat vel pretium id, auctor in dui. Nam iaculis, neque ac ullamcorper.
+Depuis 12 ans Da Boogie Pop est une référence en région Paca: un son authentique entre musique Soul et Rock vintage, et une énergie festive à couper le souffle!
+Chaque concert du groupe est un événement unique, et pour le public un sentiment de liberté et de chaleur.
+Leur répertoire est varié et il fédére toutes les générations car basé sur des classiques intemporels ( James Brown, Otis Redding, the Beatles, Rolling Stones, Marvin Gaye ... le tout revisité et interprété avec brio et sincérité.
+
+**Répertoire**
+- Heard it through the grapevine - Marvin Gaye
+- The Joker - Steve Miller Band
+- Cream - Prince
+- Get back - Beatles
+- Standin’ On shakey ground - The Temptations
+- etc
