@@ -21,9 +21,23 @@ fields:
     - type: text
       name: titre
       label: Titre
+    - name: titreColor
+      type: color
+      label: Couleur Titre
+      config:
+        required: false
+        color_format: Hex
+      default: "#FFFFFF"
     - type: text
       name: texte
       label: texte
+    - name: texteColor
+      type: color
+      label: Couleur Description
+      config:
+        required: false
+        color_format: Hex
+      default: "#FFFFFF"
     showOnly:
       field: enable
       value: true
