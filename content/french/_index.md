@@ -3,15 +3,15 @@ slider:
   enable: true
   images:
   - image: "/uploads/img_0069.JPG"
-    titre: groupe
-    titreColor:
+    titre: Groupe
+    titreColor: "#2C0202"
     texte: ''
-    texteColor:
+    texteColor: ''
   - image: "/uploads/img_0087.JPG"
     titre: La Place Villecroze
-    titreColor:
+    titreColor: ''
     texte: ''
-    texteColor:
+    texteColor: ''
 fork:
   enable: true
   uid: ''
