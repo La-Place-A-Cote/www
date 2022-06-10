@@ -3,6 +3,9 @@
 <!-- Slider  -->
 {{ with .Params.slider }}
 {{ if .enable }}
+
+
+
 <section>
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"> 
     <div class="carousel-indicators">
@@ -14,8 +17,10 @@
       {{ range $index, $val := .images }}
       {{ with .image }}<div class="carousel-item {{ if (eq $index 0) }} active {{ end }}" style="background-image: url('{{ . | relURL }}')">{{ end }}
         <div class="carousel-caption">
-          {{ with .titre  }}<h1>{{ . }}</h1>{{ end }}
-          {{ with .texte  }}<p>{{ . }}</p>{{ end }}
+          {{ $colortitre:= .titreColor | default "#fff"}}
+          {{ $colortexte:= .texteColor | default "#fff"}}
+          {{ with .titre  }}<h1 style="color: {{ $colortitre }};" >{{ . }}</h1>{{ end }}
+          {{ with .texte  }}<p style="color: {{ $colortexte }};">{{ . }}</p>{{ end }}
         </div>
       </div>
       {{ end }}

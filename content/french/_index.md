@@ -4,10 +4,14 @@ slider:
   images:
   - image: "/uploads/img_0069.JPG"
     titre: groupe
+    titreColor:
     texte: ''
+    texteColor:
   - image: "/uploads/img_0087.JPG"
     titre: La Place Villecroze
+    titreColor:
     texte: ''
+    texteColor:
 fork:
   enable: true
   uid: ''
