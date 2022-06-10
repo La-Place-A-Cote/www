@@ -5,6 +5,13 @@ fields:
 - type: text
   name: title
   label: Nom du groupe
+- name: titleColor
+  type: color
+  label: Couleur du titre
+  config:
+    required: false
+    color_format: Hex
+  default: "#FFFFFF"
 - type: text
   name: email
   label: Email
