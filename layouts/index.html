@@ -19,8 +19,8 @@
         <div class="carousel-caption">
           {{ $colortitre:= .titreColor | default "#fff"}}
           {{ $colortexte:= .texteColor | default "#fff"}}
-          {{ with .titre  }}<h1 style="color: {{ $colortitre }};" >{{ . }}</h1>{{ end }}
-          {{ with .texte  }}<p style="color: {{ $colortexte }};">{{ . }}</p>{{ end }}
+          {{ with .titre  }}<h1 style="color: {{ $colortitre }};" >{{ . | markdownify }}</h1>{{ end }}
+          {{ with .texte  }}<p style="color: {{ $colortexte }};">{{ . | markdownify }}</p>{{ end }}
         </div>
       </div>
       {{ end }}
