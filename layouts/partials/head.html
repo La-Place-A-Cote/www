@@ -51,17 +51,11 @@
 <!-- favicon -->
 {{ $favicon:= site.Params.favicon }}
 {{ if $favicon }}
-{{ if fileExists (add `assets/` $favicon) }}
-{{ $favicon:= resources.Get $favicon }}
-{{ $favicon_16:= $favicon.Resize "16x png"}}
-{{ $favicon_32:= $favicon.Resize "32x png"}}
-{{ $favicon_180:= $favicon.Resize "180x png"}}
-<link rel="shortcut icon" href="{{$favicon_32.RelPermalink}}" type="image/x-icon">
-<link rel="icon" href="{{$favicon_32.RelPermalink}}" type="image/x-icon">
-<link rel="icon" type="image/png" sizes="16x16" href="{{$favicon_16.RelPermalink}}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{$favicon_32.RelPermalink}}">
-<link rel="apple-touch-icon" sizes="180x180" href="{{$favicon_180.RelPermalink}}">
-{{ end }}
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" /> 
+{{/*  <link rel="icon" href="images/favicon_64.png" type="image/x-icon">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon_16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon_32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/favicon_128.png">  */}}
 {{ end }}
 <link rel="manifest" href="{{`manifest.webmanifest` | relLangURL }}">
 <meta name="msapplication-TileColor" content="{{site.Params.variables.color_primary | default `#da532c`}}">
