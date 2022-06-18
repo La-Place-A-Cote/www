@@ -161,11 +161,11 @@ food:
         description_en: Thin slices of beef, Lemon, Basil, Olive oil, Parmesan shavings
         prix: "15"
       - titre_fr: Tomate Mozzarella
-        titre_en: ''
-        enable: false
+        titre_en: Tomato and Mozzarella salad
+        enable: true
         description_fr: Tomate de saison, Boule de Buffala, Huile d'olive, Basilic
-        description_en: ''
-        prix: ''
+        description_en: Seasonal tomato, Buffala ball, Olive oil, Basil
+        prix: 14 €
       - titre_fr: Assiette de Charcuterie Italienne
         titre_en: ''
         enable: false
