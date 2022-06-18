@@ -327,12 +327,14 @@ food:
         description_en: Zucchini, Eggplant, Tomato, Garlic, Mozzarella, Parmesan cheese,
           Green salad on the side
         prix: 13 €
-      - titre_fr: ''
-        titre_en: ''
-        enable: false
-        description_fr: ''
-        description_en: ''
-        prix: ''
+      - titre_fr: Pates Bolognaise
+        titre_en: Bolognese Pasta
+        enable: true
+        description_fr: Linguine, Viandes Hachée, Tomates, Carottes, Oignons, Thym,
+          Laurier, Ail
+        description_en: Linguine, Minced Meat, Tomatoes, Carrots, Onions, Thyme, Laurel,
+          Garlic
+        prix: 13 €
       - titre_fr: ''
         titre_en: ''
         enable: false
