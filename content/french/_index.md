@@ -166,10 +166,10 @@ food:
         description_en: Tomato Sauce, Mozzarella, Anchovy, Caper, Olive Oil
         prix: 13 €
       - titre_fr: Pizzaladière
-        titre_en: ''
+        titre_en: Pizzaladière
         enable: true
         description_fr: Oignons confits, Olives, Anchois
-        description_en: ''
+        description_en: Candied Onions, Olives, Anchovies
         prix: 13 €
       - titre_fr: Atlantide
         titre_en: ''
