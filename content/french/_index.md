@@ -240,8 +240,8 @@ food:
         enable: true
         description_fr: Sauce Tomate, Mozzarella, Viande Hachée, Champignons, Oignons
           Rouge, Persillade
-        description_en: Tomato Sauce, Mozzarella, Minced Meat, Mushrooms, Red Onions,
-          Persillade
+        description_en: Tomato Sauce, Mozzarella, Ground Beef, Mushrooms, Red Onions,
+          Parsley, Garlic
         prix: 15 €
       - titre_fr: Américaine
         titre_en: ''
