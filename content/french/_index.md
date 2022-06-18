@@ -167,11 +167,11 @@ food:
         description_en: Seasonal tomato, Buffala ball, Olive oil, Basil
         prix: 14 €
       - titre_fr: Assiette de Charcuterie Italienne
-        titre_en: ''
-        enable: false
+        titre_en: Plate of Italian cold cuts
+        enable: true
         description_fr: Coppa, Jambon Cru, Mortadelle, Pancetta
-        description_en: ''
-        prix: ''
+        description_en: Coppa, Cured Ham, Mortadella, Pancetta
+        prix: 16 €
       - titre_fr: Salade Italienne
         titre_en: ''
         enable: false
