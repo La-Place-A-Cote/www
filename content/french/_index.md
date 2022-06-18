@@ -216,7 +216,7 @@ food:
         description_en: Candied Onions, Olives, Anchovies
         prix: 13 €
       - titre_fr: Atlantide
-        titre_en: ''
+        titre_en: Atlantide
         enable: true
         description_fr: Sauce Tomate, Mozzarella, Thon, Tomate Cerise, Persillade
         description_en: Tomato Sauce, Mozzarella, Tuna, Cherry Tomato, Persillade
