@@ -313,12 +313,12 @@ food:
         description_en: Dried tomatoes, Olive oil, Shallots, Parsley, Basil, Pine
           nuts, Parmesan, Worcestershire sauce, Raw ham, Balsamic vinegar
         prix: 16 €
-      - titre_fr: ''
-        titre_en: ''
-        enable: false
-        description_fr: ''
-        description_en: ''
-        prix: ''
+      - titre_fr: Lasagne
+        titre_en: Lasagna
+        enable: true
+        description_fr: Sauce Bolognaise, Béchamel, Salade verte
+        description_en: Bolognese sauce, Béchamel sauce, Green salad
+        prix: 13 €
       - titre_fr: ''
         titre_en: ''
         enable: false
