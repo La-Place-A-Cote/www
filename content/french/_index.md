@@ -154,8 +154,8 @@ food:
         description_en: ''
         prix: ''
       - titre_fr: Carpaccio de Bœuf
-        titre_en: ''
-        enable: false
+        titre_en: Carpaccio of Beef
+        enable: true
         description_fr: Fines Tranches de Bœuf, Citron, Basilic, Huile d'olive, Copeaux
           de Parmesan
         description_en: ''
