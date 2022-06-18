@@ -160,12 +160,13 @@ food:
         description_fr: Coppa, Jambon Cru, Mortadelle, Pancetta
         description_en: Coppa, Cured Ham, Mortadella, Pancetta
         prix: 16 €
-      - titre_fr: Tomate Mozzarella
-        titre_en: Tomato and Mozzarella salad
+      - titre_fr: Assiette Caprèse
+        titre_en: Caprese plate
         enable: true
-        description_fr: Tomate de saison, Boule de Buffala, Huile d'olive, Basilic
-        description_en: Seasonal tomato, Buffala ball, Olive oil, Basil
-        prix: 14 €
+        description_fr: Tomate de saison, Ricotta, Huile d'olive, Basilic, Coppa,
+          Jambon cru
+        description_en: Seasonal tomato, Ricotta, Olive oil, Basil, Coppa, Cured ham
+        prix: 15 €
       - titre_fr: Salade Italienne
         titre_en: Italian Salad
         enable: true
@@ -174,13 +175,12 @@ food:
         description_en: Arugula, Cherry Tomato, Mozzarella, Olives, Pepper, Pine nuts,
           Courgette
         prix: 14 €
-      - titre_fr: Assiette Caprèse
-        titre_en: Caprese plate
+      - titre_fr: Tomate Mozzarella
+        titre_en: Tomato and Mozzarella salad
         enable: true
-        description_fr: Tomate de saison, Ricotta, Huile d'olive, Basilic, Coppa,
-          Jambon cru
-        description_en: Seasonal tomato, Ricotta, Olive oil, Basil, Coppa, Cured ham
-        prix: 15 €
+        description_fr: Tomate de saison, Boule de Buffala, Huile d'olive, Basilic
+        description_en: Seasonal tomato, Buffala ball, Olive oil, Basil
+        prix: 14 €
       - titre_fr: Salade verte
         titre_en: Green salad
         enable: true
