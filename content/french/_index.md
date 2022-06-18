@@ -194,12 +194,12 @@ food:
           Confit Peppers, Eggplant
         prix: 14 €
       - titre_fr: Espagnole
-        titre_en: Spanish
+        titre_en: Espagnole
         enable: true
-        description_fr: Sauce Tomate, Mozzarella, Chorizo, Poivrons confits, oignons
+        description_fr: Sauce Tomate, Mozzarella, Chorizo, Poivrons confits, Oignons
           confits
-        description_en: Tomato sauce, Mozzarella, Chorizo, candied peppers, candied
-          onions
+        description_en: Tomato Sauce, Mozzarella, Chorizo, Confit Peppers, Candied
+          Onions
         prix: 14 €
       - titre_fr: Ruche
         titre_en: Ruche
