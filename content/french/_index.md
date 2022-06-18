@@ -335,12 +335,14 @@ food:
         description_en: Linguine, Minced Meat, Tomatoes, Carrots, Onions, Thyme, Laurel,
           Garlic
         prix: 13 €
-      - titre_fr: ''
-        titre_en: ''
-        enable: false
-        description_fr: ''
-        description_en: ''
-        prix: ''
+      - titre_fr: Pennes à l'arrabiata
+        titre_en: Penne with arrabiata
+        enable: true
+        description_fr: Pennes, Basilic, Tomates, Ail, Lardons, Crème fraiche, Parmesans,
+          Tabasco
+        description_en: Penne, Basil, Tomatoes, Garlic, Bacon, Fresh Cream, Parmesan,
+          Tabasco
+        prix: 13 €
       - titre_fr: ''
         titre_en: ''
         enable: false
