@@ -158,8 +158,8 @@ food:
         enable: true
         description_fr: Fines Tranches de Bœuf, Citron, Basilic, Huile d'olive, Copeaux
           de Parmesan
-        description_en: ''
-        prix: ''
+        description_en: Thin slices of beef, Lemon, Basil, Olive oil, Parmesan shavings
+        prix: "15"
       - titre_fr: Tomate Mozzarella
         titre_en: ''
         enable: false
