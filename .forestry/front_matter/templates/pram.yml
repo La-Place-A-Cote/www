@@ -38,8 +38,13 @@ fields:
   label: navbar_fixed
   hidden: true
 - type: text
-  name: phone
-  label: phone
+  name: phoneRestaurant
+  label: Restaurant phone
+- name: phonePizza
+  type: text
+  config:
+    required: false
+  label: Pizza Phone
 - type: field_group
   name: baidu
   label: baidu
