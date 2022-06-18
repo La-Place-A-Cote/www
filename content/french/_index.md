@@ -175,7 +175,8 @@ food:
         titre_en: ''
         enable: true
         description_fr: Sauce Tomate, Mozzarella, Thon, Tomate Cerise, Persillade
-        description_en: ''
+        description_en: Tomato Sauce, Mozzarella, Tuna, Cherry Tomato, Persillade
+          Dressing
         prix: 14 €
       - titre_fr: 4 Fromages
         titre_en: 4 Cheeses
