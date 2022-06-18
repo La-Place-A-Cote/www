@@ -152,7 +152,7 @@ food:
         enable: true
         description_fr: ''
         description_en: ''
-        prix: ''
+        prix: 4 €
       - titre_fr: Carpaccio de Bœuf
         titre_en: Carpaccio of Beef
         enable: true
