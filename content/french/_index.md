@@ -163,7 +163,7 @@ food:
         titre_en: Napolitana
         enable: true
         description_fr: 'Sauce Tomate, Mozzarella, Anchois, Câpres '
-        description_en: Tomato sauce, Mozzarella, Anchovy, Caper, Olive Oil
+        description_en: Tomato Sauce, Mozzarella, Anchovy, Caper, Olive Oil
         prix: 13 €
       - titre_fr: Pizzaladière
         titre_en: ''
