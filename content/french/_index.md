@@ -180,7 +180,7 @@ food:
         description_fr: Tomate de saison, Ricotta, Huile d'olive, Basilic, Coppa,
           Jambon cru
         description_en: Seasonal tomato, Ricotta, Olive oil, Basil, Coppa, Cured ham
-        prix: 15€
+        prix: 15 €
       - titre_fr: Salade verte
         titre_en: Green salad
         enable: true
