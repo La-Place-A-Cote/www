@@ -343,12 +343,14 @@ food:
         description_en: Penne, Basil, Tomatoes, Garlic, Bacon, Fresh Cream, Parmesan,
           Tabasco
         prix: 13 €
-      - titre_fr: ''
-        titre_en: ''
-        enable: false
-        description_fr: ''
-        description_en: ''
-        prix: ''
+      - titre_fr: Gnocchis Gorgonzola
+        titre_en: Gorgonzola Gnocchi
+        enable: true
+        description_fr: Gnocchis, Sauce de Gorgonzola, Crème, Poudre de noix, Noix,
+          Parmesan
+        description_en: Gnocchi, Gorgonzola sauce, Cream, Walnut powder, Walnuts,
+          Parmesan
+        prix: 14 €
       - titre_fr: ''
         titre_en: ''
         enable: false
