@@ -304,7 +304,51 @@ food:
         prix: 15 €
     - nom_fr: Nos plats et Pates
       nom_en: Our dishes and pasta
-      pricing_item: []
+      pricing_item:
+      - titre_fr: Tartare de Bœuf a l'italienne et ses Frites
+        titre_en: Italian Beef Tartar with French Fries
+        enable: true
+        description_fr: Tomates séchées, Huile d'olive, Échalote, Persil, Basilic,
+          Pignons, Parmesan, Sauce Worcestershire, Jambon cru, Vinaigre Balsamique
+        description_en: Dried tomatoes, Olive oil, Shallots, Parsley, Basil, Pine
+          nuts, Parmesan, Worcestershire sauce, Raw ham, Balsamic vinegar
+        prix: 16 €
+      - titre_fr: ''
+        titre_en: ''
+        enable: false
+        description_fr: ''
+        description_en: ''
+        prix: ''
+      - titre_fr: ''
+        titre_en: ''
+        enable: false
+        description_fr: ''
+        description_en: ''
+        prix: ''
+      - titre_fr: ''
+        titre_en: ''
+        enable: false
+        description_fr: ''
+        description_en: ''
+        prix: ''
+      - titre_fr: ''
+        titre_en: ''
+        enable: false
+        description_fr: ''
+        description_en: ''
+        prix: ''
+      - titre_fr: ''
+        titre_en: ''
+        enable: false
+        description_fr: ''
+        description_en: ''
+        prix: ''
+      - titre_fr: ''
+        titre_en: ''
+        enable: false
+        description_fr: ''
+        description_en: ''
+        prix: ''
     - nom_fr: Nos Desserts
       nom_en: ''
       pricing_item: []
