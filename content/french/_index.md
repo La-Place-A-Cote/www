@@ -351,12 +351,12 @@ food:
         description_en: Gnocchi, Gorgonzola sauce, Cream, Walnut powder, Walnuts,
           Parmesan
         prix: 14 €
-      - titre_fr: ''
-        titre_en: ''
-        enable: false
-        description_fr: ''
-        description_en: ''
-        prix: ''
+      - titre_fr: Tomato
+        titre_en: Tomato
+        enable: true
+        description_fr: Linguine, Sauce Tomate
+        description_en: Linguine, Tomato Sauce
+        prix: 12 €
     - nom_fr: Nos Desserts
       nom_en: ''
       pricing_item: []
