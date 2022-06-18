@@ -182,7 +182,8 @@ food:
         titre_en: 4 Cheeses
         enable: true
         description_fr: Sauce Tomate, Mozzarella, Gorgonzola, Chèvre, Parmesan
-        description_en: Sauce Tomate, Mozzarella, Gorgonzola, Chèvre, Parmesan
+        description_en: Tomato Sauce, Mozzarella, Gorgonzola, Goat Cheese, Parmesan
+          cheese
         prix: 14 €
       - titre_fr: Végétarienne
         titre_en: Vegetarian
