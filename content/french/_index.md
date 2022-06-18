@@ -303,7 +303,7 @@ food:
           and garlic)
         prix: 15 €
     - nom_fr: Nos plats et Pates
-      nom_en: ''
+      nom_en: Our dishes and pasta
       pricing_item: []
     - nom_fr: Nos Desserts
       nom_en: ''
