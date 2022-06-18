@@ -4,10 +4,10 @@ disableLanguages = ["de", "it", "en"]
 disqusShortname = ""
 googleAnalytics = ""
 hasCJKLanguage = false
-paginate = "6"
+paginate = "1"
 summaryLength = "10"
 timeZone = "Europe/Paris"
-title = "Courtoise Ressourcerie - Le réemploi, plus écolo que le recyclage"
+title = "La Place ...A Cote Villecroze"
 [caches.assets]
 dir = ":resourceDir/_gen"
 maxAge = "720h"
