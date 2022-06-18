@@ -9,8 +9,8 @@ google_tag_manager = ""
 keywords = "restaurant, pizzeria, terrasse, villecroze, var, viande, vente à emporter, La Place, A Coté , Restaurant La Place, Pizzeria A Coté"
 location = "9 Pl. Général de Gaulle, 83690 Villecroze"
 navbar_fixed = false
-phoneRestaurant = "04 94 70 27 24"
-phonePizza= "04 94 70 27 24"
+phonePizza = "04 94 70 27 24"
+phoneRestaurant = "06 30 21 70 26"
 [baidu]
 analytics_id = ""
 enable = false
