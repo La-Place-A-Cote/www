@@ -190,8 +190,8 @@ food:
         enable: true
         description_fr: Sauce Tomate, Mozzarella, Artichauts, Champignons, Oignons
           confits, Poivrons Confits, Aubergine
-        description_en: Tomato sauce, Mozzarella, Artichokes, Mushrooms, Candied onions
-          Candied onions, Candied peppers, Eggplant
+        description_en: Tomato sauce, Mozzarella, Artichokes, Mushrooms, Candied Onions,
+          Confit Peppers, Eggplant
         prix: 14 €
       - titre_fr: Espagnole
         titre_en: Spanish
