@@ -357,9 +357,15 @@ food:
         description_fr: Linguine, Sauce Tomate
         description_en: Linguine, Tomato Sauce
         prix: 12 €
-    - nom_fr: Nos Desserts
-      nom_en: ''
-      pricing_item: []
+    - nom_fr: Menus Enfant
+      nom_en: Children's menu
+      pricing_item:
+      - titre_fr: 'Plats au choix : Pates Tomato, Pates Bolognaise ou Pizza 45 tours'
+        titre_en: 'Choice of dishes: Tomato pasta, Bolognese pasta or Pizza 45 rounds'
+        enable: true
+        description_fr: Avec sa boule de glace et un sirop au choix
+        description_en: With a scoop of ice cream and a syrup of your choice
+        prix: 12 €
 insta:
   enable: true
   titre: " Instagram"
