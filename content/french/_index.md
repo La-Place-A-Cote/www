@@ -214,11 +214,12 @@ food:
         description_en: Fresh cream, Mozzarella, Cooked chicken, Mushrooms, Persillade
         prix: 14 €
       - titre_fr: Indienne
-        titre_en: ''
+        titre_en: Indienne
         enable: true
         description_fr: Crème fraiche, Mozzarella, Poulet cuisiné, Curry, Oignons
           confits, Tomate Cerise
-        description_en: ''
+        description_en: Fresh cream, Mozzarella, Cooked chicken, Curry, Candied onions,
+          Cherry tomato
         prix: 14 €
       - titre_fr: Corsica
         titre_en: Corsica
