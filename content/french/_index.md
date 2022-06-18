@@ -145,7 +145,7 @@ food:
     description: Le côté pizza
     sous_menus:
     - nom_fr: Nos entrées
-      nom_en: ''
+      nom_en: Our starters
       pricing_item:
       - titre_fr: Carpaccio de Bœuf
         titre_en: Carpaccio of Beef
