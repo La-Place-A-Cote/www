@@ -205,7 +205,7 @@ food:
         titre_en: Ruche
         enable: true
         description_fr: Crème Fraiche, Mozzarella, Chèvre, Miel, Noix
-        description_en: Crème Fraiche, Mozzarella, Goat, Honey, Nuts
+        description_en: Fresh Cream, Mozzarella, Goat cheese, Honey, Walnuts
         prix: 14 €
       - titre_fr: Normande
         titre_en: ''
