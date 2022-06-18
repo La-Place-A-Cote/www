@@ -173,12 +173,13 @@ food:
         description_en: Coppa, Cured Ham, Mortadella, Pancetta
         prix: 16 €
       - titre_fr: Salade Italienne
-        titre_en: ''
-        enable: false
+        titre_en: Italian Salad
+        enable: true
         description_fr: Roquette, Tomate Cerise, Mozzarella, Olives, Poivron, Pignons,
           Courgette
-        description_en: ''
-        prix: ''
+        description_en: Arugula, Cherry Tomato, Mozzarella, Olives, Pepper, Pine nuts,
+          Courgette
+        prix: 14 €
       - titre_fr: Assiette Caprèse
         titre_en: ''
         enable: false
