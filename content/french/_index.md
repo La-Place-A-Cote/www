@@ -148,10 +148,10 @@ food:
       nom_en: Our Pizzas
       pricing_item:
       - titre_fr: Margarita
-        titre_en: Margherita
+        titre_en: Margarita
         enable: true
         description_fr: Sauce Tomate, Mozzarella, Feuilles de Basilic
-        description_en: Tomato Sauce, Mozzarella, Basil Leaves
+        description_en: Tomato Sauce, Mozzarella, Fresh Basil
         prix: 12 €
       - titre_fr: Reine
         titre_en: Reine
