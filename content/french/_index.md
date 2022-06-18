@@ -208,10 +208,10 @@ food:
         description_en: Fresh Cream, Mozzarella, Goat cheese, Honey, Walnuts
         prix: 14 €
       - titre_fr: Normande
-        titre_en: ''
+        titre_en: Normande
         enable: true
         description_fr: Crème fraiche, Mozzarella, Poulet cuisiné, Champignons, Persillade
-        description_en: ''
+        description_en: Fresh cream, Mozzarella, Cooked chicken, Mushrooms, Persillade
         prix: 14 €
       - titre_fr: Indienne
         titre_en: ''
