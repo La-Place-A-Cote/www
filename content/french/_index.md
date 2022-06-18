@@ -244,11 +244,12 @@ food:
           Parsley, Garlic
         prix: 15 €
       - titre_fr: Américaine
-        titre_en: ''
+        titre_en: Américaine
         enable: true
         description_fr: Sauce Tomate, Mozzarella, Viande de Bœuf Haché, Oignons Rouge,
           Cheddar, Cornichon, Salade
-        description_en: ''
+        description_en: Tomato Sauce, Mozzarella, Ground Beef, Red Onions, Cheddar,
+          Pickles, Salad
         prix: 15 €
       - titre_fr: Calzone
         titre_en: Calzone
