@@ -147,12 +147,6 @@ food:
     - nom_fr: Nos entrées
       nom_en: ''
       pricing_item:
-      - titre_fr: Salade verte
-        titre_en: Green salad
-        enable: true
-        description_fr: ''
-        description_en: ''
-        prix: 4 €
       - titre_fr: Carpaccio de Bœuf
         titre_en: Carpaccio of Beef
         enable: true
@@ -160,18 +154,18 @@ food:
           de Parmesan
         description_en: Thin slices of beef, Lemon, Basil, Olive oil, Parmesan shavings
         prix: "15"
-      - titre_fr: Tomate Mozzarella
-        titre_en: Tomato and Mozzarella salad
-        enable: true
-        description_fr: Tomate de saison, Boule de Buffala, Huile d'olive, Basilic
-        description_en: Seasonal tomato, Buffala ball, Olive oil, Basil
-        prix: 14 €
       - titre_fr: Assiette de Charcuterie Italienne
         titre_en: Plate of Italian cold cuts
         enable: true
         description_fr: Coppa, Jambon Cru, Mortadelle, Pancetta
         description_en: Coppa, Cured Ham, Mortadella, Pancetta
         prix: 16 €
+      - titre_fr: Tomate Mozzarella
+        titre_en: Tomato and Mozzarella salad
+        enable: true
+        description_fr: Tomate de saison, Boule de Buffala, Huile d'olive, Basilic
+        description_en: Seasonal tomato, Buffala ball, Olive oil, Basil
+        prix: 14 €
       - titre_fr: Salade Italienne
         titre_en: Italian Salad
         enable: true
@@ -187,6 +181,12 @@ food:
           Jambon cru
         description_en: ''
         prix: ''
+      - titre_fr: Salade verte
+        titre_en: Green salad
+        enable: true
+        description_fr: ''
+        description_en: ''
+        prix: 4 €
     - nom_fr: Nos Pizzas
       nom_en: Our Pizzas
       pricing_item:
