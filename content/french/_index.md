@@ -319,12 +319,14 @@ food:
         description_fr: Sauce Bolognaise, Béchamel, Salade verte
         description_en: Bolognese sauce, Béchamel sauce, Green salad
         prix: 13 €
-      - titre_fr: ''
-        titre_en: ''
-        enable: false
-        description_fr: ''
-        description_en: ''
-        prix: ''
+      - titre_fr: Lasagne végétarienne
+        titre_en: Vegetarian Lasagna
+        enable: true
+        description_fr: Courgette, Aubergine, Tomate, Ail, Mozzarella, Parmesan, Salade
+          verte en accompagnement
+        description_en: Zucchini, Eggplant, Tomato, Garlic, Mozzarella, Parmesan cheese,
+          Green salad on the side
+        prix: 13 €
       - titre_fr: ''
         titre_en: ''
         enable: false
