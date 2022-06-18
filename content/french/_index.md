@@ -256,7 +256,8 @@ food:
         enable: true
         description_fr: Sauce Tomate, Mozzarella, Jambon Blanc, Champignons, Jaune
           D'œuf, Persillade
-        description_en: Tomato Sauce, Mozzarella, Ham, Mushrooms, Egg Yolk, Persillade
+        description_en: Tomato Sauce, Mozzarella, Ham, Mushrooms, Egg Yolk, Persillade(parsley
+          and garlic)
         prix: 15 €
     - nom_fr: Nos entrées
       nom_en: ''
