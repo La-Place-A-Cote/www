@@ -316,8 +316,8 @@ food:
       - titre_fr: Lasagne
         titre_en: Lasagna
         enable: true
-        description_fr: Sauce Bolognaise, Béchamel, Salade verte
-        description_en: Bolognese sauce, Béchamel sauce, Green salad
+        description_fr: Sauce Bolognaise, Béchamel, Salade verte en accompagnement
+        description_en: Bolognese sauce, Béchamel sauce, Green salad on the side
         prix: 13 €
       - titre_fr: Lasagne végétarienne
         titre_en: Vegetarian Lasagna
