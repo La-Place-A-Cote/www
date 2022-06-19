@@ -371,5 +371,13 @@ insta:
   enable: true
   titre: " Instagram"
   id: MkHctZOsF2eX2hnM9V0T
-
+pub:
+  enable: true
+  pubs:
+    - lien: #
+      image: https://picsum.photos/200/300
+      titre: test1 
+    - lien: #
+      image: https://picsum.photos/300
+      titre: test2
 ---

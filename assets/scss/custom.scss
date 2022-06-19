@@ -670,3 +670,23 @@ main {
     display: block;
   }
 }
+
+.footer{
+  .carousel {
+    max-height: 240px;
+    .carousel-inner{
+      height: 240px;
+    }
+    .carousel-item {
+      min-height: 100px;
+      height: 240px;
+      img {
+        width: auto;
+        height: 200px;
+      }
+    }
+  }
+  .licarousel{
+    width: 200px;
+  }
+}
