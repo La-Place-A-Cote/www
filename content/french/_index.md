@@ -182,8 +182,8 @@ food:
         description_fr: Tomate de saison, Boule de Buffala, Huile d'olive, Basilic
         description_en: Seasonal tomato, Buffala ball, Olive oil, Basil
         prix: 14 €
-      - titre_fr: Salade verte
-        titre_en: Green salad
+      - titre_fr: Supplément Salade verte
+        titre_en: 'Green salad Supplément '
         enable: true
         description_fr: ''
         description_en: ''
