@@ -357,7 +357,7 @@ food:
         enable: true
         description_fr: Linguine, Sauce Tomate
         description_en: Linguine, Tomato Sauce
-        prix: 12 €
+        prix: 11 €
     - nom_fr: Menus Enfant
       nom_en: Children's menu
       pricing_item:
