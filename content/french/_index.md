@@ -150,7 +150,7 @@ food:
       pricing_item:
       - titre_fr: Carpaccio de Bœuf
         titre_en: Carpaccio of Beef
-        enable: true
+        enable: false
         description_fr: Fines Tranches de Bœuf, Citron, Basilic, Huile d'olive, Copeaux
           de Parmesan
         description_en: Thin slices of beef, Lemon, Basil, Olive oil, Parmesan shavings
@@ -168,8 +168,8 @@ food:
           Jambon cru
         description_en: Seasonal tomato, Ricotta, Olive oil, Basil, Coppa, Cured ham
         prix: 15 €
-      - titre_fr: Salade Italienne
-        titre_en: Italian Salad
+      - titre_fr: Salade Sicilienne
+        titre_en: Sicilienne Salad
         enable: true
         description_fr: Roquette, Tomate Cerise, Mozzarella, Olives, Poivron, Pignons,
           Courgette
@@ -374,10 +374,11 @@ insta:
 pub:
   enable: true
   pubs:
-    - lien: #
-      image: https://picsum.photos/200/300
-      titre: test1 
-    - lien: #
-      image: https://picsum.photos/300
-      titre: test2
+  - lien: ''
+    image: https://picsum.photos/200/300
+    titre: test1
+  - lien: ''
+    image: https://picsum.photos/300
+    titre: test2
+
 ---
