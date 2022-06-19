@@ -308,7 +308,7 @@ food:
       pricing_item:
       - titre_fr: Tartare de Bœuf a l'italienne et ses Frites
         titre_en: Italian Beef Tartar with French Fries
-        enable: true
+        enable: false
         description_fr: Tomates séchées, Huile d'olive, Échalote, Persil, Basilic,
           Pignons, Parmesan, Sauce Worcestershire, Jambon cru, Vinaigre Balsamique
         description_en: Dried tomatoes, Olive oil, Shallots, Parsley, Basil, Pine
@@ -322,7 +322,7 @@ food:
         prix: 13 €
       - titre_fr: Lasagne végétarienne
         titre_en: Vegetarian Lasagna
-        enable: true
+        enable: false
         description_fr: Courgette, Aubergine, Tomate, Ail, Mozzarella, Parmesan, Salade
           verte en accompagnement
         description_en: Zucchini, Eggplant, Tomato, Garlic, Mozzarella, Parmesan cheese,
