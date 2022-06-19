@@ -209,11 +209,11 @@ food:
         description_fr: 'Sauce Tomate, Mozzarella, Anchois, Câpres '
         description_en: Tomato Sauce, Mozzarella, Anchovy, Caper, Olive Oil
         prix: 13 €
-      - titre_fr: Pizzaladière
-        titre_en: Pizzaladière
+      - titre_fr: Monégasque
+        titre_en: Monégasque
         enable: true
-        description_fr: Oignons confits, Olives, Anchois
-        description_en: Candied Onions, Olives, Anchovies
+        description_fr: Sauce Tomate, Oignons confits, Olives, Anchois
+        description_en: Tomato Sauce, Candied Onions, Olives, Anchovies
         prix: 13 €
       - titre_fr: Atlantide
         titre_en: Atlantide
