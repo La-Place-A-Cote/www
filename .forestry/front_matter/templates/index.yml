@@ -189,8 +189,7 @@ fields:
     type: boolean
     label: Afficher
   - name: pubs
-    type: field_group
-    config: {}
+    type: field_group_list
     fields:
     - name: lien
       type: text
@@ -206,7 +205,11 @@ fields:
       type: text
       config:
         required: false
-      label: titre
+      label: Titre
+    config:
+      min: 
+      max: 
+      labelField: 
     label: Commerce
   label: Publicité
 pages:
