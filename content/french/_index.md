@@ -150,7 +150,7 @@ food:
       pricing_item:
       - titre_fr: Carpaccio de Bœuf
         titre_en: Carpaccio of Beef
-        enable: true
+        enable: false
         description_fr: Fines Tranches de Bœuf, Citron, Basilic, Huile d'olive, Copeaux
           de Parmesan
         description_en: Thin slices of beef, Lemon, Basil, Olive oil, Parmesan shavings
@@ -168,8 +168,8 @@ food:
           Jambon cru
         description_en: Seasonal tomato, Ricotta, Olive oil, Basil, Coppa, Cured ham
         prix: 15 €
-      - titre_fr: Salade Italienne
-        titre_en: Italian Salad
+      - titre_fr: Salade Sicilienne
+        titre_en: Sicilienne Salad
         enable: true
         description_fr: Roquette, Tomate Cerise, Mozzarella, Olives, Poivron, Pignons,
           Courgette
@@ -182,8 +182,8 @@ food:
         description_fr: Tomate de saison, Boule de Buffala, Huile d'olive, Basilic
         description_en: Seasonal tomato, Buffala ball, Olive oil, Basil
         prix: 14 €
-      - titre_fr: Salade verte
-        titre_en: Green salad
+      - titre_fr: Supplément Salade verte
+        titre_en: 'Green salad Supplément '
         enable: true
         description_fr: ''
         description_en: ''
@@ -209,19 +209,14 @@ food:
         description_fr: 'Sauce Tomate, Mozzarella, Anchois, Câpres '
         description_en: Tomato Sauce, Mozzarella, Anchovy, Caper, Olive Oil
         prix: 13 €
-      - titre_fr: Pizzaladière
-        titre_en: Pizzaladière
+      - titre_fr: Calzone
+        titre_en: Calzone
         enable: true
-        description_fr: Oignons confits, Olives, Anchois
-        description_en: Candied Onions, Olives, Anchovies
-        prix: 13 €
-      - titre_fr: Atlantide
-        titre_en: Atlantide
-        enable: true
-        description_fr: Sauce Tomate, Mozzarella, Thon, Tomate Cerise, Persillade
-        description_en: Tomato Sauce, Mozzarella, Tuna, Cherry Tomato, Persillade
-          Dressing
-        prix: 14 €
+        description_fr: Sauce Tomate, Mozzarella, Jambon Blanc, Champignons, Jaune
+          D'œuf, Persillade
+        description_en: Tomato Sauce, Mozzarella, Ham, Mushrooms, Egg Yolk, Persillade(parsley
+          and garlic)
+        prix: 15 €
       - titre_fr: 4 Fromages
         titre_en: 4 Cheeses
         enable: true
@@ -251,34 +246,6 @@ food:
         description_fr: Crème Fraiche, Mozzarella, Chèvre, Miel, Noix
         description_en: Fresh Cream, Mozzarella, Goat cheese, Honey, Walnuts
         prix: 14 €
-      - titre_fr: Normande
-        titre_en: Normande
-        enable: true
-        description_fr: Crème fraiche, Mozzarella, Poulet cuisiné, Champignons, Persillade
-        description_en: Fresh cream, Mozzarella, Cooked chicken, Mushrooms, Persillade
-        prix: 14 €
-      - titre_fr: Indienne
-        titre_en: Indienne
-        enable: true
-        description_fr: Crème fraiche, Mozzarella, Poulet cuisiné, Curry, Oignons
-          confits, Tomate Cerise
-        description_en: Fresh cream, Mozzarella, Cooked chicken, Curry, Candied onions,
-          Cherry tomato
-        prix: 14 €
-      - titre_fr: Corsica
-        titre_en: Corsica
-        enable: true
-        description_fr: Sauce Tomate, Mozzarella, Figatelli, Tomates cerises, Figues
-        description_en: Tomato sauce, Mozzarella, Figatelli, Cherry tomatoes, Figs
-        prix: 14 €
-      - titre_fr: Italienne
-        titre_en: Italian
-        enable: true
-        description_fr: Sauce Tomate, Mozzarella, Jambon cru, Roquette, Tomates cerises,
-          Copeaux de Parmesan
-        description_en: Tomato sauce, Mozzarella, Cured ham, Arugula, Cherry tomatoes,
-          Parmesan shavings
-        prix: 14 €
       - titre_fr: Carnivore
         titre_en: Carnivore
         enable: true
@@ -287,6 +254,20 @@ food:
         description_en: Tomato Sauce, Mozzarella, Ground Beef, Mushrooms, Red Onions,
           Parsley, Garlic
         prix: 15 €
+      - titre_fr: Italienne
+        titre_en: Italian
+        enable: true
+        description_fr: Sauce Tomate, Mozzarella, Jambon cru, Roquette, Tomates cerises,
+          Copeaux de Parmesan
+        description_en: Tomato sauce, Mozzarella, Cured ham, Arugula, Cherry tomatoes,
+          Parmesan shavings
+        prix: 14 €
+      - titre_fr: Corsica
+        titre_en: Corsica
+        enable: true
+        description_fr: Sauce Tomate, Mozzarella, Figatelli, Tomates cerises, Figues
+        description_en: Tomato sauce, Mozzarella, Figatelli, Cherry tomatoes, Figs
+        prix: 14 €
       - titre_fr: Américaine
         titre_en: Américaine
         enable: true
@@ -295,20 +276,39 @@ food:
         description_en: Tomato Sauce, Mozzarella, Ground Beef, Red Onions, Cheddar,
           Pickles, Salad
         prix: 15 €
-      - titre_fr: Calzone
-        titre_en: Calzone
+      - titre_fr: Atlantide
+        titre_en: Atlantide
         enable: true
-        description_fr: Sauce Tomate, Mozzarella, Jambon Blanc, Champignons, Jaune
-          D'œuf, Persillade
-        description_en: Tomato Sauce, Mozzarella, Ham, Mushrooms, Egg Yolk, Persillade(parsley
-          and garlic)
-        prix: 15 €
+        description_fr: Sauce Tomate, Mozzarella, Thon, Tomate Cerise, Persillade
+        description_en: Tomato Sauce, Mozzarella, Tuna, Cherry Tomato, Persillade
+          Dressing
+        prix: 14 €
+      - titre_fr: Normande
+        titre_en: Normande
+        enable: false
+        description_fr: Crème fraiche, Mozzarella, Poulet cuisiné, Champignons, Persillade
+        description_en: Fresh cream, Mozzarella, Cooked chicken, Mushrooms, Persillade
+        prix: 14 €
+      - titre_fr: Monégasque
+        titre_en: Monégasque
+        enable: true
+        description_fr: Sauce Tomate, Oignons confits, Olives, Anchois
+        description_en: Tomato Sauce, Candied Onions, Olives, Anchovies
+        prix: 13 €
+      - titre_fr: Indienne
+        titre_en: Indienne
+        enable: false
+        description_fr: Crème fraiche, Mozzarella, Poulet cuisiné, Curry, Oignons
+          confits, Tomate Cerise
+        description_en: Fresh cream, Mozzarella, Cooked chicken, Curry, Candied onions,
+          Cherry tomato
+        prix: 14 €
     - nom_fr: Nos plats et Pates
       nom_en: Our dishes and pasta
       pricing_item:
       - titre_fr: Tartare de Bœuf a l'italienne et ses Frites
         titre_en: Italian Beef Tartar with French Fries
-        enable: true
+        enable: false
         description_fr: Tomates séchées, Huile d'olive, Échalote, Persil, Basilic,
           Pignons, Parmesan, Sauce Worcestershire, Jambon cru, Vinaigre Balsamique
         description_en: Dried tomatoes, Olive oil, Shallots, Parsley, Basil, Pine
@@ -322,7 +322,7 @@ food:
         prix: 13 €
       - titre_fr: Lasagne végétarienne
         titre_en: Vegetarian Lasagna
-        enable: true
+        enable: false
         description_fr: Courgette, Aubergine, Tomate, Ail, Mozzarella, Parmesan, Salade
           verte en accompagnement
         description_en: Zucchini, Eggplant, Tomato, Garlic, Mozzarella, Parmesan cheese,
@@ -357,7 +357,7 @@ food:
         enable: true
         description_fr: Linguine, Sauce Tomate
         description_en: Linguine, Tomato Sauce
-        prix: 12 €
+        prix: 11 €
     - nom_fr: Menus Enfant
       nom_en: Children's menu
       pricing_item:
@@ -372,12 +372,13 @@ insta:
   titre: " Instagram"
   id: MkHctZOsF2eX2hnM9V0T
 pub:
-  enable: true
+  enable: false
   pubs:
-    - lien: #
-      image: https://picsum.photos/200/300
-      titre: test1 
-    - lien: #
-      image: https://picsum.photos/300
-      titre: test2
+  - lien: ''
+    image: https://picsum.photos/200/300
+    titre: test1
+  - lien: ''
+    image: https://picsum.photos/300
+    titre: test2
+
 ---
