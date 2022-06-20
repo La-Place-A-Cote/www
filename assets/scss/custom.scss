@@ -690,3 +690,9 @@ main {
     width: 200px;
   }
 }
+
+.alert-info{
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+}
