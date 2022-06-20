@@ -372,7 +372,7 @@ insta:
   titre: " Instagram"
   id: MkHctZOsF2eX2hnM9V0T
 pub:
-  enable: true
+  enable: false
   pubs:
   - lien: ''
     image: https://picsum.photos/200/300
