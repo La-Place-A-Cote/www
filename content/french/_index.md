@@ -2,6 +2,11 @@
 slider:
   enable: true
   images:
+  - image: "/uploads/img_0292.jpg"
+    titre: ''
+    titreColor: "#FFFFFF"
+    texte: ''
+    texteColor: "#FFFFFF"
   - image: "/uploads/img_0087.JPG"
     titre: La Place Villecroze
     titreColor: ''
