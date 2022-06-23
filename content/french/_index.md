@@ -13,7 +13,12 @@ fork:
 event:
   enable: true
   titre: Nos Événements
-  evenements: []
+  evenements:
+  - date: 2022-07-01T19:00:00+02:00
+    nom: DA BOOGIE POP
+    titre: En Concert au Restaurant
+    texte: Le restaurant est heureux de faire venir a nouveau ce groupe de Pop rock
+    image: "/uploads/da-affiche2.jpg"
 food:
   enable: true
   titre: Nos Menus
