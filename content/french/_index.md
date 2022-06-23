@@ -154,7 +154,7 @@ food:
       nom_en: DAILY SPECIALS FOR LUNCH AND DINNER
       pricing_item: []
   - titre: À CÔTÉ
-    description: Le côté pizza
+    description: Le côté pizza, Réservations via téléphone au 06 64 37 90 00
     sous_menus:
     - nom_fr: Nos entrées
       nom_en: Our starters
