@@ -18,6 +18,7 @@ picture:
   enable: false
   titre: ''
   images:
+  - "/uploads/da-groupe.jpg"
   - "/uploads/da-concert.jpg"
   - "/uploads/da-chanteur.jpg"
 
