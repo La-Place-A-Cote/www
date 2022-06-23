@@ -15,7 +15,7 @@ divers:
   - id: H9P4vdwObZs
   - id: qitrLHpH8U&t=2s
 picture:
-  enable: false
+  enable: true
   titre: ''
   images:
   - "/uploads/images copy/Da-Boogie-Pop.jpg"
