@@ -21,8 +21,9 @@ event:
   evenements:
   - date: 2022-07-01T19:00:00.000+02:00
     nom: DA BOOGIE POP
-    titre: En Concert au Restaurant
-    texte: Le restaurant est heureux de faire venir a nouveau ce groupe de Pop rock
+    titre: En Concert au Restaurant pour la Fête des Terrasse 2022
+    texte: Le restaurant et la pizzéria sont heureux de recevoir pour vous le groupe
+      **Da Boogie Pop** pour fêté les terrasse 2022
     image: "/uploads/da-affiche2.jpg"
 food:
   enable: true
