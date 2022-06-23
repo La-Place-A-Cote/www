@@ -2,10 +2,10 @@
 title: Da Boogie Pop
 titleColor: 
 email: rocamusic@yahoo.co.uk
-bg_image: images/Da-Boogie-Pop.jpg
+bg_image: "/uploads/da-affiche2.jpg"
 social:
 - icon: fab fa-facebook
-  link: "https://www.facebook.com/daboogiepop"
+  link: https://www.facebook.com/daboogiepop
 divers:
   titre: Videos
   enable: true
