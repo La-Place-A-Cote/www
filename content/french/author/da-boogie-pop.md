@@ -18,6 +18,8 @@ picture:
   enable: false
   titre: ''
   images:
+  - "/uploads/images copy/Da-Boogie-Pop.jpg"
+  - "/uploads/da-affiche2.jpg"
   - "/uploads/da-groupe.jpg"
   - "/uploads/da-concert.jpg"
   - "/uploads/da-chanteur.jpg"
