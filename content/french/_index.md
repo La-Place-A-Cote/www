@@ -14,7 +14,7 @@ event:
   enable: true
   titre: Nos Événements
   evenements:
-  - date: 2022-07-01T19:00:00+02:00
+  - date: 2022-07-01T19:00:00.000+02:00
     nom: DA BOOGIE POP
     titre: En Concert au Restaurant
     texte: Le restaurant est heureux de faire venir a nouveau ce groupe de Pop rock
@@ -24,8 +24,8 @@ food:
   titre: Nos Menus
   menus:
   - titre: 'La PLACE ... '
-    description: 'Restaurant Semi Gastro: reservation via telephone au 06 30 21 70
-      26'
+    description: 'Restaurant Semi Gastro: reservation via telephone 04 94 70 27 24
+      ou 06 09 37 88 55'
     sous_menus:
     - nom_fr: Entrée
       nom_en: Starters
