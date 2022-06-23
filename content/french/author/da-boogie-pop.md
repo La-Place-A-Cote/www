@@ -17,7 +17,9 @@ divers:
 picture:
   enable: false
   titre: ''
-  images: []
+  images:
+  - "/uploads/da-concert.jpg"
+  - "/uploads/da-chanteur.jpg"
 
 ---
 Depuis 12 ans Da Boogie Pop est une référence en région Paca: un son authentique entre musique Soul et Rock vintage, et une énergie festive à couper le souffle!
