@@ -480,7 +480,7 @@ main {
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
+  height: 100%!important;
   z-index: 1;
 }
 .full .content {
@@ -492,15 +492,15 @@ main {
 .full .content img {
   left: 50%;
   transform: translate3d(0, 0, 0);
-  max-width: 100%;
-  max-height: 100%;
+  // max-width: max-content;
+  // max-height: max-content;
   margin: auto;
 }
 .byebye {
   opacity: 1;
 }
 .byebye:hover {
-  transform: scale(1.2) !important;
+  // transform: scale(1.2) !important;
 }
 .gallery {
   display: grid;
