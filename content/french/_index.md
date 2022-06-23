@@ -3,7 +3,7 @@ slider:
   enable: true
   images:
   - image: "/uploads/img_0292.jpg"
-    titre: ''
+    titre: La Terrasse du Restaurant
     titreColor: "#FFFFFF"
     texte: ''
     texteColor: "#FFFFFF"
