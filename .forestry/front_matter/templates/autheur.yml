@@ -76,4 +76,5 @@ fields:
         maxSize: 64
       label: Image
 pages:
+- content/french/author/da-boogie-pop.md
 - content/french/author/meltin-potes.md
