@@ -30,8 +30,8 @@ food:
   titre: Nos Menus
   menus:
   - titre: 'La PLACE ... '
-    description: 'Restaurant Semi Gastro: reservation via telephone 04 94 70 27 24
-      ou 06 09 37 88 55'
+    description: 'Restaurant de cuisine Française: réservation via téléphone 04 94
+      70 27 24 ou 06 09 37 88 55'
     sous_menus:
     - nom_fr: Entrée
       nom_en: Starters
