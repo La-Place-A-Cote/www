@@ -214,3 +214,4 @@ fields:
   label: Publicité
 pages:
 - content/french/_index.md
+- content/french/author/BOI.md
