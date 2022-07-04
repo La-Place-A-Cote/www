@@ -19,6 +19,11 @@ event:
   enable: true
   titre: Nos Événements
   evenements:
+  - date: 2022-07-15T19:00:00+02:00
+    nom: BOI
+    titre: Boi en concert au restaurant
+    texte: Musique flamenco
+    image: "/uploads/boi.jpg"
   - date: 2022-07-01T19:00:00.000+02:00
     nom: DA BOOGIE POP
     titre: En Concert au Restaurant pour la Fête des Terrasse 2022
