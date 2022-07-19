@@ -19,11 +19,11 @@ event:
   enable: true
   titre: Nos Événements
   evenements:
-  - date: 2022-07-08T22:00:00+02:00
+  - date: 2022-07-22T22:00:00+02:00
     nom: DJ AIR 1
     titre: DJ AIR 1 au restaurant ce vendredi
     texte: "**Oraganic, House, Deep House, Dance Floor**"
-    image: "/uploads/20220707_204843_0000.png"
+    image: "/uploads/20220716_124943_0000.png"
   - date: 2022-07-15T19:00:00+02:00
     nom: BOI
     titre: Boi en concert au restaurant
