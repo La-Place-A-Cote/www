@@ -1,3 +1,7 @@
+---
+_template: autheur
+---
+
 +++
 bg_image = ""
 draft = true

@@ -1,3 +1,7 @@
+---
+_template: index
+---
+
 +++
 [event]
 enable = true

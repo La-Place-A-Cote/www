@@ -1,0 +1,26 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "description": "Landing page",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tinacms dev -c \"hugo server\"",
+    "build": "npx tinacms build && hugo",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/La-Place-A-Cote/www.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/La-Place-A-Cote/www/issues"
+  },
+  "homepage": "https://github.com/La-Place-A-Cote/www#readme",
+  "dependencies": {
+    "@tinacms/cli": "^1.5.5",
+    "tinacms": "^1.4.5"
+  }
+}

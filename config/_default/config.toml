@@ -1,6 +1,6 @@
 baseURL = "https://www.laplaceacote.fr"
 defaultContentLanguage = "fr"
-disableLanguages = ["de", "it", "en"]
+disableLanguages = [ "de", "it", "en" ]
 disqusShortname = ""
 googleAnalytics = ""
 hasCJKLanguage = false
@@ -8,32 +8,44 @@ paginate = "1"
 summaryLength = "10"
 timeZone = "Europe/Paris"
 title = "La Place ...A Cote Villecroze"
+_template = "config_site"
+
 [caches.assets]
 dir = ":resourceDir/_gen"
 maxAge = "720h"
+
 [caches.images]
 dir = ":resourceDir/_gen"
 maxAge = "720h"
+
 [imaging]
 quality = 90
+
 [markup.goldmark.renderer]
 unsafe = true
+
 [markup.highlight]
 style = "monokai"
+
 [markup.tableOfContents]
 endLevel = 6
 ordered = false
 startLevel = 2
+
 [mediaTypes."application/manifest+json"]
-suffixes = ["webmanifest"]
+suffixes = [ "webmanifest" ]
+
 [mediaTypes."text/netlify"]
 delimiter = ""
-suffixes = [""]
+suffixes = [ "" ]
+
 [module.hugoVersion]
 extended = true
 min = "0.87.0"
+
 [outputFormats.WebAppManifest]
 mediaType = "application/manifest+json"
 rel = "manifest"
+
 [outputs]
-home = ["HTML", "WebAppManifest"]
+home = [ "HTML", "WebAppManifest" ]
