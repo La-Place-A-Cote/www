@@ -29,6 +29,12 @@ export function autheurFields() {
       name: "social",
       label: "Reseaux Sociaux",
       list: true,
+      ui: {
+        itemProps: (item) => {
+    // Field values are accessed by title?.<Field name>
+          return { label: item?.link };
+        },
+      },
       fields: [
         {
           type: "string",
@@ -401,6 +407,12 @@ export function configuration_gFields() {
           name: "imports",
           label: "imports",
           list: true,
+          ui: {
+            itemProps: (item) => {
+        // Field values are accessed by title?.<Field name>
+              return { label: item?.path };
+            },
+          },
           fields: [
             {
               type: "boolean",
@@ -431,6 +443,12 @@ export function configuration_gFields() {
               name: "css",
               label: "css",
               list: true,
+              ui: {
+                itemProps: (item) => {
+            // Field values are accessed by title?.<Field name>
+                  return { label: item?.link };
+                },
+              },
               fields: [
                 {
                   type: "string",
@@ -444,6 +462,12 @@ export function configuration_gFields() {
               name: "js",
               label: "js",
               list: true,
+              ui: {
+                itemProps: (item) => {
+            // Field values are accessed by title?.<Field name>
+                  return { label: item?.link };
+                },
+              },
               fields: [
                 {
                   type: "string",
@@ -587,6 +611,12 @@ export function indexFields() {
           name: "images",
           label: "Carrousel images",
           list: true,
+          ui: {
+            itemProps: (item) => {
+        // Field values are accessed by title?.<Field name>
+              return { label: item?.titre };
+            },
+          },
           fields: [
             {
               type: "image",
@@ -643,12 +673,22 @@ export function indexFields() {
           name: "evenements",
           label: "evenements",
           list: true,
+          ui: {
+            itemProps: (item) => {
+        // Field values are accessed by title?.<Field name>
+              const date = new Date(item?.date);
+              return { label: `${item?.titre}  ( ${date.toLocaleDateString("fr-FR")} ) ` };
+            },
+          },
           fields: [
             {
               type: "datetime",
               name: "date",
               label: "Date",
               required: true,
+              ui: {
+                dateFormat: 'DD - MM - YYYY'
+              }
             },
             {
               type: "string",
@@ -663,12 +703,9 @@ export function indexFields() {
               required: true,
             },
             {
-              type: "string",
+              type: "rich-text",
               name: "texte",
               label: "Description de l'événement",
-              ui: {
-                component: "textarea",
-              },
               required: true,
             },
             {
@@ -700,6 +737,12 @@ export function indexFields() {
           name: "menus",
           label: "Un Menu",
           list: true,
+          ui: {
+            itemProps: (item) => {
+        // Field values are accessed by title?.<Field name>
+              return { label: item?.titre };
+            },
+          },
           fields: [
             {
               type: "string",
@@ -707,18 +750,21 @@ export function indexFields() {
               label: "Titre du menu",
             },
             {
-              type: "string",
+              type: "rich-text",
               name: "description",
               label: "Description",
-              ui: {
-                component: "textarea",
-              },
             },
             {
               type: "object",
               name: "sous_menus",
               label: "Sous menu",
               list: true,
+              ui: {
+                itemProps: (item) => {
+            // Field values are accessed by title?.<Field name>
+                  return { label: item?.nom_fr };
+                },
+              },
               fields: [
                 {
                   type: "string",
@@ -755,9 +801,6 @@ export function indexFields() {
                       type: "string",
                       name: "description_fr",
                       label: "Les ingredients FR",
-                      ui: {
-                        component: "textarea",
-                      },
                     },
                     {
                       type: "string",
@@ -810,6 +853,11 @@ export function indexFields() {
           name: "enable",
           label: "Afficher",
         },
+        {
+          type: "string",
+          name: "uid",
+          label: "UID The Fork",
+        },
       ],
     },
     {
@@ -827,6 +875,12 @@ export function indexFields() {
           name: "pubs",
           label: "Commerce",
           list: true,
+          ui: {
+            itemProps: (item) => {
+        // Field values are accessed by title?.<Field name>
+              return { label: item?.titre };
+            },
+          },
           fields: [
             {
               type: "string",
