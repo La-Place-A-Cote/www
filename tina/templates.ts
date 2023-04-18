@@ -781,6 +781,12 @@ export function indexFields() {
                   name: "pricing_item",
                   label: "Item sur le menu",
                   list: true,
+                  ui: {
+                    itemProps: (item) => {
+                      // Field values are accessed by title?.<Field name>
+                      return { label: `${item?.titre_fr}  ( ${item?.titre_en} ) ` };
+                    },
+                  },
                   fields: [
                     {
                       type: "string",
