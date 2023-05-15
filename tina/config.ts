@@ -346,7 +346,7 @@ export default defineConfig({
         format: "toml",
         label: "Configuration General",
         name: "configuration_general",
-        path: ".",
+        path: "/",
         ui: {
           allowedActions: {
             create: false,
