@@ -12,32 +12,19 @@
 {{ if .enable }}
 
 <section>
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"> 
-    <div class="carousel-indicators">
+  <div class="swiper carouselSwiper">
+    <div class="swiper-wrapper">
       {{ range $index, $val := .images }}
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="{{ $index }}" {{ if (eq $index 0) }} class="active" aria-current="true" {{ end }} aria-label="Slide {{ $index }}"></button>
-      {{ end }}
-    </div>
-    <div class="carousel-inner">
-      {{ range $index, $val := .images }}
-      {{ with .image }}<div class="carousel-item {{ if (eq $index 0) }} active {{ end }}" style="background-image: url('{{ . | relURL }}')">{{ end }}
-        <div class="carousel-caption">
+        <div class="swiper-slide")>
+          {{ with .image }}<div class="swiper-bg" style="background-image: url('{{ . | relURL }}')"></div>{{ end }}  
           {{ $colortitre:= .titreColor | default "#fff"}}
           {{ $colortexte:= .texteColor | default "#fff"}}
-          {{ with .titre  }}<h1 style="color: {{ $colortitre }};" >{{ . | markdownify }}</h1>{{ end }}
-          {{ with .texte  }}<p style="color: {{ $colortexte }};">{{ . | markdownify }}</p>{{ end }}
+          {{ with .titre  }}<h1 class="swipertitre" style="color: {{ $colortitre }};" >{{ . | markdownify }}</h1>{{ end }}
+          {{ with .texte  }}<p class="swipertext" style="color: {{ $colortexte }};">{{ . | markdownify }}</p>{{ end }}
         </div>
-      </div>
       {{ end }}
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+    <div class="swiper-pagination"></div>
   </div>
 </section>
 {{ end }}

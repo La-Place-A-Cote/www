@@ -161,7 +161,22 @@ if($(window).width() > 800) {
 
     });
 }
+var swiper = new Swiper(".carouselSwiper", {
+  direction: "vertical",
+  slidesPerView: 1,
+  spaceBetween: 30,
+  effect: "fade",
 
+  autoplay: {
+    delay: 4500,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+
+});
 
 var swiper = new Swiper('.news-slider', {
     effect: 'coverflow',
