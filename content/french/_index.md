@@ -12,6 +12,33 @@ slider:
       titreColor: ''
       texte: ''
       texteColor: ''
+about:
+  enable: true
+  title: A propos
+  description: >-
+    **Créée en 2012**, l'association La Courtoise Ressourcerie est un chantier
+    d’insertion qui valorise les objets en leur donnant une seconde vie tout en
+    créant de l’emploi et en agissant pour l’environnement.
+    Les objets que nous remettons en état sont récupérés lors de débarras de
+    maisons, de collectes d'encombrants ou grâce à des dons de particuliers. Ces
+    objets proviennent également de partenariats avec des entreprises de la
+    Provence Verte qui nous font dons d'invendus. Une fois remis en état, ces
+    objets sont mis en vente au sein de nos boutiques et c'est parti pour une
+    seconde vie ! 
+
+
+    À  ce jour, l'association compte 10 ateliers - informatique, vélo, bois,
+    culture, mécanique, hi-fi, gros et petits électroménagers, nettoyage,
+    manutention et la vente (boutique et e-shop) - où évoluent près de 80
+    salariés en insertion professionnelle, une vingtaine d'encadrants permanents
+    et une trentaine de bénévoles. 
+
+
+    Acteur de la prévention des déchets, nous menons également différentes
+    actions de sensibilisation à la transition écologique et à l'économie
+    circulaire sur le territoire. 
+  image_enable: false
+  image: ''
 fork:
   enable: true
   uid: ''

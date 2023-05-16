@@ -655,6 +655,38 @@ export function indexFields() {
     },
     {
       type: "object",
+      name: "about",
+      label: "Section Description",
+      fields: [
+        {
+          type: "boolean",
+          name: "enable",
+          label: "Affichage",
+        },
+        {
+          type: "string",
+          name: "title",
+          label: "Titre",
+        },
+        {
+          type: "rich-text",
+          name: "description",
+          label: "Description",
+        },
+        {
+          type: "boolean",
+          name: "image_enable",
+          label: "Affichage Image",
+        },
+        {
+          type: "image",
+          name: "image",
+          label: "Image",
+        },
+      ],
+    },
+    {
+      type: "object",
       name: "event",
       label: "Section Evénements",
       fields: [

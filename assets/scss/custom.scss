@@ -62,7 +62,11 @@ main {
   stroke: currentColor;
   fill: currentColor;
 }
-
+.about{
+  & .block p {
+    color: #000000;
+  }
+}
 .news {
 
   &-slider {
