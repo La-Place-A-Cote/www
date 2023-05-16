@@ -1004,11 +1004,6 @@ export function pramFields() {
       label: "Restaurant phone",
     },
     {
-      type: "string",
-      name: "phonePizza",
-      label: "Pizza Phone",
-    },
-    {
       type: "object",
       name: "baidu",
       label: "baidu",

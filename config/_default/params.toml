@@ -1,15 +1,14 @@
 address_descriptors = false
-author = "La Place ...A Cote Villecroze, Luc Van De Velde"
-copyright = "Copyright © 2022 laplaceacote.fr - La Place ...A Cote"
+author = "La Place Villecroze, Luc Van De Velde"
+copyright = "Copyright © 2022 laplaceacote.fr - La Place"
 custom_script = ""
 description = "Réservez votre Table et Dégustez de Savoureux Plats à la carte ou en menu sous les platanes de Villecroze. Nous vous proposons deux cartes différentes en fonction de ce que vous voulez manger : Plats cuisinés à la carte ou des Pizzas. Venez découvrir nos deux restaurants installer sur la place de Villecroze."
 email = "restaurentlaplace@gmail.com"
 favicon = "images/favicon.png"
 google_tag_manager = "G-16QJRXF1P5"
-keywords = "restaurant, pizzeria, terrasse, villecroze, var, viande, vente à emporter, La Place, A Coté , Restaurant La Place, Pizzeria A Coté"
+keywords = "restaurant, terrasse, villecroze, var, viande, vente à emporter, La Place, A Coté , Restaurant La Place"
 location = "9 Pl. Général de Gaulle, 83690 Villecroze"
 navbar_fixed = false
-phonePizza = "06 64 37 90 00"
 phoneRestaurant = "04 94 70 27 24"
 _template = "pram"
 

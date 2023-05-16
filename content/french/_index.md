@@ -16,27 +16,9 @@ about:
   enable: true
   title: A propos
   description: >-
-    **Créée en 2012**, l'association La Courtoise Ressourcerie est un chantier
-    d’insertion qui valorise les objets en leur donnant une seconde vie tout en
-    créant de l’emploi et en agissant pour l’environnement.
-    Les objets que nous remettons en état sont récupérés lors de débarras de
-    maisons, de collectes d'encombrants ou grâce à des dons de particuliers. Ces
-    objets proviennent également de partenariats avec des entreprises de la
-    Provence Verte qui nous font dons d'invendus. Une fois remis en état, ces
-    objets sont mis en vente au sein de nos boutiques et c'est parti pour une
-    seconde vie ! 
-
-
-    À  ce jour, l'association compte 10 ateliers - informatique, vélo, bois,
-    culture, mécanique, hi-fi, gros et petits électroménagers, nettoyage,
-    manutention et la vente (boutique et e-shop) - où évoluent près de 80
-    salariés en insertion professionnelle, une vingtaine d'encadrants permanents
-    et une trentaine de bénévoles. 
-
-
-    Acteur de la prévention des déchets, nous menons également différentes
-    actions de sensibilisation à la transition écologique et à l'économie
-    circulaire sur le territoire. 
+    Tous les clients aiment bien la fabuleuse cuisine française de ce restaurant. LA PLACE Villecroze est si bien placé qu'on peut y accéder en utilisant n'importe quel transport. Essayez une pizza fascinante. Commander un parfait savoureux s'avère être une excellente expérience ici. Un vin délicieux fait parti des boissons les plus commandées dans ce lieu. Les visiteurs n'aiment pas prendre un café à cet endroit.
+    
+    Un personnel compétent attend les clients tout au long de l'année. Un service luxueux est toujours un plaisir. Des plats délicieux à un prix démocratique sont offerts ici. Un décor familial et une ambiance plaisante permettent aux clients de se détendre. 
   image_enable: false
   image: ''
 fork:
@@ -46,7 +28,7 @@ event:
   enable: true
   titre: Nos Événements
   evenements:
-    - date: 2022-07-22T20:00:00.000Z
+    - date: 2023-07-22T20:00:00.000Z
       nom: DJ AIR 1
       titre: DJ AIR 1 au restaurant ce vendredi
       texte: '**Oraganic, House, Deep House, Dance Floor**'
@@ -56,7 +38,7 @@ event:
       titre: Boi en concert au restaurant
       texte: Musique flamenco
       image: /uploads/boi.jpg
-    - date: 2022-07-29T17:00:00.000Z
+    - date: 2023-07-29T17:00:00.000Z
       nom: DA BOOGIE POP
       titre: 'En Concert au Restaurant '
       texte: >-
@@ -192,268 +174,6 @@ food:
         - nom_fr: PLATS DU JOUR MIDI ET SOIR
           nom_en: DAILY SPECIALS FOR LUNCH AND DINNER
           pricing_item: []
-    - titre: À CÔTÉ
-      description: 'Le côté pizza, Réservations via téléphone au 06 64 37 90 00'
-      sous_menus:
-        - nom_fr: Nos entrées
-          nom_en: Our starters
-          pricing_item:
-            - titre_fr: Carpaccio de Bœuf
-              titre_en: Carpaccio of Beef
-              enable: false
-              description_fr: >-
-                Fines Tranches de Bœuf, Citron, Basilic, Huile d'olive, Copeaux
-                de Parmesan
-              description_en: 'Thin slices of beef, Lemon, Basil, Olive oil, Parmesan shavings'
-              prix: '15'
-            - titre_fr: Assiette de Charcuterie Italienne
-              titre_en: Plate of Italian cold cuts
-              enable: true
-              description_fr: 'Coppa, Jambon Cru, Mortadelle, Pancetta'
-              description_en: 'Coppa, Cured Ham, Mortadella, Pancetta'
-              prix: 16 €
-            - titre_fr: Assiette Caprèse
-              titre_en: Caprese plate
-              enable: true
-              description_fr: >-
-                Tomate de saison, Ricotta, Huile d'olive, Basilic, Coppa, Jambon
-                cru
-              description_en: 'Seasonal tomato, Ricotta, Olive oil, Basil, Coppa, Cured ham'
-              prix: 15 €
-            - titre_fr: Salade Sicilienne
-              titre_en: Sicilienne Salad
-              enable: true
-              description_fr: >-
-                Roquette, Tomate Cerise, Mozzarella, Olives, Poivron, Pignons,
-                Courgette
-              description_en: >-
-                Arugula, Cherry Tomato, Mozzarella, Olives, Pepper, Pine nuts,
-                Courgette
-              prix: 14 €
-            - titre_fr: Tomate Mozzarella
-              titre_en: Tomato and Mozzarella salad
-              enable: true
-              description_fr: 'Tomate de saison, Boule de Buffala, Huile d''olive, Basilic'
-              description_en: 'Seasonal tomato, Buffala ball, Olive oil, Basil'
-              prix: 14 €
-            - titre_fr: Supplément Salade verte
-              titre_en: 'Green salad Supplément '
-              enable: true
-              description_fr: ''
-              description_en: ''
-              prix: 4 €
-        - nom_fr: Nos Pizzas
-          nom_en: Our Pizzas
-          pricing_item:
-            - titre_fr: Margarita
-              titre_en: Margarita
-              enable: true
-              description_fr: 'Sauce Tomate, Mozzarella, Feuilles de Basilic'
-              description_en: 'Tomato Sauce, Mozzarella, Fresh Basil'
-              prix: 12 €
-            - titre_fr: Reine
-              titre_en: Reine
-              enable: true
-              description_fr: 'Sauce Tomate, Mozzarella, Jambon Blanc, Champignons'
-              description_en: 'Tomato sauce, Mozzarella, Ham, Mushrooms'
-              prix: 13 €
-            - titre_fr: Napolitaine
-              titre_en: Napolitana
-              enable: true
-              description_fr: 'Sauce Tomate, Mozzarella, Anchois, Câpres '
-              description_en: 'Tomato Sauce, Mozzarella, Anchovy, Caper, Olive Oil'
-              prix: 13 €
-            - titre_fr: Calzone
-              titre_en: Calzone
-              enable: true
-              description_fr: >-
-                Sauce Tomate, Mozzarella, Jambon Blanc, Champignons, Jaune
-                D'œuf, Persillade
-              description_en: >-
-                Tomato Sauce, Mozzarella, Ham, Mushrooms, Egg Yolk,
-                Persillade(parsley and garlic)
-              prix: 15 €
-            - titre_fr: 4 Fromages
-              titre_en: 4 Cheeses
-              enable: true
-              description_fr: 'Sauce Tomate, Mozzarella, Gorgonzola, Chèvre, Parmesan'
-              description_en: >-
-                Tomato Sauce, Mozzarella, Gorgonzola, Goat Cheese, Parmesan
-                cheese
-              prix: 14 €
-            - titre_fr: Végétarienne
-              titre_en: Vegetarian
-              enable: true
-              description_fr: >-
-                Sauce Tomate, Mozzarella, Artichauts, Champignons, Oignons
-                confits, Poivrons Confits, Aubergine
-              description_en: >-
-                Tomato sauce, Mozzarella, Artichokes, Mushrooms, Candied Onions,
-                Confit Peppers, Eggplant
-              prix: 14 €
-            - titre_fr: Espagnole
-              titre_en: Espagnole
-              enable: true
-              description_fr: >-
-                Sauce Tomate, Mozzarella, Chorizo, Poivrons confits, Oignons
-                confits
-              description_en: >-
-                Tomato Sauce, Mozzarella, Chorizo, Confit Peppers, Candied
-                Onions
-              prix: 14 €
-            - titre_fr: Ruche
-              titre_en: Ruche
-              enable: true
-              description_fr: 'Crème Fraiche, Mozzarella, Chèvre, Miel, Noix'
-              description_en: 'Fresh Cream, Mozzarella, Goat cheese, Honey, Walnuts'
-              prix: 14 €
-            - titre_fr: Carnivore
-              titre_en: Carnivore
-              enable: true
-              description_fr: >-
-                Sauce Tomate, Mozzarella, Viande Hachée, Champignons, Oignons
-                Rouge, Persillade
-              description_en: >-
-                Tomato Sauce, Mozzarella, Ground Beef, Mushrooms, Red Onions,
-                Parsley, Garlic
-              prix: 15 €
-            - titre_fr: Italienne
-              titre_en: Italian
-              enable: true
-              description_fr: >-
-                Sauce Tomate, Mozzarella, Jambon cru, Roquette, Tomates cerises,
-                Copeaux de Parmesan
-              description_en: >-
-                Tomato sauce, Mozzarella, Cured ham, Arugula, Cherry tomatoes,
-                Parmesan shavings
-              prix: 14 €
-            - titre_fr: Corsica
-              titre_en: Corsica
-              enable: true
-              description_fr: 'Sauce Tomate, Mozzarella, Figatelli, Tomates cerises, Figues'
-              description_en: 'Tomato sauce, Mozzarella, Figatelli, Cherry tomatoes, Figs'
-              prix: 14 €
-            - titre_fr: Américaine
-              titre_en: Américaine
-              enable: true
-              description_fr: >-
-                Sauce Tomate, Mozzarella, Viande de Bœuf Haché, Oignons Rouge,
-                Cheddar, Cornichon, Salade
-              description_en: >-
-                Tomato Sauce, Mozzarella, Ground Beef, Red Onions, Cheddar,
-                Pickles, Salad
-              prix: 15 €
-            - titre_fr: Atlantide
-              titre_en: Atlantide
-              enable: true
-              description_fr: 'Sauce Tomate, Mozzarella, Thon, Tomate Cerise, Persillade'
-              description_en: >-
-                Tomato Sauce, Mozzarella, Tuna, Cherry Tomato, Persillade
-                Dressing
-              prix: 14 €
-            - titre_fr: Normande
-              titre_en: Normande
-              enable: false
-              description_fr: >-
-                Crème fraiche, Mozzarella, Poulet cuisiné, Champignons,
-                Persillade
-              description_en: 'Fresh cream, Mozzarella, Cooked chicken, Mushrooms, Persillade'
-              prix: 14 €
-            - titre_fr: Monégasque
-              titre_en: Monégasque
-              enable: true
-              description_fr: 'Sauce Tomate, Oignons confits, Olives, Anchois'
-              description_en: 'Tomato Sauce, Candied Onions, Olives, Anchovies'
-              prix: 13 €
-            - titre_fr: Indienne
-              titre_en: Indienne
-              enable: false
-              description_fr: >-
-                Crème fraiche, Mozzarella, Poulet cuisiné, Curry, Oignons
-                confits, Tomate Cerise
-              description_en: >-
-                Fresh cream, Mozzarella, Cooked chicken, Curry, Candied onions,
-                Cherry tomato
-              prix: 14 €
-        - nom_fr: Nos plats et Pates
-          nom_en: Our dishes and pasta
-          pricing_item:
-            - titre_fr: Tartare de Bœuf a l'italienne et ses Frites
-              titre_en: Italian Beef Tartar with French Fries
-              enable: false
-              description_fr: >-
-                Tomates séchées, Huile d'olive, Échalote, Persil, Basilic,
-                Pignons, Parmesan, Sauce Worcestershire, Jambon cru, Vinaigre
-                Balsamique
-              description_en: >-
-                Dried tomatoes, Olive oil, Shallots, Parsley, Basil, Pine nuts,
-                Parmesan, Worcestershire sauce, Raw ham, Balsamic vinegar
-              prix: 16 €
-            - titre_fr: Lasagne
-              titre_en: Lasagna
-              enable: true
-              description_fr: 'Sauce Bolognaise, Béchamel, Salade verte en accompagnement'
-              description_en: 'Bolognese sauce, Béchamel sauce, Green salad on the side'
-              prix: 13 €
-            - titre_fr: Lasagne végétarienne
-              titre_en: Vegetarian Lasagna
-              enable: false
-              description_fr: >-
-                Courgette, Aubergine, Tomate, Ail, Mozzarella, Parmesan, Salade
-                verte en accompagnement
-              description_en: >-
-                Zucchini, Eggplant, Tomato, Garlic, Mozzarella, Parmesan cheese,
-                Green salad on the side
-              prix: 13 €
-            - titre_fr: Pates Bolognaise
-              titre_en: Bolognese Pasta
-              enable: true
-              description_fr: >-
-                Linguine, Viandes Hachée, Tomates, Carottes, Oignons, Thym,
-                Laurier, Ail
-              description_en: >-
-                Linguine, Minced Meat, Tomatoes, Carrots, Onions, Thyme, Laurel,
-                Garlic
-              prix: 13 €
-            - titre_fr: Pennes à l'arrabiata
-              titre_en: Penne with arrabiata
-              enable: true
-              description_fr: >-
-                Pennes, Basilic, Tomates, Ail, Lardons, Crème fraiche,
-                Parmesans, Tabasco
-              description_en: >-
-                Penne, Basil, Tomatoes, Garlic, Bacon, Fresh Cream, Parmesan,
-                Tabasco
-              prix: 13 €
-            - titre_fr: Gnocchis Gorgonzola
-              titre_en: Gorgonzola Gnocchi
-              enable: true
-              description_fr: >-
-                Gnocchis, Sauce de Gorgonzola, Crème, Poudre de noix, Noix,
-                Parmesan
-              description_en: >-
-                Gnocchi, Gorgonzola sauce, Cream, Walnut powder, Walnuts,
-                Parmesan
-              prix: 14 €
-            - titre_fr: Tomato
-              titre_en: Tomato
-              enable: true
-              description_fr: 'Linguine, Sauce Tomate'
-              description_en: 'Linguine, Tomato Sauce'
-              prix: 11 €
-        - nom_fr: Menus Enfant
-          nom_en: Children's menu
-          pricing_item:
-            - titre_fr: >-
-                Plats au choix : Pates Tomato, Pates Bolognaise ou Pizza 45
-                tours
-              titre_en: >-
-                Choice of dishes: Tomato pasta, Bolognese pasta or Pizza 45
-                rounds
-              enable: true
-              description_fr: Avec sa boule de glace et un sirop au choix
-              description_en: With a scoop of ice cream and a syrup of your choice
-              prix: 12 €
 insta:
   enable: true
   titre: ' Instagram'

@@ -7,7 +7,7 @@ hasCJKLanguage = false
 paginate = "1"
 summaryLength = "10"
 timeZone = "Europe/Paris"
-title = "La Place ...A Cote Villecroze"
+title = "La Place Villecroze"
 _template = "config_site"
 
 [caches.assets]
