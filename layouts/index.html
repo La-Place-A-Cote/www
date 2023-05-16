@@ -72,10 +72,8 @@
 <section>
   <h1 style="text-align: center; margin-bottom: 4rem;margin-top: 4rem;">{{ .titre | markdownify }}</h1>
   <div class="wrapper">  
-    <div class="news-slider">
+    <div class="swiper news-slider">
       <div class="news-slider__wrp swiper-wrapper">
-       
-        
         {{ range sort .evenements ".date" }}
         {{ $t := (time .date) }}
         {{ if $t.After now }}

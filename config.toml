@@ -22,6 +22,9 @@ link = "plugins/font-awesome/brands.css"
 [[params.plugins.css]]
 link = "plugins/font-awesome/solid.css"
 
+[[params.plugins.css]]
+link = "plugins/swiper/swiper-bundle.min.css"
+
 [[params.plugins.js]]
 link = "plugins/jquery/jquery.min.js"
 
@@ -41,7 +44,7 @@ link = "plugins/google-map/gmap.js"
 link = "plugins/webfont-loader/webfont-loader-2.min.js"
 
 [[params.plugins.js]]
-link = "plugins/swiper/swiper.min.js"
+link = "plugins/swiper/swiper-bundle.min.js"
 
 [params.variables]
 attelierWidth_size = "50%"
