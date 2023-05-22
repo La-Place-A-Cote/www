@@ -1,7 +1,7 @@
 
 //////Slider 
 .carouselSwiper {
-    height: 100vh;
+    height: 97vh;
     min-height: 350px;
     
     
@@ -42,6 +42,9 @@
 }
 .swiper-pagination-bullet{
   opacity: 1;
+}
+.section {
+  padding: 60px 0;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext');
@@ -656,6 +659,12 @@ main {
     transform: rotate(0deg);
   }
 }
+.thefork {
+  position: sticky;
+  z-index: 99;
+  height: 0;
+  margin-top: -23px;
+}
 
 .tf-floating-button {
   opacity:1;
@@ -663,7 +672,6 @@ main {
   -ms-flex-align:center;
   align-items:center;
   border:1px solid;
-  z-index:9999999;
   background-color:#fff;
   border-radius:4px;
   display:-webkit-box;
@@ -673,17 +681,10 @@ main {
   width:280px;
   border-color:rgba(90,149,66,1);
   color:rgba(90,149,66,1);
-  position:fixed;
-  bottom:10px;
-  right:10px
-
+  margin: auto;
+  justify-content: center;
 }
 
-.tf-floating-button{
-  @media screen and (max-width: 576px) {
-    display: none;
-  }
-}
 .tf-widget-link { 
   padding:0 0 0 15px;
   text-decoration:none;

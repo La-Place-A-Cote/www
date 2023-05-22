@@ -30,6 +30,17 @@
 {{ end }}
 <!-- /Slider -->
 
+<!-- The Fork  -->
+<!--  FIXME:  TODO 1  -->
+{{ with .Params.fork }}
+{{ if .enable }}
+<section class="thefork">
+  <div class="tf-floating-button"><a class="tf-widget-link" href="https://www.thefork.fr/restaurant/la-place-villecroze-r498349" target="_blank" rel="noopener">Réserver une table</a><img class="tf-button-icon" src="https://static.myfourchette.com/uploads/email_campaign/56567_IsotypeTheForkGreenSm.png"></div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /The Fork -->
+
 <!-- about -->
 {{ with .Params.about }}
 {{ if .enable }}
@@ -54,22 +65,9 @@
     </div>
   </div>
 </section>
-
 {{ end }}
 {{ end }}
 <!-- /about -->
-
-
-<!-- The Fork  -->
-<!--  FIXME:  TODO 1  -->
-{{ with .Params.fork }}
-{{ if .enable }}
-<section>
-  <div class="tf-floating-button"><a class="tf-widget-link" href="https://www.thefork.fr/restaurant/la-place-villecroze-r498349" target="_blank" rel="noopener">Réserver une table</a><img class="tf-button-icon" src="https://static.myfourchette.com/uploads/email_campaign/56567_IsotypeTheForkGreenSm.png"></div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /The Fork -->
 
 <!-- Event  -->
 {{ with .Params.event }}
