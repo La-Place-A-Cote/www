@@ -25,6 +25,10 @@ link = "plugins/font-awesome/solid.css"
 [[params.plugins.css]]
 link = "plugins/swiper/swiper-bundle.min.css"
 
+[[params.plugins.css]]
+link = "https://unpkg.com/aos@next/dist/aos.css"
+
+
 [[params.plugins.js]]
 link = "plugins/jquery/jquery.min.js"
 
