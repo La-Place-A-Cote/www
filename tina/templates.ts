@@ -850,6 +850,16 @@ export function indexFields() {
                       name: "prix",
                       label: "Le prix",
                     },
+                    {
+                      type: "boolean",
+                      name: "img_enable",
+                      label: "Afficher Image",
+                    },
+                    {
+                      type: "image",
+                      name: "img",
+                      label: "Image",
+                    },
                   ],
                 },
               ],
