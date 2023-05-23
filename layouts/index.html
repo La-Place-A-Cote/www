@@ -1,11 +1,10 @@
 {{ define "main" }}
 
-<div class="alert alert-info alert-dismissible fade show" role="alert">
+{{/*  <div class="alert alert-info alert-dismissible fade show" role="alert">
   La réservation sur TheFork ne permet de réserver que pour le Restaurant La Place. Pour réserver à la pizzeria, veuillez contacter le numéro de la Pizzeria.
   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-</div>
+</div>  */}}
 <!-- Slider  -->
-<!--  TODO 1:  Add Button RESERVATION Center/Bottom of picture from slider  -->
 <!--  FIXME:  Better picture for slider BeFunky for picture to painting or else  -->
 {{ with .Params.slider }}
 {{ if .enable }}
@@ -31,7 +30,6 @@
 <!-- /Slider -->
 
 <!-- The Fork  -->
-<!--  FIXME:  TODO 1  -->
 {{ with .Params.fork }}
 {{ if .enable }}
 <section class="thefork">
@@ -45,7 +43,7 @@
 {{ with .Params.about }}
 {{ if .enable }}
 <section class="about section">
-  <div class="container">
+  <div data-aos="zoom-in-down" class="container">
     <div class="row">
       <div class="{{ if ( or .image_enable) }}col-md-7{{ end }} col-sm-12">
         <div class="block">
@@ -83,7 +81,7 @@
 {{ if gt $count 0}}
 <section>
   <h1 style="text-align: center; margin-bottom: 4rem;margin-top: 4rem;">{{ .titre | markdownify }}</h1>
-  <div class="wrapper">  
+  <div data-aos="zoom-in-down" class="wrapper">  
     <div class="swiper news-slider">
       <div class="news-slider__wrp swiper-wrapper">
         {{ range sort .evenements ".date" }}
@@ -148,7 +146,7 @@
 {{ with .Params.food }}
 {{ if .enable }}
 <section id="price" class="price section">
-	<div class="container">
+	<div data-aos="zoom-in-down" class="container">
 		<div class="row" >
 			<div class="col-md-12 " >
 				<div class="block accordion" id="accordion">
@@ -212,7 +210,7 @@
 {{ with .Params.insta }}
 {{ if .enable }}
 <section style="margin-bottom: 50px;">
-  <div class="container">
+  <div data-aos="zoom-in-down" class="container">
 		<div class="row" >
 			<div class="col-md-12 " >
         <h1 style="text-align: center; margin-bottom: 4rem;">{{ .titre | markdownify }}</h1>
