@@ -165,7 +165,7 @@
         {{ range $index, $val := .sous_menus }}
           
           <input type="radio" name="shuffle-filter" value="{{ .nom_fr }}" class="btn-check" id="btn-check-{{ $index }}" >
-          <label class="btn btn-secondary"  for="btn-check-{{ $index }}"><span class="fr "></span>{{ .nom_fr | markdownify }}</span><span class="en">{{ .nom_en | markdownify }}</span></label>
+          <label class="btn btn-secondary"  for="btn-check-{{ $index }}"><span class="fr ">{{ .nom_fr | markdownify }}</span><span class="en">{{ .nom_en | markdownify }}</span></label>
         {{ end }}
         
       </div>
