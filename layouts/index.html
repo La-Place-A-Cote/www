@@ -147,37 +147,41 @@
 {{ if .enable }}
 <section id="price" class="price section">
   <div data-aos="zoom-in-down" class="container">
-    <div style="text-align: center; margin-bottom: 4rem;">
+    <div style="text-align: center; margin-bottom: 1rem;">
       <h1>{{ .titre | markdownify }}</h1>
       <div class="d-flex justify-content-center">
-        <button type="button" id="BtnFR" class="btn btn-light m-1"><img class="lang" src="/images/flag/france.png" alt="FR"></button>
-        <button type="button" id="BtnEN" class="btn btn-light m-1"><img class="lang" src="/images/flag/anglais.png" alt="EN"></button>
+        <button type="button" id="BtnFR" class="btn  m-1"><img class="lang" src="/images/flag/france.png" alt="FR"></button>
+        <button type="button" id="BtnEN" class="btn  m-1"><img class="lang" src="/images/flag/anglais.png" alt="EN"></button>
       </div>
     </div>
     {{ range $index, $val := .menus }}
     <div class="col-12 text-center  mb-5">
       <div class="btn-group btn-group-toggle " data-toggle="buttons">
-        <label class="btn active ">
-          <input type="radio" name="shuffle-filter" value="all" checked="checked">All
+        <input type="radio" name="shuffle-filter" class="btn-check" id="btn-check" value="all" checked="checked">
+        <label class="btn btn-secondary"  for="btn-check">
+          All
         </label>
 
-        {{ range .sous_menus }}
-          <label class="btn ">
-            <input type="radio" name="shuffle-filter" value="{{ .nom_fr }}"><span class="fr">{{ .nom_fr | markdownify }}</span><span class="en">{{ .nom_en | markdownify }}</span>
-          </label>
+        {{ range $index, $val := .sous_menus }}
+          
+          <input type="radio" name="shuffle-filter" value="{{ .nom_fr }}" class="btn-check" id="btn-check-{{ $index }}" >
+          <label class="btn btn-secondary"  for="btn-check-{{ $index }}"><span class="fr "></span>{{ .nom_fr | markdownify }}</span><span class="en">{{ .nom_en | markdownify }}</span></label>
         {{ end }}
         
       </div>
     </div>
-    <div class="row shuffle-wrapper food-gallery shuffle" style="position: relative; overflow: hidden; height: 721.5px; transition: height 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;">
+    <div class="row shuffle-wrapper food-gallery shuffle " style="position: relative; overflow: hidden; transition: height 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;">
       {{ range .sous_menus }}
       {{ $filter :=  .nom_fr  }}
         {{ range .pricing_item }}
         {{ if .enable }}
-          <div class="col-lg-6 col-md-6 mb-4 shuffle-item shuffle-item--visible" data-groups="[ &quot;{{ $filter }}&quot;]" style="position: absolute; top: 0px; left: 0px; visibility: visible; will-change: transform; opacity: 1; transition-duration: 250ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-property: transform, opacity;">
+          <div class="col-lg-6 col-md-6 mb-4 shuffle-item shuffle-item--visible" data-groups="[ &quot;{{ $filter }}&quot;]" style="position: absolute; top: 0px; left: 0px; visibility: visible; will-change: transform; opacity: 1; transition-duration: 250ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-property: transform, opacity;width: 49%">
             <div class="menu-item position-relative ">
               <div class="d-flex align-items-center">
-                <div>
+                {{ if .img_enable }}
+                <img src="{{ .img }}" alt="{{ .titre_fr }}" class="img-thumbnail-menu ">
+                {{ end }}
+                <div class="">
                   <h4 class=" fr">{{.titre_fr}} - <span>{{.prix}}</span></h4>
                   <h4 class=" en">{{.titre_en}} - <span>{{.prix}}</span></h4>
                   <p class="fr">{{ .description_fr }}</p>
@@ -201,7 +205,7 @@
 {{ with .Params.insta }}
 {{ if .enable }}
 <section style="margin-bottom: 50px;">
-  <div data-aos="zoom-in-down" class="container">
+  <div class="container">
 		<div class="row" >
 			<div class="col-md-12 " >
         <h1 style="text-align: center; margin-bottom: 4rem;">{{ .titre | markdownify }}</h1>

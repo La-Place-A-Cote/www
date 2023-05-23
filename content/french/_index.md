@@ -2,8 +2,8 @@
 slider:
   enable: true
   images:
-    - image: /uploads/img_0292.jpg
-      titre: La Terrasse du Restaurant
+    - image: /lily-banse--YHSwy6uqvk-unsplash.jpg
+      titre: Venez découvrir nos repas entre Terre & Mère sur la Place de Villecroze
       titreColor: '#FFFFFF'
       texte: ''
       texteColor: '#FFFFFF'
@@ -28,20 +28,22 @@ event:
   enable: true
   titre: Nos Événements
   evenements:
-    - date: 2023-07-22T20:00:00.000Z
+    - date: 2022-07-22T20:00:00.000Z
       nom: DJ AIR 1
       titre: DJ AIR 1 au restaurant ce vendredi
-      texte: '**Oraganic, House, Deep House, Dance Floor**'
+      texte: |
+        **Oraganic, House, Deep House, Dance Floor**
       image: /uploads/20220716_124943_0000.png
     - date: 2022-07-15T17:00:00.000Z
       nom: BOI
       titre: Boi en concert au restaurant
-      texte: Musique flamenco
+      texte: |
+        Musique flamenco
       image: /uploads/boi.jpg
-    - date: 2023-07-29T17:00:00.000Z
+    - date: 2022-07-29T17:00:00.000Z
       nom: DA BOOGIE POP
       titre: 'En Concert au Restaurant '
-      texte: >-
+      texte: >
         Le restaurant et la pizzéria sont heureux de recevoir pour vous le
         groupe **Da Boogie Pop** pour fêté l'été
       image: /uploads/da-affiche2.jpg
@@ -50,7 +52,7 @@ food:
   titre: Nos Menus
   menus:
     - titre: 'La PLACE ... '
-      description: >-
+      description: >
         Restaurant de cuisine Française: réservation via téléphone 04 94 70 27
         24 ou 06 09 37 88 55
       sous_menus:
@@ -171,9 +173,6 @@ food:
               description_fr: Supplément sauce poivre cèpes (2 €) morilles (3 €)
               description_en: Extra charge for cep pepper sauce (2 €) morels (3 €)
               prix: 27 €
-        - nom_fr: PLATS DU JOUR MIDI ET SOIR
-          nom_en: DAILY SPECIALS FOR LUNCH AND DINNER
-          pricing_item: []
 insta:
   enable: true
   titre: ' Instagram'
@@ -181,12 +180,13 @@ insta:
 pub:
   enable: false
   pubs:
-    - lien: ''
+    - titre: test1
+      lien: ''
       image: 'https://picsum.photos/200/300'
-      titre: test1
-    - lien: ''
+    - titre: test2
+      lien: ''
       image: 'https://picsum.photos/300'
-      titre: test2
-_template: index
 ---
+
+
 
