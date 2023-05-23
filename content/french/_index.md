@@ -2,7 +2,7 @@
 slider:
   enable: true
   images:
-    - image: /lily-banse--YHSwy6uqvk-unsplash.jpg
+    - image: /uploads/lily-banse--YHSwy6uqvk-unsplash.jpg
       titre: Venez découvrir nos repas entre Terre & Mère sur la Place de Villecroze
       titreColor: '#FFFFFF'
       texte: ''
@@ -15,12 +15,20 @@ slider:
 about:
   enable: true
   title: A propos
-  description: >-
-    Tous les clients aiment bien la fabuleuse cuisine française de ce restaurant. LA PLACE Villecroze est si bien placé qu'on peut y accéder en utilisant n'importe quel transport. Essayez une pizza fascinante. Commander un parfait savoureux s'avère être une excellente expérience ici. Un vin délicieux fait parti des boissons les plus commandées dans ce lieu. Les visiteurs n'aiment pas prendre un café à cet endroit.
-    
-    Un personnel compétent attend les clients tout au long de l'année. Un service luxueux est toujours un plaisir. Des plats délicieux à un prix démocratique sont offerts ici. Un décor familial et une ambiance plaisante permettent aux clients de se détendre. 
-  image_enable: false
-  image: ''
+  description: >
+    Tous les clients aiment bien la fabuleuse cuisine française de ce
+    restaurant. LA PLACE Villecroze est si bien placé qu'on peut y accéder en
+    utilisant n'importe quel transport. Essayez une pizza fascinante. Commander
+    un parfait savoureux s'avère être une excellente expérience ici. Un vin
+    délicieux fait parti des boissons les plus commandées dans ce lieu. Les
+    visiteurs n'aiment pas prendre un café à cet endroit.
+
+    Un personnel compétent attend les clients tout au long de l'année. Un
+    service luxueux est toujours un plaisir. Des plats délicieux à un prix
+    démocratique sont offerts ici. Un décor familial et une ambiance plaisante
+    permettent aux clients de se détendre.
+  image_enable: true
+  image: /uploads/liuda-brogiene-fTcJd8Nzao0-unsplash.jpg
 fork:
   enable: true
   uid: ''
@@ -182,11 +190,12 @@ pub:
   pubs:
     - titre: test1
       lien: ''
-      image: 'https://picsum.photos/200/300'
+      image: '/uploadshttps://picsum.photos/200/300'
     - titre: test2
       lien: ''
-      image: 'https://picsum.photos/300'
+      image: '/uploadshttps://picsum.photos/300'
 ---
+
 
 
 
