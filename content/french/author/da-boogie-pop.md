@@ -2,13 +2,13 @@
 title: Da Boogie Pop
 titleColor: ''
 email: rocamusic@yahoo.co.uk
-bg_image: /uploads/da-affiche2.jpg
+bg_image: /uploads/Music/Da-Boogie-Pop.jpg
 social:
   - icon: fab fa-facebook
     link: 'https://www.facebook.com/daboogiepop'
 divers:
-  titre: Videos
   enable: true
+  titre: Videos
   videos:
     - id: QpfeEu5JnVM
     - id: WoGgUAdBz-k
@@ -18,13 +18,16 @@ picture:
   enable: true
   titre: Photos
   images:
-    - image: /uploads/da-chanteur.jpg
-    - image: /uploads/da-concert.jpg
-    - image: /uploads/da-affiche2.jpg
-    - image: /uploads/da-groupe.jpg
-    - image: /uploads/images copy/Da-Boogie-Pop.jpg
-_template: autheur
+    - image: /uploads/Music/da-groupe.jpg
+    - image: /uploads/Music/da-concert.jpg
+    - image: /uploads/Music/da-chanteur.jpg
+    - image: /uploads/Music/da-affiche2.jpg
 ---
+
+
+
+
+
 
 Depuis 12 ans Da Boogie Pop est une référence en région Paca: un son authentique entre musique Soul et Rock vintage, et une énergie festive à couper le souffle!
 Chaque concert du groupe est un événement unique, et pour le public un sentiment de liberté et de chaleur.

@@ -31,7 +31,6 @@ about:
   image: /uploads/liuda-brogiene-fTcJd8Nzao0-unsplash.jpg
 fork:
   enable: true
-  uid: ''
 event:
   enable: true
   titre: Nos Événements
@@ -67,39 +66,65 @@ food:
         - nom_fr: Entrée
           nom_en: Starters
           pricing_item:
+            - titre_fr: Ravioles sur fondue d'endive aux morilles
+              titre_en: Ravioles on endive fondue with morels
+              enable: true
+              prix: 16 €
             - titre_fr: Salade Gourmande
               titre_en: Salad Gourmande
               enable: true
               description_fr: ''
               description_en: ''
               prix: 17 €
+              img_enable: true
+              img: /uploads/gourmande.jpg
             - titre_fr: Salade de chèvre chaud et son jambon cru
               titre_en: Warm goat cheese salad with cured ham
               enable: true
               description_fr: ''
               description_en: ''
               prix: 15 €
+              img_enable: true
+              img: /uploads/chevre-salade.jpg
+            - titre_fr: Salade de coquilles d'escargots
+              titre_en: Salad of snail shells
+              enable: true
+              prix: 16€
+              img_enable: true
+              img: /uploads/escargot.jpg
+            - titre_fr: Terrine de foie gras Maison
+              titre_en: Home made foie gras terrine
+              enable: true
+              prix: 18€
+            - titre_fr: Thyan d'aubergines et courgettes sur son coulis
+              titre_en: Thyan of eggplant and zucchini on its coulis
+              enable: true
+              prix: 15 €
+            - titre_fr: Oeuf poché florentine en croute
+              titre_en: Poached egg florentine en croute
+              enable: true
+              prix: 14€
             - titre_fr: 'Gâteau aux  légumes et sa tapenade                 '
               titre_en: 'Vegetable cake with tapenade   '
-              enable: true
+              enable: false
               description_fr: ''
               description_en: ''
               prix: 13 €
             - titre_fr: Chartreuse de sole et mousse de betterave
               titre_en: Chartreuse of sole and beetroot mousse
-              enable: true
+              enable: false
               description_fr: ''
               description_en: ''
               prix: 15 €
             - titre_fr: Soupe au pistou
               titre_en: Pistou Soup
-              enable: true
+              enable: false
               description_fr: ''
               description_en: ''
               prix: 15 €
             - titre_fr: Tiramisù à la chair de crabe et son coulis
               titre_en: Tiramisù with crab meat and coulis
-              enable: true
+              enable: false
               description_fr: ''
               description_en: ''
               prix: 15 €
@@ -118,15 +143,23 @@ food:
               description_fr: ''
               description_en: ''
               prix: 25 €
+            - titre_fr: Ballotine de rouget et dorade rotie au chêvre
+              titre_en: Ballotine of red mullet and roasted sea bream with goat cheese
+              enable: true
+              prix: 24 €
+            - titre_fr: Médaillon de lotte à la crème de Provence
+              titre_en: Medallion of monkfish with cream of Provence
+              enable: true
+              prix: 28 €
             - titre_fr: Filets de sole à la mousse de saumon
               titre_en: Sole fillets with salmon mousse
-              enable: true
+              enable: false
               description_fr: ''
               description_en: ''
               prix: 23 €
             - titre_fr: Pavé de cabillaud piqué aux anchois
               titre_en: Cod steak with anchovies
-              enable: true
+              enable: false
               description_fr: ''
               description_en: ''
               prix: 23 €
@@ -145,42 +178,73 @@ food:
               description_fr: ''
               description_en: ''
               prix: 20 €
+            - titre_fr: Burger de la mer
+              titre_en: Burger of the sea
+              enable: true
+              prix: 17 €
             - titre_fr: Rognons de veau aux 3 moutardes
               titre_en: Veal kidneys with 3 mustards
               enable: true
               description_fr: ''
               description_en: ''
               prix: 25 €
+            - titre_fr: Escalope roulé au Bleu
+              titre_en: Rolled escalope with blue cheese
+              enable: true
+              prix: 28 €
             - titre_fr: Souris d’agneau et son ail en chemise
               titre_en: Mouse of lamb with garlic well-roasted
-              enable: true
+              enable: false
               description_fr: ''
               description_en: ''
               prix: 25 €
             - titre_fr: Pluma de porc marchand de vin
               titre_en: Pluma de porc marchand de vin
-              enable: true
+              enable: false
               description_fr: ''
               description_en: ''
               prix: 25 €
             - titre_fr: 'Filet de canard, miel, myrtilles'
               titre_en: 'Duck fillet, honey, blueberries'
-              enable: true
+              enable: false
               description_fr: ''
               description_en: ''
               prix: 25 €
             - titre_fr: Entrecôte maître hôtel
               titre_en: Entrecote
-              enable: true
+              enable: false
               description_fr: Supplément sauce poivre cèpes (2 €) morilles (3 €)
               description_en: Extra charge for cep pepper sauce (2 €) morels (3 €)
               prix: 25 €
-            - titre_fr: Filet de bœuf maître hôtel
+            - titre_fr: 'Filet de bœuf '
               titre_en: 'Fillet of beef '
               enable: true
-              description_fr: Supplément sauce poivre cèpes (2 €) morilles (3 €)
-              description_en: Extra charge for cep pepper sauce (2 €) morels (3 €)
-              prix: 27 €
+              description_fr: Supplément sauce poivre cèpes (3 €) morilles (4 €)
+              description_en: Extra charge for cep pepper sauce (3 €) morels (4 €)
+              prix: 29 €
+            - titre_fr: Filets de cailles aux myrtilles
+              titre_en: Quail fillets with blueberries
+              enable: true
+              prix: 28 €
+        - nom_fr: Desserts
+          nom_en: Desserts
+          pricing_item:
+            - titre_fr: Assiette de Fromages
+              titre_en: Cheese plate
+              enable: true
+              prix: 10 €
+            - titre_fr: Nos desserts du jour
+              titre_en: Our desserts of the day
+              enable: true
+              description_fr: 'Framboisier, et autre'
+              description_en: 'Raspberry, and other'
+              prix: 8 €
+            - titre_fr: Notre pâtisserie du jour
+              titre_en: Our pastry of the day
+              enable: true
+              description_fr: 'Tiramisu, Mousse chocolat, Crème brûlée'
+              description_en: 'Tiramisu, Chocolate mousse, Crème brûlée'
+              prix: 10 €
 insta:
   enable: true
   titre: ' Instagram'
@@ -195,6 +259,8 @@ pub:
       lien: ''
       image: '/uploadshttps://picsum.photos/300'
 ---
+
+
 
 
 

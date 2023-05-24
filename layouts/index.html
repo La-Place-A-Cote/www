@@ -181,9 +181,9 @@
                 {{ if .img_enable }}
                 <img src="{{ .img }}" alt="{{ .titre_fr }}" class="img-thumbnail-menu ">
                 {{ end }}
-                <div class="">
-                  <h4 class=" fr">{{.titre_fr}} - <span>{{.prix}}</span></h4>
-                  <h4 class=" en">{{.titre_en}} - <span>{{.prix}}</span></h4>
+                <div class="d-flex flex-column">
+                  <h4 class=" fr">{{.titre_fr}} - <span style="color:crimson;">{{.prix}}</span></h4>
+                  <h4 class=" en">{{.titre_en}} - <span style="color:crimson;">{{.prix}}</span></h4>
                   <p class="fr">{{ .description_fr }}</p>
                   <p class="en">{{ .description_en }}</p>
                 </div>

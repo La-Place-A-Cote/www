@@ -816,7 +816,13 @@ export function indexFields() {
                   ui: {
                     itemProps: (item) => {
                       // Field values are accessed by title?.<Field name>
-                      return { label: `${item?.titre_fr}  ( ${item?.titre_en} ) ` };
+                      if (item?.enable) {
+                        return { label: `${item?.titre_fr}  ( ${item?.titre_en} ) ` };
+                      }
+                      else {
+                        return { label: `${item?.titre_fr}  ( ${item?.titre_en} ) `, style: {backgroundColor: "#9691a5"} };
+                      }
+                      
                     },
                   },
                   fields: [
