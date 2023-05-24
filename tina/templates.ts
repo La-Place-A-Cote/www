@@ -901,11 +901,11 @@ export function indexFields() {
           name: "enable",
           label: "Afficher",
         },
-        {
-          type: "string",
-          name: "uid",
-          label: "UID The Fork",
-        },
+        // {
+        //   type: "string",
+        //   name: "uid",
+        //   label: "UID The Fork",
+        // },
       ],
     },
     {

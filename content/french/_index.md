@@ -2,12 +2,12 @@
 slider:
   enable: true
   images:
-    - image: /uploads/lily-banse--YHSwy6uqvk-unsplash.jpg
+    - image: /uploads/Accueil/img_0292.jpg
       titre: Venez découvrir nos repas entre Terre & Mère sur la Place de Villecroze
       titreColor: '#FFFFFF'
       texte: ''
       texteColor: '#FFFFFF'
-    - image: /uploads/img_0087.JPG
+    - image: /uploads/Accueil/img_0087.JPG
       titre: La Place Villecroze
       titreColor: ''
       texte: ''
@@ -41,20 +41,20 @@ event:
       titre: DJ AIR 1 au restaurant ce vendredi
       texte: |
         **Oraganic, House, Deep House, Dance Floor**
-      image: /uploads/20220716_124943_0000.png
+      image: /uploads/Music/20220716_124943_0000.png
     - date: 2022-07-15T17:00:00.000Z
       nom: BOI
       titre: Boi en concert au restaurant
       texte: |
         Musique flamenco
-      image: /uploads/boi.jpg
+      image: /uploads/Music/boi.jpg
     - date: 2022-07-29T17:00:00.000Z
       nom: DA BOOGIE POP
       titre: 'En Concert au Restaurant '
       texte: >
         Le restaurant et la pizzéria sont heureux de recevoir pour vous le
         groupe **Da Boogie Pop** pour fêté l'été
-      image: /uploads/da-affiche2.jpg
+      image: /uploads/Music/da-groupe.jpg
 food:
   enable: true
   titre: Nos Menus
@@ -195,6 +195,8 @@ pub:
       lien: ''
       image: '/uploadshttps://picsum.photos/300'
 ---
+
+
 
 
 
