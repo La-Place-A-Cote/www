@@ -1,33 +1,55 @@
 baseURL = "https://www.laplaceacote.fr"
 languageCode = "fr-fr"
 title = "La Place ... À Côté : Un restaurent et une pizzeria"
+_template = "configuration_g"
+
 [[module.imports]]
 disable = false
 path = "github.com/themefisher/airspace-hugo"
+
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
+
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
+
 [[params.plugins.css]]
 link = "plugins/font-awesome/fontawesome.min.css"
+
 [[params.plugins.css]]
 link = "plugins/font-awesome/brands.css"
+
 [[params.plugins.css]]
 link = "plugins/font-awesome/solid.css"
+
+[[params.plugins.css]]
+link = "plugins/swiper/swiper-bundle.min.css"
+
+[[params.plugins.css]]
+link = "https://unpkg.com/aos@next/dist/aos.css"
+
+
 [[params.plugins.js]]
 link = "plugins/jquery/jquery.min.js"
+
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.bundle.min.js"
+
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
+
 [[params.plugins.js]]
 link = "plugins/shuffle/shuffle.min.js"
+
 [[params.plugins.js]]
 link = "plugins/google-map/gmap.js"
+
 [[params.plugins.js]]
 link = "plugins/webfont-loader/webfont-loader-2.min.js"
+
 [[params.plugins.js]]
-link = "plugins/swiper/swiper.min.js"
+link = "plugins/swiper/swiper-bundle.min.js"
+
 [params.variables]
 attelierWidth_size = "50%"
 black = "#000000"

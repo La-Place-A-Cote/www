@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <title>{{.Title | default site.Title}}</title>
-
+<!--  TODO:  Add Google analytics to this website  -->
 <!-- base url -->
 {{ if or (eq site.BaseURL "/") (eq site.BaseURL "http://localhost:1313/") (eq site.BaseURL "http://examplesite.org/") (eq site.BaseURL "https://examplesite.org/") (eq site.BaseURL "http://examplesite.com/") (eq site.BaseURL "https://examplesite.com/")}}{{else}}
 <base href="{{ .Permalink }}">
@@ -52,11 +52,10 @@
 <!-- favicon -->
 {{ $favicon:= site.Params.favicon }}
 {{ if $favicon }}
-<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" /> 
-{{/*  <link rel="icon" href="images/favicon_64.png" type="image/x-icon">
-<link rel="icon" type="image/png" sizes="16x16" href="images/favicon_16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon_32.png">
-<link rel="apple-touch-icon" sizes="180x180" href="images/favicon_128.png">  */}}
+<link rel="shortcut icon" type="image/x-icon" href="/uploads/Favicon/favicon.ico" /> 
+<link rel="icon" type="image/png" sizes="16x16" href="/uploads/Favicon/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/uploads/Favicon/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/uploads/Favicon/favicon.png">
 {{ end }}
 <link rel="manifest" href="{{`manifest.webmanifest` | relLangURL }}">
 <meta name="msapplication-TileColor" content="{{site.Params.variables.color_primary | default `#da532c`}}">
@@ -180,4 +179,6 @@
       });
     });
 </script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 {{ end }}

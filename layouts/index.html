@@ -1,40 +1,28 @@
 {{ define "main" }}
 
-<div class="alert alert-info alert-dismissible fade show" role="alert">
+{{/*  <div class="alert alert-info alert-dismissible fade show" role="alert">
   La réservation sur TheFork ne permet de réserver que pour le Restaurant La Place. Pour réserver à la pizzeria, veuillez contacter le numéro de la Pizzeria.
   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-</div>
+</div>  */}}
 <!-- Slider  -->
+<!--  FIXME:  Better picture for slider BeFunky for picture to painting or else  -->
 {{ with .Params.slider }}
 {{ if .enable }}
 
 <section>
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"> 
-    <div class="carousel-indicators">
+  <div class="swiper carouselSwiper">
+    <div class="swiper-wrapper">
       {{ range $index, $val := .images }}
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="{{ $index }}" {{ if (eq $index 0) }} class="active" aria-current="true" {{ end }} aria-label="Slide {{ $index }}"></button>
-      {{ end }}
-    </div>
-    <div class="carousel-inner">
-      {{ range $index, $val := .images }}
-      {{ with .image }}<div class="carousel-item {{ if (eq $index 0) }} active {{ end }}" style="background-image: url('{{ . | relURL }}')">{{ end }}
-        <div class="carousel-caption">
+        <div class="swiper-slide")>
+          {{ with .image }}<div class="swiper-bg" style="background-image: url('{{ . | relURL }}')"></div>{{ end }}  
           {{ $colortitre:= .titreColor | default "#fff"}}
           {{ $colortexte:= .texteColor | default "#fff"}}
-          {{ with .titre  }}<h1 style="color: {{ $colortitre }};" >{{ . | markdownify }}</h1>{{ end }}
-          {{ with .texte  }}<p style="color: {{ $colortexte }};">{{ . | markdownify }}</p>{{ end }}
+          {{ with .titre  }}<h1 class="swipertitre" style="color: {{ $colortitre }};" >{{ . | markdownify }}</h1>{{ end }}
+          {{ with .texte  }}<p class="swipertext" style="color: {{ $colortexte }};">{{ . | markdownify }}</p>{{ end }}
         </div>
-      </div>
       {{ end }}
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+    <div class="swiper-pagination"></div>
   </div>
 </section>
 {{ end }}
@@ -44,12 +32,40 @@
 <!-- The Fork  -->
 {{ with .Params.fork }}
 {{ if .enable }}
-<section>
+<section class="thefork">
   <div class="tf-floating-button"><a class="tf-widget-link" href="https://www.thefork.fr/restaurant/la-place-villecroze-r498349" target="_blank" rel="noopener">Réserver une table</a><img class="tf-button-icon" src="https://static.myfourchette.com/uploads/email_campaign/56567_IsotypeTheForkGreenSm.png"></div>
 </section>
 {{ end }}
 {{ end }}
 <!-- /The Fork -->
+
+<!-- about -->
+{{ with .Params.about }}
+{{ if .enable }}
+<section class="about section">
+  <div data-aos="zoom-in-down" class="container">
+    <div class="row">
+      <div class="{{ if ( or .image_enable) }}col-md-7{{ end }} col-sm-12">
+        <div class="block">
+          <div class="section-title text-center">
+            {{ with .title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+          </div style="color: black;">
+          {{ with .description }}{{ . | markdownify }}{{ end }}
+        </div>
+      </div>
+      <div class="col-md-5 col-sm-12 video">
+        <div class="block" style="display: grid;place-items: center;">
+          {{ if .image_enable }}
+          <img src="{{ .image | relURL }}" class="img-fluid" alt="Img">
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /about -->
 
 <!-- Event  -->
 {{ with .Params.event }}
@@ -65,11 +81,9 @@
 {{ if gt $count 0}}
 <section>
   <h1 style="text-align: center; margin-bottom: 4rem;margin-top: 4rem;">{{ .titre | markdownify }}</h1>
-  <div class="wrapper">  
-    <div class="news-slider">
+  <div data-aos="zoom-in-down" class="wrapper">  
+    <div class="swiper news-slider">
       <div class="news-slider__wrp swiper-wrapper">
-       
-        
         {{ range sort .evenements ".date" }}
         {{ $t := (time .date) }}
         {{ if $t.After now }}
@@ -128,64 +142,60 @@
 <!-- /Event  -->
 
 <!-- Food Menu  -->
+<!--  TODO:  Remake Menu to be more user Friendly   -->
 {{ with .Params.food }}
 {{ if .enable }}
 <section id="price" class="price section">
-	<div class="container">
-		<div class="row" >
-			<div class="col-md-12 " >
-				<div class="block accordion" id="accordion">
-          <div style="text-align: center; margin-bottom: 4rem;">
-            <h1>{{ .titre | markdownify }}</h1>
-            <div class="d-flex justify-content-center">
-              <button type="button" id="BtnFR" class="btn btn-light m-1"><img class="lang" src="/images/flag/france.png" alt="FR"></button>
-              <button type="button" id="BtnEN" class="btn btn-light m-1"><img class="lang" src="/images/flag/anglais.png" alt="EN"></button>
-            </div>
-          </div>
-          {{ range $index, $val := .menus }}
-            <div class="accordion-item foodmenu{{ $index }}">
-              <div class="accordion-header" id="heading{{ $index }}"> 
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ $index }}" aria-expanded="false" aria-controls="collapse{{ $index }}">                
-                  <h2 >{{ .titre | markdownify }}</h2>
-                  <p>{{ .description | markdownify }}</p>
-                </button>
-              </div>
-              <div id="collapse{{ $index }}" class="accordion-collapse collapse" aria-labelledby="heading{{ $index }}" data-bs-parent="#accordion">
-                <div class="accordion-body">
-                  {{ range .sous_menus }}
-                  <div class="pricing-list">
-                    <div class="title">
-                      <h3 class="itemMenu fr">{{ .nom_fr | markdownify }}</h3>
-                      <h3 class="itemMenu en">{{ .nom_en | markdownify }}</h3>
-                    </div>
-                    <ul>
-                      {{ range .pricing_item }}
-                      {{ if .enable }}
-                      <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
-                        <div class="item">
-                          <div class="item-title">
-                            <h3 class="itemfood fr">{{.titre_fr}}</h3>
-                            <h3 class="itemfood en">{{.titre_en}}</h3>
-                            <div class="border-bottom"></div>
-                            <span>{{.prix}}</span>
-                          </div>
-                          {{ if .description_fr }}<p class="fr">{{ .description_fr }}</p>{{ end }}
-                          {{ if .description_en }}<p class="en">{{ .description_en }}</p>{{ end }}
-                        </div>
-                      </li>
-                      {{ end }}
-                      {{ end }}
-                    </ul>
-                  </div>
-                  {{ end }}
+  <div data-aos="zoom-in-down" class="container">
+    <div style="text-align: center; margin-bottom: 1rem;">
+      <h1>{{ .titre | markdownify }}</h1>
+      <div class="d-flex justify-content-center">
+        <button type="button" id="BtnFR" class="btn  m-1"><img class="lang" src="/uploads/Drapeaux/france.png" alt="FR"></button>
+        <button type="button" id="BtnEN" class="btn  m-1"><img class="lang" src="/uploads/Drapeaux/anglais.png" alt="EN"></button>
+      </div>
+    </div>
+    {{ range $index, $val := .menus }}
+    <div class="col-12 text-center  mb-5">
+      <div class="btn-group btn-group-toggle " data-toggle="buttons">
+        <input type="radio" name="shuffle-filter" class="btn-check" id="btn-check" value="all" checked="checked">
+        <label class="btn btn-secondary"  for="btn-check">
+          All
+        </label>
+
+        {{ range $index, $val := .sous_menus }}
+          
+          <input type="radio" name="shuffle-filter" value="{{ .nom_fr }}" class="btn-check" id="btn-check-{{ $index }}" >
+          <label class="btn btn-secondary"  for="btn-check-{{ $index }}"><span class="fr ">{{ .nom_fr | markdownify }}</span><span class="en">{{ .nom_en | markdownify }}</span></label>
+        {{ end }}
+        
+      </div>
+    </div>
+    <div class="row shuffle-wrapper food-gallery shuffle " style="position: relative; overflow: hidden; transition: height 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;">
+      {{ range .sous_menus }}
+      {{ $filter :=  .nom_fr  }}
+        {{ range .pricing_item }}
+        {{ if .enable }}
+          <div class="col-lg-6 col-md-6 mb-4 shuffle-item shuffle-item--visible" data-groups="[ &quot;{{ $filter }}&quot;]" style="position: absolute; top: 0px; left: 0px; visibility: visible; will-change: transform; opacity: 1; transition-duration: 250ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-property: transform, opacity;width: 49%">
+            <div class="menu-item position-relative ">
+              <div class="d-flex align-items-center">
+                {{ if .img_enable }}
+                <img src="{{ .img }}" alt="{{ .titre_fr }}" class="img-thumbnail-menu ">
+                {{ end }}
+                <div class="d-flex flex-column">
+                  <h4 class=" fr">{{.titre_fr}} - <span style="color:crimson;">{{.prix}}</span></h4>
+                  <h4 class=" en">{{.titre_en}} - <span style="color:crimson;">{{.prix}}</span></h4>
+                  <p class="fr">{{ .description_fr }}</p>
+                  <p class="en">{{ .description_en }}</p>
                 </div>
               </div>
             </div>
-          {{ end }}
-				</div>
-			</div><!-- .col-md-12 close -->
-		</div><!-- .row close -->
-	</div><!-- .containe close -->
+          </div>
+        {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ end }}
+    </div>
+	</div>
 </section><!-- #price close -->
 {{ end }}
 {{ end }}
