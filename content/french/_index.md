@@ -63,6 +63,20 @@ food:
         Restaurant de cuisine Française: réservation via téléphone 04 94 70 27
         24 ou 06 09 37 88 55
       sous_menus:
+        - nom_fr: Menus
+          nom_en: Menus
+          pricing_item:
+            - titre_fr: Plats du jour
+              titre_en: Dishes of the day
+              enable: true
+              prix: 16 €
+            - titre_fr: Menu bistrot du jour
+              titre_en: Daily bistro menu
+              enable: true
+              description_fr: Entrée + Plats du jour ou Plats du jour + Dessert
+              description_en: Starter + Dish of the day or Dish of the day + Dessert
+              prix: 24€
+            - {}
         - nom_fr: Entrée
           nom_en: Starters
           pricing_item:
@@ -258,6 +272,7 @@ pub:
       lien: ''
       image: '/uploadshttps://picsum.photos/300'
 ---
+
 
 
 
