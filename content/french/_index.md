@@ -166,9 +166,6 @@ food:
         - nom_fr: Plats Coté Terre
           nom_en: Earth side dishes
           pricing_item:
-            - titre_fr: Magret de canard aux figues et aux 4 épices
-              titre_en: Duck breast with figs and 4 spices
-              enable: true
             - titre_fr: Burger maison salade frites
               titre_en: House burger with salad and fries
               enable: true
@@ -191,6 +188,9 @@ food:
               titre_en: Quail fillets with blueberries
               enable: true
               prix: 28 €
+            - titre_fr: Magret de canard aux figues et aux 4 épices
+              titre_en: Duck breast with figs and 4 spices
+              enable: true
             - titre_fr: Escalope roulé au Bleu
               titre_en: Rolled escalope with blue cheese
               enable: true
@@ -258,6 +258,7 @@ pub:
       lien: ''
       image: '/uploadshttps://picsum.photos/300'
 ---
+
 
 
 
