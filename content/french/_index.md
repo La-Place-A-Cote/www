@@ -76,7 +76,12 @@ food:
               description_fr: Entrée + Plats du jour ou Plats du jour + Dessert
               description_en: Starter + Dish of the day or Dish of the day + Dessert
               prix: 24€
-            - {}
+            - titre_fr: Menu de la place
+              titre_en: Menu on the square
+              enable: true
+              description_fr: Entrée + Plats du jour + Dessert
+              description_en: Starter + Dish of the day + Dessert
+              prix: 28 €
         - nom_fr: Entrée
           nom_en: Starters
           pricing_item:
@@ -272,6 +277,7 @@ pub:
       lien: ''
       image: '/uploadshttps://picsum.photos/300'
 ---
+
 
 
 
