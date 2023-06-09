@@ -165,6 +165,7 @@ var swiper = new Swiper(".carouselSwiper", {
   direction: "vertical",
   slidesPerView: 1,
   spaceBetween: 30,
+  simulateTouch: false,
   effect: "fade",
 
   autoplay: {
