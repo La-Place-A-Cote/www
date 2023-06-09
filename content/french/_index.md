@@ -66,10 +66,6 @@ food:
         - nom_fr: Entrée
           nom_en: Starters
           pricing_item:
-            - titre_fr: Ravioles sur fondue d'endive aux morilles
-              titre_en: Ravioles on endive fondue with morels
-              enable: true
-              prix: 16 €
             - titre_fr: Salade Gourmande
               titre_en: Salad Gourmande
               enable: true
@@ -92,18 +88,22 @@ food:
               prix: 16€
               img_enable: true
               img: /uploads/escargot.jpg
-            - titre_fr: Terrine de foie gras Maison
-              titre_en: Home made foie gras terrine
-              enable: true
-              prix: 18€
-            - titre_fr: Thyan d'aubergines et courgettes sur son coulis
-              titre_en: Thyan of eggplant and zucchini on its coulis
-              enable: true
-              prix: 15 €
             - titre_fr: Oeuf poché florentine en croute
               titre_en: Poached egg florentine en croute
               enable: true
               prix: 14€
+            - titre_fr: Tian d'aubergines et courgettes sur son coulis
+              titre_en: Eggplant and zucchini tian with coulis
+              enable: true
+              prix: 15 €
+            - titre_fr: Ravioles sur fondue d'endive aux morilles
+              titre_en: Ravioles on endive fondue with morels
+              enable: true
+              prix: 16 €
+            - titre_fr: Terrine de foie gras Maison
+              titre_en: Home made foie gras terrine
+              enable: true
+              prix: 18€
             - titre_fr: 'Gâteau aux  légumes et sa tapenade                 '
               titre_en: 'Vegetable cake with tapenade   '
               enable: false
@@ -259,6 +259,7 @@ pub:
       lien: ''
       image: '/uploadshttps://picsum.photos/300'
 ---
+
 
 
 
