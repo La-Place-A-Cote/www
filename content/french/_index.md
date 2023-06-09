@@ -166,6 +166,9 @@ food:
         - nom_fr: Plats Coté Terre
           nom_en: Earth side dishes
           pricing_item:
+            - titre_fr: Magret de canard aux figues et aux 4 épices
+              titre_en: Duck breast with figs and 4 spices
+              enable: true
             - titre_fr: Burger maison salade frites
               titre_en: House burger with salad and fries
               enable: true
@@ -178,16 +181,16 @@ food:
               description_fr: ''
               description_en: ''
               prix: 20 €
-            - titre_fr: Burger de la mer
-              titre_en: Burger of the sea
-              enable: true
-              prix: 17 €
             - titre_fr: Rognons de veau aux 3 moutardes
               titre_en: Veal kidneys with 3 mustards
               enable: true
               description_fr: ''
               description_en: ''
               prix: 25 €
+            - titre_fr: Filets de cailles aux myrtilles
+              titre_en: Quail fillets with blueberries
+              enable: true
+              prix: 28 €
             - titre_fr: Escalope roulé au Bleu
               titre_en: Rolled escalope with blue cheese
               enable: true
@@ -222,10 +225,6 @@ food:
               description_fr: Supplément sauce poivre cèpes (3 €) morilles (4 €)
               description_en: Extra charge for cep pepper sauce (3 €) morels (4 €)
               prix: 29 €
-            - titre_fr: Filets de cailles aux myrtilles
-              titre_en: Quail fillets with blueberries
-              enable: true
-              prix: 28 €
         - nom_fr: Desserts
           nom_en: Desserts
           pricing_item:
@@ -259,6 +258,7 @@ pub:
       lien: ''
       image: '/uploadshttps://picsum.photos/300'
 ---
+
 
 
 
