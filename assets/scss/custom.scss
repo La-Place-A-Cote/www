@@ -2,7 +2,7 @@
 //////Slider 
 .carouselSwiper {
     height: 97vh;
-    min-height: 350px;
+    min-height: 150px;
     
     
     & .swiper-slide {
@@ -363,6 +363,9 @@ main {
   border-radius: 0.375rem;
   max-width: 7em;
   height: auto;
+  @media screen and (max-width: 576px) {
+    display: none;
+  }
 }
 .menu-item {
   padding: 15px;
