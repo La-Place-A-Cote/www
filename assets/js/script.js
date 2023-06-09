@@ -165,8 +165,8 @@ var swiper = new Swiper(".carouselSwiper", {
   direction: "vertical",
   slidesPerView: 1,
   spaceBetween: 30,
-  allowTouchMove: false,
   effect: "fade",
+  noSwipingClass: 'swiper-no-swiping',
 
   autoplay: {
     delay: 4500,
