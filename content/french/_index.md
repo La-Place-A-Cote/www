@@ -58,7 +58,7 @@ food:
   enable: true
   titre: Nos Menus
   menus:
-    - titre: 'La PLACE ... '
+    - titre: La PLACE
       description: >
         Restaurant de cuisine Française: réservation via téléphone 04 94 70 27
         24 ou 06 09 37 88 55
@@ -277,6 +277,7 @@ pub:
       lien: ''
       image: '/uploadshttps://picsum.photos/300'
 ---
+
 
 
 
