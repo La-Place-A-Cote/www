@@ -3,7 +3,7 @@
 .carouselSwiper {
     height: 97vh;
     min-height: 150px;
-    
+    touch-action: unset!important;
     
     & .swiper-slide {
       text-align: center;
