@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/La-Place-A-Cote/www#readme",
   "dependencies": {
-    "@tinacms/cli": "^1.5.5",
+    "@tinacms/cli": "^1.5.8",
     "swiper": "^9.3.2",
-    "tinacms": "^1.4.5"
+    "tinacms": "^1.5.1"
   }
 }

@@ -58,7 +58,7 @@ food:
   enable: true
   titre: Nos Menus
   menus:
-    - titre: 'La PLACE ... '
+    - titre: La PLACE
       description: >
         Restaurant de cuisine Française: réservation via téléphone 04 94 70 27
         24 ou 06 09 37 88 55
@@ -66,10 +66,6 @@ food:
         - nom_fr: Entrée
           nom_en: Starters
           pricing_item:
-            - titre_fr: Ravioles sur fondue d'endive aux morilles
-              titre_en: Ravioles on endive fondue with morels
-              enable: true
-              prix: 16 €
             - titre_fr: Salade Gourmande
               titre_en: Salad Gourmande
               enable: true
@@ -92,18 +88,22 @@ food:
               prix: 16€
               img_enable: true
               img: /uploads/escargot.jpg
-            - titre_fr: Terrine de foie gras Maison
-              titre_en: Home made foie gras terrine
-              enable: true
-              prix: 18€
-            - titre_fr: Thyan d'aubergines et courgettes sur son coulis
-              titre_en: Thyan of eggplant and zucchini on its coulis
-              enable: true
-              prix: 15 €
             - titre_fr: Oeuf poché florentine en croute
               titre_en: Poached egg florentine en croute
               enable: true
               prix: 14€
+            - titre_fr: Tian d'aubergines et courgettes sur son coulis
+              titre_en: Eggplant and zucchini tian with coulis
+              enable: true
+              prix: 15 €
+            - titre_fr: Ravioles sur fondue d'endive aux morilles
+              titre_en: Ravioles on endive fondue with morels
+              enable: true
+              prix: 16 €
+            - titre_fr: Terrine de foie gras Maison
+              titre_en: Home made foie gras terrine
+              enable: true
+              prix: 18€
             - titre_fr: 'Gâteau aux  légumes et sa tapenade                 '
               titre_en: 'Vegetable cake with tapenade   '
               enable: false
@@ -178,16 +178,19 @@ food:
               description_fr: ''
               description_en: ''
               prix: 20 €
-            - titre_fr: Burger de la mer
-              titre_en: Burger of the sea
-              enable: true
-              prix: 17 €
             - titre_fr: Rognons de veau aux 3 moutardes
               titre_en: Veal kidneys with 3 mustards
               enable: true
               description_fr: ''
               description_en: ''
               prix: 25 €
+            - titre_fr: Filets de cailles aux myrtilles
+              titre_en: Quail fillets with blueberries
+              enable: true
+              prix: 28 €
+            - titre_fr: Magret de canard aux figues et aux 4 épices
+              titre_en: Duck breast with figs and 4 spices
+              enable: true
             - titre_fr: Escalope roulé au Bleu
               titre_en: Rolled escalope with blue cheese
               enable: true
@@ -222,10 +225,6 @@ food:
               description_fr: Supplément sauce poivre cèpes (3 €) morilles (4 €)
               description_en: Extra charge for cep pepper sauce (3 €) morels (4 €)
               prix: 29 €
-            - titre_fr: Filets de cailles aux myrtilles
-              titre_en: Quail fillets with blueberries
-              enable: true
-              prix: 28 €
         - nom_fr: Desserts
           nom_en: Desserts
           pricing_item:
@@ -245,6 +244,25 @@ food:
               description_fr: 'Tiramisu, Mousse chocolat, Crème brûlée'
               description_en: 'Tiramisu, Chocolate mousse, Crème brûlée'
               prix: 10 €
+        - nom_fr: Menus
+          nom_en: Menus
+          pricing_item:
+            - titre_fr: Plats du jour
+              titre_en: Dishes of the day
+              enable: true
+              prix: 16 €
+            - titre_fr: Menu bistrot du jour
+              titre_en: Daily bistro menu
+              enable: true
+              description_fr: Entrée + Plats du jour ou Plats du jour + Dessert
+              description_en: Starter + Dish of the day or Dish of the day + Dessert
+              prix: 24€
+            - titre_fr: Menu de la place
+              titre_en: Menu on the square
+              enable: true
+              description_fr: Entrée + Plats du jour + Dessert
+              description_en: Starter + Dish of the day + Dessert
+              prix: 28 €
 insta:
   enable: true
   titre: ' Instagram'
@@ -259,6 +277,13 @@ pub:
       lien: ''
       image: '/uploadshttps://picsum.photos/300'
 ---
+
+
+
+
+
+
+
 
 
 
