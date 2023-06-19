@@ -35,18 +35,6 @@ event:
   enable: true
   titre: Nos Événements
   evenements:
-    - date: 2022-07-22T20:00:00.000Z
-      nom: DJ AIR 1
-      titre: DJ AIR 1 au restaurant ce vendredi
-      texte: |
-        **Oraganic, House, Deep House, Dance Floor**
-      image: /uploads/Music/20220716_124943_0000.png
-    - date: 2022-07-15T17:00:00.000Z
-      nom: BOI
-      titre: Boi en concert au restaurant
-      texte: |
-        Musique flamenco
-      image: /uploads/Music/boi.jpg
     - date: 2022-07-29T17:00:00.000Z
       nom: DA BOOGIE POP
       titre: 'En Concert au Restaurant '
@@ -277,6 +265,7 @@ pub:
       lien: ''
       image: '/uploadshttps://picsum.photos/300'
 ---
+
 
 
 
